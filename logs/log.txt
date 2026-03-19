@@ -1,0 +1,3683 @@
+Detected local Chrome major version: 145. Attempting to download matching ChromeDriver first (if missing)...
+Fetching matching ChromeDriver version from: https://googlechromelabs.github.io/chrome-for-testing/LATEST_RELEASE_145
+Downloading ChromeDriver from: https://storage.googleapis.com/chrome-for-testing-public/145.0.7632.117/win64/chromedriver-win64.zip
+Pre-downloaded ChromeDriver for major 145: C:\Users\jammu\AppData\Local\Temp\auto_job_chromedriver\145.0.7632.117\chromedriver-win64\chromedriver.exe
+IF YOU HAVE MORE THAN 10 TABS OPENED, PLEASE CLOSE OR BOOKMARK THEM! Or it's highly likely that application will just open browser and not do anything!
+Using temporary Chrome profile (forced guest): C:\temp\auto-job-apply-profile
+Downloading Chrome Driver... This may take some time. Undetected mode requires download every run!
+Started Chrome using pre-downloaded matching chromedriver via Selenium Service.
+
+########################################################################################################################
+
+Date and Time: 2026-03-04 14:13:27.755072
+Cycle number: 1
+Lead extraction mode: extractor_only | ICP match mode: score | ICP threshold: 70
+Currently looking for jobs posted within 'Past week' and sorting them by ''
+The CSV file 'all excels/icp_leads.csv' does not exist.
+
+________________________________________________________________________________________________________________________
+
+
+>>>> Now searching for "BDR" <<<<
+
+
+Setting search location as: "India"
+Failed to find Pagination element, hence couldn't scroll till end!
+Failed to find an element with given classes
+Browser window closed or session is invalid. Ending application process.
+Message: invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=145.0.7632.117); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff78639aa55
+	0x7ff7860f8630
+	0x7ff785e8d75d
+	0x7ff785e78c72
+	0x7ff785e9f015
+	0x7ff785f190e0
+	0x7ff785f35282
+	0x7ff785ed9098
+	0x7ff785ed9f83
+	0x7ff7863c7810
+	0x7ff7863c1afd
+	0x7ff7863e2c1a
+	0x7ff786113345
+	0x7ff78611b81c
+	0x7ff786101924
+	0x7ff786101ad6
+	0x7ff7860e7e47
+	0x7ffdf538e8d7
+	0x7ffdf622c40c
+
+Browser window closed or session is invalid. Exiting.
+Message: invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=145.0.7632.117); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff78639aa55
+	0x7ff7860f8630
+	0x7ff785e8d75d
+	0x7ff785e78c72
+	0x7ff785e9f015
+	0x7ff785f190e0
+	0x7ff785f35282
+	0x7ff785ed9098
+	0x7ff785ed9f83
+	0x7ff7863c7810
+	0x7ff7863c1afd
+	0x7ff7863e2c1a
+	0x7ff786113345
+	0x7ff78611b81c
+	0x7ff786101924
+	0x7ff786101ad6
+	0x7ff7860e7e47
+	0x7ffdf538e8d7
+	0x7ffdf622c40c
+
+Total runs: 1
+Jobs scanned: 0
+ICP leads matched: 0
+ICP leads saved: 0
+Jobs Easy Applied: 0
+External job links collected: 0
+Total applied or collected: 0
+Failed jobs: 0
+Irrelevant jobs skipped: 0
+
+
+
+Total runs:                     1
+Jobs scanned:                   0
+ICP leads matched:              0
+ICP leads saved:                0
+Jobs Easy Applied:              0
+External job links collected:   0
+                              ----------
+Total applied or collected:     0
+
+Failed jobs:                    0
+Irrelevant jobs skipped:        0
+
+Never quit. You're one step closer than before. - Sai Vignesh Golla
+
+
+
+You can also get your quote and name shown here, or prioritize your bug reports by supporting the project at:
+
+https://github.com/sponsors/GodsScion
+
+
+Summary:
+Total runs: 1
+Jobs scanned: 0
+ICP leads matched: 0
+ICP leads saved: 0
+Jobs Easy Applied: 0
+External job links collected: 0
+Total applied or collected: 0
+Failed jobs: 0
+Irrelevant jobs skipped: 0
+
+
+
+Best regards,
+Sai Vignesh Golla
+https://www.linkedin.com/in/saivigneshgolla/
+
+Top Sponsors:
+Be the first to have your name here!
+Closing the browser...
+Detected local Chrome major version: 145. Attempting to download matching ChromeDriver first (if missing)...
+Fetching matching ChromeDriver version from: https://googlechromelabs.github.io/chrome-for-testing/LATEST_RELEASE_145
+Downloading ChromeDriver from: https://storage.googleapis.com/chrome-for-testing-public/145.0.7632.117/win64/chromedriver-win64.zip
+Pre-downloaded ChromeDriver for major 145: C:\Users\jammu\AppData\Local\Temp\auto_job_chromedriver\145.0.7632.117\chromedriver-win64\chromedriver.exe
+IF YOU HAVE MORE THAN 10 TABS OPENED, PLEASE CLOSE OR BOOKMARK THEM! Or it's highly likely that application will just open browser and not do anything!
+Using temporary Chrome profile (forced guest): C:\temp\auto-job-apply-profile
+Downloading Chrome Driver... This may take some time. Undetected mode requires download every run!
+Started Chrome using pre-downloaded matching chromedriver via Selenium Service.
+
+########################################################################################################################
+
+Date and Time: 2026-03-04 14:20:49.446791
+Cycle number: 1
+Lead extraction mode: extractor_only | ICP match mode: score | ICP threshold: 70
+Using search terms source: config/icp.py -> icp_search_terms
+Currently looking for jobs posted within 'Past week' and sorting them by ''
+The CSV file 'all excels/icp_leads.csv' does not exist.
+
+________________________________________________________________________________________________________________________
+
+
+>>>> Now searching for "looking for cto" <<<<
+
+
+Setting search location as: "India"
+
+-@-
+
+HR info was not given for "CTO / Founding Full Stack Engineer | Node + React (Equity)" with Job ID: 4370603901!
+ICP lead saved for "CTO / Founding Full Stack Engineer | Node + React (Equity) | WellVantage (IIT-K incubated" with score 70. Job ID: 4370603901
+
+-@-
+
+HR info was not given for "Information Systems Manager | Remote" with Job ID: 4373966114!
+
+About the job
+Position: Computer & Information Systems Manager Expert
+Type: Contract
+Compensation: Competitive hourly rate
+Location: Remote
+Commitment: Flexible
+
+Role Responsibilities
+Direct daily IT operations, analyze workflows, set priorities, and ensure timely project delivery
+Collaborate with cross-functional teams, vendors, and department leaders to resolve technical challenges
+Oversee project planning and coordinate the work of systems analysts, programmers, and IT professionals
+Develop and implement data security, disaster recovery, and strategic computing policies
+Provide technical support and training to ensure seamless system operations
+Evaluate emerging technologies and recommend system improvements aligned with organizational goals
+Support AI training initiatives through strong infrastructure and technology management
+
+Requirements
+Expertise in database systems such as Apache Cassandra, MongoDB, NoSQL platforms, and Oracle PL/SQL
+Proficiency with AWS, Microsoft SQL Server, MySQL, Blackboard, and related query tools
+Experience with development environments including Apache Maven, Eclipse IDE, .NET Framework, and Visual Studio
+Knowledge of ERP systems such as Microsoft Dynamics, Oracle PeopleSoft, and SAP
+Strong understanding of web platform development and cloud-based architectures
+Excellent written and verbal communication skills
+Proven ability to manage projects, budgets, and technical teams in fast-paced environments
+
+Application Process
+Upload resume
+Interview
+Submit form
+
+Desired Skills and Experience
+management, information technology, computer programs
+
+Couldn't find experience requirement in About the Job!
+ICP not matched for Job ID 4373966114. Score: 15. Reason(s): No role keyword matched | Company size not matched (11-50) | No non-technical founder signal found
+
+-@-
+
+HR info was not given for "SU - Chief Technology Officer (CTO)" with Job ID: 4371442393!
+ICP lead saved for "SU - Chief Technology Officer (CTO) | Somewher" with score 70. Job ID: 4371442393
+
+-@-
+
+
+About the job
+Job Description
+Job Description
+Key Responsibilities
+Strategic ITAM Leadership
+Define and own the global AI-first ITAM managed services strategy aligned to client outcomes, revenue growth, and operational scalability.
+Serve as executive ITAM SME for clients, pursuits, and internal stakeholders.
+Establish standardized ITAM operating models aligned to ITIL, ISO, and regulatory requirements.
+Translate client business drivers into measurable ITAM value outcomes such as cost optimization, risk reduction, and lifecycle efficiency.
+
+Pre Sales, Pursuit, and Solutions Design
+Lead ITAM solution design for qualified opportunities across enterprise and mid-market clients.
+Own ITAM sections of RFP responses, RFIs, and client proposals.
+Author Statements of Work including scope, assumptions, service levels, pricing inputs, and transition approach.
+Develop executive level presentation decks that articulate value, delivery model, and differentiation.
+Partner with Sales and Account teams to position ITAM as a strategic managed service offering.
+Support deal shaping, solution defensibility, and client presentations through close.
+
+Managed Services Delivery Oversight
+Govern end to end ITAM lifecycle services including hardware, software, and cloud assets.
+Define service catalogs, SLAs, SLOs, and KPIs for ITAM managed services.
+Ensure integration between ITAM, ITSM, procurement, CMDB, and financial systems.
+Oversee onboarding, transition, and stabilization of new ITAM managed services clients.
+Drive continuous improvement initiatives focused on automation, data quality, and process maturity.
+
+Governance, Risk, and Compliance
+Establish governance frameworks to manage licensing compliance, audit readiness, and contractual risk.
+Ensure alignment with software publishers, regulatory requirements, and client policies.
+Lead audit response strategy and remediation planning for managed services clients.
+Monitor asset risk exposure including underutilization, non compliance, and financial leakage.
+
+Business Growth and Market Expansion
+Identify new ITAM service offerings aligned to market demand and client needs.
+Expand ITAM managed services footprint within existing accounts.
+Support pricing strategy, cost models, and margin assumptions for ITAM services.
+Track market trends and competitor offerings to inform solution differentiation.
+
+Performance Management and Executive Reporting
+Define performance metrics across service delivery, financial optimization, and compliance.
+Build and govern executive dashboards for clients and internal leadership.
+Translate asset and license data into actionable insights for executive decision making.
+Drive service reviews focused on outcomes, not just operational metrics.
+
+Team Leadership and Capability Development
+Lead and mentor ITAM solution architects, analysts, and service leaders.
+Set clear expectations for quality, accountability, and client engagement.
+Build scalable delivery models leveraging onshore, nearshore, and offshore resources.
+Identify skill gaps and drive training in ITAM, ITIL, and managed services delivery.
+
+Industry Engagement and Thought Leadership
+Represent the organization in client briefings, industry forums, and conferences.
+Contribute to ITAM thought leadership, whitepapers, and service frameworks.
+Continuously refine solution methodologies to maintain competitive advantage.
+
+Qualifications and Experience
+Education and Certifications
+Bachelor’s degree in Information Systems, Computer Science, Engineering, or equivalent experience.
+ITAM certifications such as CSAM or CHAMP preferred.
+ITIL v3 or v4 Foundation or higher strongly preferred.
+
+Professional Experience
+10 or more years of progressive IT Asset Management experience.
+Demonstrated success delivering ITAM as a managed service to external clients.
+Proven leadership in pre sales, solution design, RFP responses, and SOW development.
+Strong background integrating ITAM with ITIL based ITSM, procurement, supply chain and financial processes.
+Experience supporting global environments including international logistics and regulatory constraints.
+
+Technical Expertise
+Enterprise ITAM and ITSM platforms such as ServiceNow, Flexera, Oomnitza, ManagedEngine, Jira ITAM, or equivalent.
+Asset lifecycle management, software license optimization, and audit defense.
+Reporting and analytics using Power BI, Looker Studio, Tableau, or similar tools.
+Automation and data quality improvement initiatives.
+
+Leadership and Client Skills
+Executive presence with strong storytelling and presentation capability.
+Ability to influence C level stakeholders and close complex services deals.
+Data driven decision making with strong analytical skills.
+Entrepreneurial mindset with a focus on scalable services and measurable outcomes.
+
+Couldn't find experience requirement in About the Job!
+ICP not matched for Job ID 4368717641. Score: 50. Reason(s): Company size not matched (1001-5000) | No non-technical founder signal found
+
+-@-
+
+HR info was not given for "CTO (10+ experience) (Part-time, Equity only - No pay until funding)" with Job ID: 4379497740!
+ICP lead saved for "CTO (10+ experience) (Part-time, Equity only - No pay until funding) | PD Consultin" with score 70. Job ID: 4379497740
+
+-@-
+
+HR info was not given for "B2B Staff Augmentation/IT-Marketing Services Business Development Executive – UK/US (Commission-Based)" with Job ID: 4379464273!
+
+About the job
+About ZeusInfinity
+ZeusInfinity operates across two high-value B2B verticals:
+1 SaaS & Software Product GTM Execution
+We help IT services companies, SaaS firms, and product-based tech businesses execute structured go-to-market campaigns including:
+SaaS SEO
+GTM positioning
+LinkedIn authority building
+Cold outreach systems
+Webinar funnels
+Performance-led pipeline growth
+2 Workforce & Staff Augmentation (UK-Focused)
+We help UK & European companies deploy cost-efficient remote teams from India, including:
+Virtual Assistants
+Accountants
+Operations Support
+SaaS Support Teams
+Admin & Back-office roles
+This is not a generic digital marketing role.
+ This is B2B technology & outsourcing-focused revenue acquisition.
+
+Who We Are Looking For
+We are seeking a B2B sales professional with experience selling to:
+SaaS companies
+IT services firms
+Software product companies
+UK/European SMEs hiring remote teams
+Outsourcing / staff augmentation clients
+If your background is in FMCG, construction, cosmetics, or retail distribution — this role is not aligned.
+
+Your Role
+Acquire and close high-value recurring contracts in:
+• SaaS GTM retainers (£2,000–£5,000/month)
+• Staff augmentation placements (recurring monthly billing)
+• IT / Digital Marketing Services
+We handle delivery.
+ You focus purely on revenue generation.
+
+What You’ll Do 
+Strategic Prospecting
+Identify SaaS & IT services companies expanding into UK/EU markets
+Target UK SMEs hiring operational talent
+Build ICP-based prospect lists
+Use LinkedIn, Apollo, email outreach, referrals, and professional communities
+Multi-Channel Outreach
+Run structured cold email campaigns
+LinkedIn authority-based outreach
+Direct founder/decision-maker conversations
+Follow-up systems & objection handling
+Discovery & Closing
+Conduct structured discovery calls
+Understand hiring or GTM needs
+Present ZeusInfinity’s SaaS GTM or Workforce solutions
+Close monthly recurring retainers
+Handover
+Structured client onboarding handoff
+Clear documentation of scope & expectations
+
+
+How You Earn (Recurring Commission Model)
+You earn:
+
+Up to 20% recurring commission
+On every monthly retainer client you bring in.
+Paid every month for as long as the client remains active.
+No cap on earnings.
+
+
+Example Earnings
+If you close:
+2 clients at £3,000/month retainers
+20% commission = £600 per client per month
+That’s:
+£1,200 per month recurring
+Every month those clients remain active.
+Now imagine:
+By Month 6, you have closed 7–10 clients averaging £2,500–£3,000/month.
+At ~£500 average commission per client:
+7 clients = £3,500/month
+10 clients = £5,000/month
+Your income compounds.
+Each new client adds to your recurring monthly base.
+
+
+Minimum Deal Size Requirement
+You must be comfortable closing retainers of £2,000+ per month.
+This is a premium B2B service role, not low-ticket selling.
+
+
+Work Structure
+Global opportunity
+Must align with Europe/UK business hours
+Fully remote
+No exclusivity required
+
+
+Ideal Candidate
+Proven B2B sales experience
+Comfortable pitching founders & decision-makers
+Confident running discovery calls
+Strong objection handling skills
+Independent, disciplined, target-driven
+Comfortable with cold outreach
+Proof of Sales Experience Required (Mandatory)
+To be considered, you must share at least one of the following:
+• Your Upwork / Fiverr / Freelancer profile link
+OR
+• LinkedIn profile clearly showing B2B sales experience
+OR
+• Evidence of closed B2B deals (portfolio, screenshots, references)
+Applications without proof of active B2B selling experience will not be reviewed.
+
+
+Commission Understanding Confirmation
+In your application, clearly confirm:
+☐ The counter for word "ZI" is 3..
+Applications without this confirmation will not be reviewed.
+
+
+Application Validation Step (Mandatory)
+To confirm that you have read the complete job description:
+Tell us the total number of times the word ZI appears in this job post.
+Add +2 to that number.
+Mention the final number in your application.
+Applications without this validation step will be automatically rejected.
+
+
+This Role Is NOT For You If
+You require a fixed base salary
+You are uncomfortable with cold outreach
+You prefer inbound-only leads
+You are not confident closing £2,000+ retainers
+You need daily supervision
+
+
+How to Apply
+Send:
+Short overview of your B2B sales experience
+Market you prefer (UK / Europe)
+Weekly availability
+Required validation answers
+Email: contact@zeusinfinity.in
+
+Or apply via LinkedIn.
+
+Couldn't find experience requirement in About the Job!
+ICP not matched for Job ID 4379464273. Score: 15. Reason(s): No role keyword matched | Company size not matched (11-50) | No non-technical founder signal found
+
+-@-
+
+ICP not matched for Job ID 4360586478. Score: 15. Reason(s): No role keyword matched | Company size not matched (1001-5000) | No non-technical founder signal found
+
+-@-
+
+HR info was not given for "Director, AI & Data Science" with Job ID: 4363078221!
+ICP lead saved for "Director, AI & Data Science | LR" with score 70. Job ID: 4363078221
+
+-@-
+
+HR info was not given for "It executive" with Job ID: 4379628028!
+
+About the job
+Company Description
+ Karuna Foundation Trust - Animal Helpline is a non-governmental organization based in Rajkot, Gujarat, dedicated to the cause of animal welfare and environmental awareness. The organization focuses on promoting vegetarianism, caring for animals, nurturing nature, and fostering responsible citizenship. Through its initiatives, Karuna Foundation encourages individuals to take active roles in spreading awareness and contributing to meaningful change in society.
+
+ Role Description
+ This is a full-time, remote role for an IT Executive. The IT Executive will be responsible for managing IT operations, providing technical support, troubleshooting technical issues, maintaining and administering network systems, and ensuring smooth technology operations. The role will require collaboration with team members to implement effective IT solutions and maintain system functionality.
+
+ Qualifications
+  Proficiency in Troubleshooting and providing effective Technical Support.
+Experience in Network Administration and maintaining IT infrastructure.
+Knowledge of Information Technology concepts and IT Operations management.
+Strong problem-solving skills and analytical thinking.
+Ability to work independently and efficiently in a remote setting.
+Effective communication and teamwork abilities.
+A relevant degree or certification in Information Technology or related fields is preferred.
+
+Couldn't find experience requirement in About the Job!
+ICP not matched for Job ID 4379628028. Score: 15. Reason(s): No role keyword matched | Company size not matched (201-500) | No non-technical founder signal found
+
+-@-
+
+ICP not matched for Job ID 4373338585. Score: -5. Reason(s): Technical exclusion signal: vp engineering | Company size not matched (2-10) | Industry keyword not matched | No non-technical founder signal found
+
+-@-
+
+HR info was not given for "Chief Technology Leader – B2B Platforms" with Job ID: 4379558251!
+ICP not matched for Job ID 4379558251. Score: 15. Reason(s): No role keyword matched | Company size not matched (11-50) | No non-technical founder signal found
+
+-@-
+
+HR info was not given for "Technology Director – Enterprise Solutions" with Job ID: 4379554431!
+ICP not matched for Job ID 4379554431. Score: 50. Reason(s): Company size not matched (11-50) | No non-technical founder signal found
+
+-@-
+
+HR info was not given for "Presales Director" with Job ID: 4378635646!
+ICP lead saved for "Presales Director | Serigor In" with score 70. Job ID: 4378635646
+
+-@-
+
+HR info was not given for "Chief Technology Officer" with Job ID: 4373736952!
+ICP not matched for Job ID 4373736952. Score: 35. Reason(s): Company size not matched (Unknown) | No non-technical founder signal found
+
+-@-
+
+Unable to extract years of experience required!
+ICP not matched for Job ID 4376080761. Score: 35. Reason(s): Company size not matched (1001-5000) | No non-technical founder signal found
+
+-@-
+
+HR info was not given for "Implementation Executive" with Job ID: 4362275706!
+
+About the job
+Job Description: Implementation ExecutiveCompany Description
+Communities Heritage Private Limited (CHL Group) was established with the mission to enrich the lives of individuals who live, work, and grow together. The company focuses on creating value-driven solutions that benefit communities and enhance overall living experiences. With a strong commitment to growth and collaboration, CHL Group emphasizes innovation and sustainability as its core values.
+Role Description
+This is a full-time, on-site role for an Implementation Executive, based in the Banglore The role involves managing the end-to-end software implementation process, ensuring seamless system integration, providing customer training, and delivering high-quality service. The Implementation Executive will work closely with internal teams and clients, analyze requirements, conduct field visits, and ensure efficient execution of solutions aligned with organizational objectives.
+Qualifications & Requirements
+Strong analytical and problem-solving skills
+Excellent communication and interpersonal skills
+Experience in customer handling and client relationship management (preferred)
+Hands-on experience with software implementation processes and tools
+Ability to create and deliver effective user training
+Mandatory: Own vehicle for compulsory client field visits
+Mandatory: Own laptop
+Mandatory: Proficiency in Kannada language
+Ability to work collaboratively in an on-site environment
+Educational background or experience in project management or implementation roles is an advantage
+Key Responsibilities
+Manage end-to-end software implementation and deployment
+Coordinate with clients and internal stakeholders to gather and analyze requirements
+Conduct compulsory field visits for client implementation and support
+Ensure smooth system integration and issue resolution
+Deliver training sessions to end-users
+Provide ongoing customer support and ensure client satisfaction
+
+Couldn't find experience requirement in About the Job!
+ICP not matched for Job ID 4362275706. Score: 15. Reason(s): No role keyword matched | Company size not matched (51-200) | No non-technical founder signal found
+
+-@-
+
+HR info was not given for "Head of Information Technology" with Job ID: 4378642726!
+
+About the job
+Company Description
+AmaraJet provides private jet charter solutions with a focus on immediacy, flexibility, and transparency. With access to over 5,000 safety-vetted aircraft globally, AmaraJet offers an unparalleled, client-first experience. From the initial inquiry to final touchdown, the company is committed to delivering seamless and tailored services to meet client needs.
+
+Role Description
+This is a full-time remote role for a Head of Information Technology. The role involves overseeing IT operations, implementing and managing IT strategies, and ensuring the performance and security of the organization’s infrastructure. Responsibilities include leading the IT team, driving innovation, managing budgets, and ensuring compliance with industry standards and regulations.
+
+AmaraJet is able to provide UK visa sponsorship for eligible candidates.
+
+Qualifications
+Comprehensive expertise in Information Technology and IT Operations
+Proven experience in IT Management, including leading teams and projects
+Strong skills in IT Strategy development and execution
+Thorough understanding and hands-on experience with Infrastructure management
+Excellent leadership, decision-making, and problem-solving abilities
+Strong understanding of security protocols and compliance regulations
+Bachelor’s degree in Information Technology, Computer Science, or a related field; advanced degrees or certifications preferred
+Experience in the aviation or transportation industry is a plus
+
+Couldn't find experience requirement in About the Job!
+ICP not matched for Job ID 4378642726. Score: 15. Reason(s): No role keyword matched | Company size not matched (2-10) | No non-technical founder signal found
+
+>-> Didn't find Page 2. Probably at the end page of results!
+
+
+________________________________________________________________________________________________________________________
+
+
+>>>> Now searching for "technical cofounder" <<<<
+
+
+Setting search location as: "India"
+Search Location input was not given!
+Click Failed! Didn't find 'Past week'
+Click Failed! Didn't find 'Remote'
+Click Failed! Didn't find 'Easy Apply'
+Setting the preferences failed!
+In Applier Main
+argument 3: TypeError: Don't know how to convert parameter 3
+2026-03-04 14:22:20.135139
+Total runs: 1
+Jobs scanned: 17
+ICP leads matched: 5
+ICP leads saved: 5
+Jobs Easy Applied: 0
+External job links collected: 0
+Total applied or collected: 0
+Failed jobs: 0
+Irrelevant jobs skipped: 0
+
+
+
+Total runs:                     1
+Jobs scanned:                   17
+ICP leads matched:              5
+ICP leads saved:                5
+Jobs Easy Applied:              0
+External job links collected:   0
+                              ----------
+Total applied or collected:     0
+
+Failed jobs:                    0
+Irrelevant jobs skipped:        0
+
+Keep up with the progress. You got this. - Sai Vignesh Golla
+
+
+
+You can also get your quote and name shown here, or prioritize your bug reports by supporting the project at:
+
+https://github.com/sponsors/GodsScion
+
+
+Summary:
+Total runs: 1
+Jobs scanned: 17
+ICP leads matched: 5
+ICP leads saved: 5
+Jobs Easy Applied: 0
+External job links collected: 0
+Total applied or collected: 0
+Failed jobs: 0
+Irrelevant jobs skipped: 0
+
+
+
+Best regards,
+Sai Vignesh Golla
+https://www.linkedin.com/in/saivigneshgolla/
+
+Top Sponsors:
+Be the first to have your name here!
+Closing the browser...
+Detected local Chrome major version: 145. Attempting to download matching ChromeDriver first (if missing)...
+Fetching matching ChromeDriver version from: https://googlechromelabs.github.io/chrome-for-testing/LATEST_RELEASE_145
+Downloading ChromeDriver from: https://storage.googleapis.com/chrome-for-testing-public/145.0.7632.117/win64/chromedriver-win64.zip
+Pre-downloaded ChromeDriver for major 145: C:\Users\jammu\AppData\Local\Temp\auto_job_chromedriver\145.0.7632.117\chromedriver-win64\chromedriver.exe
+IF YOU HAVE MORE THAN 10 TABS OPENED, PLEASE CLOSE OR BOOKMARK THEM! Or it's highly likely that application will just open browser and not do anything!
+Using temporary Chrome profile (forced guest): C:\temp\auto-job-apply-profile
+Downloading Chrome Driver... This may take some time. Undetected mode requires download every run!
+Started Chrome using pre-downloaded matching chromedriver via Selenium Service.
+ICP leads for this run will be saved at: all excels\icp_leads__20260304_144632.csv
+
+########################################################################################################################
+
+Date and Time: 2026-03-04 14:46:38.548688
+Cycle number: 1
+Lead extraction mode: extractor_only | ICP match mode: score | ICP threshold: 70
+ICP leads output file: all excels\icp_leads__20260304_144632.csv
+Using search terms source: config/icp.py -> icp_search_terms
+Currently looking for jobs posted within 'Past week' and sorting them by ''
+The CSV file 'all excels\icp_leads__20260304_144632.csv' does not exist.
+
+________________________________________________________________________________________________________________________
+
+
+>>>> Now searching for "CTO" <<<<
+
+
+Setting search location as: "India"
+
+-@-
+
+HR info was not given for "CTO (10+ experience) (Part-time, Equity only - No pay until funding)" with Job ID: 4379497740!
+ICP lead saved for "CTO (10+ experience) (Part-time, Equity only - No pay until funding) | PD Consultin" with score 70. Job ID: 4379497740
+
+-@-
+
+HR info was not given for "Co-Founder & CTO" with Job ID: 4379494922!
+
+About the job
+Co-Founder (CTO) | AI-Driven GTM Platform
+We’re building a GTM-AI platform where AI agents autonomously run go-to-market workflows—research, personalization, orchestration, and continuous learning.
+ The GTM world is moving from disconnected tools to AI-led execution systems, and we already have paying customers validating this shift.
+
+P.S-This is a co-founder role for someone who plans to build long-term and is willing to invest capital as part of that commitment. If this aligns with how you like to build and invest, please apply.
+
+Where We Are
+Live product with production GTM workflows
+~$1,500 USD MRR and growing
+Strong GTM, growth, and customer access from the founding team
+Clear technical direction with room to shape the architecture
+
+What We’re Building
+Agentic AI workflows for real GTM teams
+LLM-driven personalization and decisioning
+Learning loops based on outcomes, not dashboards
+Simple UX over complex intelligence
+
+Who This Is For
+This is a true co-founder role for someone who:
+Has built AI workflows or agentic systems before
+Is hands-on with LLMs, orchestration, tools, memory, RAG, and evaluation
+Thinks in terms of ownership, not employment
+Believes that shared risk builds shared conviction
+Is comfortable aligning early through both effort and capital to move faster and build right
+
+What You’ll Own
+End-to-end technical and AI architecture
+Designing, shipping, and scaling agent systems
+Turning resources into execution velocity
+Co-leading product, strategy, and long-term direction
+Building the foundation for a strong engineering org
+
+This Is / Is Not
+This is:
+A high-ownership, high-trust co-founder journey
+Early stage, fast learning, real impact
+A role where commitment matters more than titles
+This is NOT:
+A salaried CTO role
+A passive or low-involvement opportunity
+A comfort-first, playbook-driven job
+If you’re excited by 0 → 1 building, shared upside, and meaningful ownership—let’s talk.
+
+Couldn't find experience requirement in About the Job!
+ICP not matched for Job ID 4379494922. Score: 55. Reason(s): Company size not matched (11-50) | Industry keyword not matched | No non-technical founder signal found
+
+-@-
+
+HR info was not given for "B2B Staff Augmentation/IT-Marketing Services Business Development Executive – UK/US (Commission-Based)" with Job ID: 4379464273!
+
+About the job
+About ZeusInfinity
+ZeusInfinity operates across two high-value B2B verticals:
+1 SaaS & Software Product GTM Execution
+We help IT services companies, SaaS firms, and product-based tech businesses execute structured go-to-market campaigns including:
+SaaS SEO
+GTM positioning
+LinkedIn authority building
+Cold outreach systems
+Webinar funnels
+Performance-led pipeline growth
+2 Workforce & Staff Augmentation (UK-Focused)
+We help UK & European companies deploy cost-efficient remote teams from India, including:
+Virtual Assistants
+Accountants
+Operations Support
+SaaS Support Teams
+Admin & Back-office roles
+This is not a generic digital marketing role.
+ This is B2B technology & outsourcing-focused revenue acquisition.
+
+Who We Are Looking For
+We are seeking a B2B sales professional with experience selling to:
+SaaS companies
+IT services firms
+Software product companies
+UK/European SMEs hiring remote teams
+Outsourcing / staff augmentation clients
+If your background is in FMCG, construction, cosmetics, or retail distribution — this role is not aligned.
+
+Your Role
+Acquire and close high-value recurring contracts in:
+• SaaS GTM retainers (£2,000–£5,000/month)
+• Staff augmentation placements (recurring monthly billing)
+• IT / Digital Marketing Services
+We handle delivery.
+ You focus purely on revenue generation.
+
+What You’ll Do 
+Strategic Prospecting
+Identify SaaS & IT services companies expanding into UK/EU markets
+Target UK SMEs hiring operational talent
+Build ICP-based prospect lists
+Use LinkedIn, Apollo, email outreach, referrals, and professional communities
+Multi-Channel Outreach
+Run structured cold email campaigns
+LinkedIn authority-based outreach
+Direct founder/decision-maker conversations
+Follow-up systems & objection handling
+Discovery & Closing
+Conduct structured discovery calls
+Understand hiring or GTM needs
+Present ZeusInfinity’s SaaS GTM or Workforce solutions
+Close monthly recurring retainers
+Handover
+Structured client onboarding handoff
+Clear documentation of scope & expectations
+
+
+How You Earn (Recurring Commission Model)
+You earn:
+
+Up to 20% recurring commission
+On every monthly retainer client you bring in.
+Paid every month for as long as the client remains active.
+No cap on earnings.
+
+
+Example Earnings
+If you close:
+2 clients at £3,000/month retainers
+20% commission = £600 per client per month
+That’s:
+£1,200 per month recurring
+Every month those clients remain active.
+Now imagine:
+By Month 6, you have closed 7–10 clients averaging £2,500–£3,000/month.
+At ~£500 average commission per client:
+7 clients = £3,500/month
+10 clients = £5,000/month
+Your income compounds.
+Each new client adds to your recurring monthly base.
+
+
+Minimum Deal Size Requirement
+You must be comfortable closing retainers of £2,000+ per month.
+This is a premium B2B service role, not low-ticket selling.
+
+
+Work Structure
+Global opportunity
+Must align with Europe/UK business hours
+Fully remote
+No exclusivity required
+
+
+Ideal Candidate
+Proven B2B sales experience
+Comfortable pitching founders & decision-makers
+Confident running discovery calls
+Strong objection handling skills
+Independent, disciplined, target-driven
+Comfortable with cold outreach
+Proof of Sales Experience Required (Mandatory)
+To be considered, you must share at least one of the following:
+• Your Upwork / Fiverr / Freelancer profile link
+OR
+• LinkedIn profile clearly showing B2B sales experience
+OR
+• Evidence of closed B2B deals (portfolio, screenshots, references)
+Applications without proof of active B2B selling experience will not be reviewed.
+
+
+Commission Understanding Confirmation
+In your application, clearly confirm:
+☐ The counter for word "ZI" is 3..
+Applications without this confirmation will not be reviewed.
+
+
+Application Validation Step (Mandatory)
+To confirm that you have read the complete job description:
+Tell us the total number of times the word ZI appears in this job post.
+Add +2 to that number.
+Mention the final number in your application.
+Applications without this validation step will be automatically rejected.
+
+
+This Role Is NOT For You If
+You require a fixed base salary
+You are uncomfortable with cold outreach
+You prefer inbound-only leads
+You are not confident closing £2,000+ retainers
+You need daily supervision
+
+
+How to Apply
+Send:
+Short overview of your B2B sales experience
+Market you prefer (UK / Europe)
+Weekly availability
+Required validation answers
+Email: contact@zeusinfinity.in
+
+Or apply via LinkedIn.
+
+Couldn't find experience requirement in About the Job!
+ICP not matched for Job ID 4379464273. Score: 15. Reason(s): No role keyword matched | Company size not matched (11-50) | No non-technical founder signal found
+
+-@-
+
+HR info was not given for "Chief Technology Leader – B2B Platforms" with Job ID: 4379558251!
+ICP not matched for Job ID 4379558251. Score: 15. Reason(s): No role keyword matched | Company size not matched (11-50) | No non-technical founder signal found
+
+-@-
+
+HR info was not given for "It executive" with Job ID: 4379628028!
+
+About the job
+Company Description
+ Karuna Foundation Trust - Animal Helpline is a non-governmental organization based in Rajkot, Gujarat, dedicated to the cause of animal welfare and environmental awareness. The organization focuses on promoting vegetarianism, caring for animals, nurturing nature, and fostering responsible citizenship. Through its initiatives, Karuna Foundation encourages individuals to take active roles in spreading awareness and contributing to meaningful change in society.
+
+ Role Description
+ This is a full-time, remote role for an IT Executive. The IT Executive will be responsible for managing IT operations, providing technical support, troubleshooting technical issues, maintaining and administering network systems, and ensuring smooth technology operations. The role will require collaboration with team members to implement effective IT solutions and maintain system functionality.
+
+ Qualifications
+  Proficiency in Troubleshooting and providing effective Technical Support.
+Experience in Network Administration and maintaining IT infrastructure.
+Knowledge of Information Technology concepts and IT Operations management.
+Strong problem-solving skills and analytical thinking.
+Ability to work independently and efficiently in a remote setting.
+Effective communication and teamwork abilities.
+A relevant degree or certification in Information Technology or related fields is preferred.
+
+Couldn't find experience requirement in About the Job!
+ICP not matched for Job ID 4379628028. Score: 15. Reason(s): No role keyword matched | Company size not matched (201-500) | No non-technical founder signal found
+
+-@-
+
+HR info was not given for "Technology Director – Enterprise Solutions" with Job ID: 4379554431!
+ICP not matched for Job ID 4379554431. Score: 50. Reason(s): Company size not matched (11-50) | No non-technical founder signal found
+
+-@-
+
+HR info was not given for "Presales Director" with Job ID: 4378635646!
+ICP lead saved for "Presales Director | Serigor In" with score 70. Job ID: 4378635646
+
+-@-
+
+HR info was not given for "Head of Information Technology" with Job ID: 4378642726!
+
+About the job
+Company Description
+AmaraJet provides private jet charter solutions with a focus on immediacy, flexibility, and transparency. With access to over 5,000 safety-vetted aircraft globally, AmaraJet offers an unparalleled, client-first experience. From the initial inquiry to final touchdown, the company is committed to delivering seamless and tailored services to meet client needs.
+
+Role Description
+This is a full-time remote role for a Head of Information Technology. The role involves overseeing IT operations, implementing and managing IT strategies, and ensuring the performance and security of the organization’s infrastructure. Responsibilities include leading the IT team, driving innovation, managing budgets, and ensuring compliance with industry standards and regulations.
+
+AmaraJet is able to provide UK visa sponsorship for eligible candidates.
+
+Qualifications
+Comprehensive expertise in Information Technology and IT Operations
+Proven experience in IT Management, including leading teams and projects
+Strong skills in IT Strategy development and execution
+Thorough understanding and hands-on experience with Infrastructure management
+Excellent leadership, decision-making, and problem-solving abilities
+Strong understanding of security protocols and compliance regulations
+Bachelor’s degree in Information Technology, Computer Science, or a related field; advanced degrees or certifications preferred
+Experience in the aviation or transportation industry is a plus
+
+Couldn't find experience requirement in About the Job!
+ICP not matched for Job ID 4378642726. Score: 15. Reason(s): No role keyword matched | Company size not matched (2-10) | No non-technical founder signal found
+
+>-> Didn't find Page 2. Probably at the end page of results!
+
+
+________________________________________________________________________________________________________________________
+
+
+>>>> Now searching for "technical cofounder" <<<<
+
+
+Setting search location as: "India"
+
+-@-
+
+HR info was not given for "Full-Stack Engineer (NodeJS / NestJS / React / TypeScript) – B2B SaaS (4–6 YOE)" with Job ID: 4380361282!
+
+About the job
+Remote (India) · Full-time · ₹15–20 LPA (DOE)
+Product: Multi-tenant SaaS platform for UK clinics and pharmacies
+
+Why Script Assist
+Script Assist is building the operating system for next-generation private healthcare in the UK.
+
+We power prescribing, dispensing, and operational workflows across clinics and pharmacies. Our platform runs real production workflows every day — this is not a prototype or early-stage MVP.
+
+We operate in regulated environments where correctness and reliability matter. But we’re still a focused product team shipping features continuously.
+
+If you enjoy building real systems that people depend on daily — you’ll fit well here.
+
+The Role
+We’re looking for a strong full-stack engineer with meaningful production experience building real SaaS systems.
+
+You’ll work on a multi-tenant B2B SaaS platform used by clinics, pharmacists, and operations teams.
+You’ll:
+Own features end-to-end
+Work across backend and frontend
+Ship production-grade code
+Improve workflows that affect real users
+Collaborate directly with product and operations
+This role is remote (India) and works UK business hours.
+
+What You’ll Build
+You’ll work on areas such as:
+
+Clinic workflows
+Onboarding
+Forms and structured data capture
+Scheduling
+Operational audit trails
+Pharmacy workflows
+Prescribing and dispensing operations
+Product catalogue and stock checks
+Batch and expiry tracking
+Delivery tracking and reconciliation
+Platform core
+Order lifecycle management
+Payment integrations
+Retry logic and error handling
+Logging and monitoring
+This is vertical SaaS complexity — not just basic CRUD dashboards.
+
+You do not need prior healthtech experience.
+
+If you’ve built complex B2B SaaS, fintech-style workflows, logistics systems, or other production systems with real operational logic — that experience is highly relevant.
+
+What You’ll Do
+Build backend services in NodeJS + NestJS (TypeScript)
+Design and implement REST APIs
+Build multi-tenant features with proper data isolation
+Implement state-based workflows and lifecycle logic
+Handle validation, edge cases, and failure scenarios
+Work with background jobs and asynchronous processing
+Write clean, testable code
+Ship React + TypeScript frontend features
+Improve reliability and observability over time
+
+You don’t need to have implemented every advanced pattern.
+
+We care that you understand:
+State transitions
+Data integrity
+Handling failures gracefully
+Writing code that survives production
+
+AI-First Engineering Culture
+We operate in an AI-first engineering environment.
+We expect engineers to use AI tools intelligently for:
+Planning and structuring work
+Accelerating implementation
+Expanding test coverage
+Improving delivery velocity
+We care more about structured thinking and ownership than manual coding speed.
+
+What We’re Looking For
+Strong hands-on experience building production systems
+Real exposure to NodeJS and TypeScript in live applications
+Practical experience shipping React-based features
+Familiarity with NestJS and modular backend architecture
+Experience working on non-trivial SaaS products
+Solid understanding of correctness, reliability, and production safety
+Clear written and spoken English
+
+High-Signal Experience
+B2B SaaS platforms
+Multi-tenant systems
+Transactional workflows
+Payment or reconciliation systems
+Async processing or event-driven flows
+Regulated or compliance-heavy environments
+
+Couldn't find experience requirement in About the Job!
+ICP not matched for Job ID 4380361282. Score: 15. Reason(s): No role keyword matched | Company size not matched (2-10) | No non-technical founder signal found
+
+-@-
+
+HR info was not given for "Node.js Engineer" with Job ID: 4378824040!
+
+About the job
+Who we are
+At Millipixels, we design impactful experiences for our clients worldwide in various domains and emerging technologies. With our primary design and development center and offices in the Chandigarh Tricity area in India, combined with FlexCampus spaces in the UK, Singapore, and the United States, we are on course to be a globally-relevant, distributed, full-service software solutions organization.
+We offer our employees the option to work remotely and choose the location that best meets their needs. Through our cloud-native infrastructure and processes, we have created, sustained, and build distributed, remote teams, untethered to a physical location. We ensure that our people don't have to compromise between their home and work lives by enabling our people to stay connected to their families while building fulfilling careers.
+
+The Role
+We are seeking a highly skilled and experienced Senior Backend Developer (NodeJS) to join our dynamic team and contribute to our exciting content pipeline project. As a Senior Backend Developer, you will play a pivotal role in developing cutting-edge applications using event-driven architecture and enhancing the functionality of our existing systems.
+
+Job Responsibilities
+Design, develop and maintain NodeJS/Typescript/JavaScript applications.
+Develop and maintain API and microservices-based applications.
+Collaborate closely with the Content Team to deliver the content pipeline project.
+Develop new applications utilizing event-driven architecture, ensuring efficiency and scalability.
+Enhance the functionality of existing applications to meet evolving business needs.
+Actively participate in technical discussions, providing valuable insights, and contributing to decision-making processes.
+Conduct code reviews and maintain high code quality standards throughout the development lifecycle.
+Implement robust logging and monitoring solutions to ensure application performance and stability.
+Write comprehensive unit tests to validate the functionality and reliability of the codebase.
+Communicate and collaborate effectively with cross-functional teams, fostering a culture of teamwork and innovation.
+
+Requirements
+Expert-level proficiency in Javascript & Typescript, with a proven track record of building server-side applications using Node.js.
+Extensive knowledge of AWS technologies, including S3, ECS, and Cloudwatch, demonstrating the ability to architect and deploy scalable solutions on the AWS platform.
+Experience working with CI/CD pipelines, automating the build, test, and deployment processes.
+Familiarity with Kafka or any other message broker or queuing system would be a valuable asset.
+Previous experience in building event-driven microservices will be advantageous.
+Strong working experience with building and consuming REST APIs.
+
+Qualifications
+Bachelor's degree in Computer Science, Information Technology, or a related field.
+At least five years of experience developing complex software applications using Node.js, Typescript, and JavaScript.
+Proven experience in developing API and micro-services based applications.
+Strong proficiency in TypeScript, JavaScript, and related libraries and frameworks like ExpressJS and NestJS.
+Experience with databases such as MongoDB, PostgreSQL, and MySQL.
+Understanding of agile development methodologies.
+Strong problem-solving skills and ability to work in a fast-paced environment.
+In-depth expertise with Cloud platforms, especially AWS (preferably), and Azure.
+In-depth expertise in Containerization and Container orchestration with Docker and Kubernetes
+Understanding of CI/CD and common DevOps models
+Proficiency in ReactJS, in addition to the above, will be highly preferable.
+Excellent communication and collaboration skills are an absolute requirement. We need you to be comfortable conversing in English directly with your counterparts in other countries.
+
+Benefits working at Millipixels 
+Choose your working times - focus on delivering targets, not on time spent.
+Medical Health Insurance - Company Paid Health insurance for ₹500,000. Option to extend to the Spouse and/or other immediate dependents on cost.
+Regular Financial, Tax-Saving, and Healthcare Advice Sessions from Experts.
+Generous paid vacation, over the course of the year.
+
+Couldn't find experience requirement in About the Job!
+ICP not matched for Job ID 4378824040. Score: 15. Reason(s): No role keyword matched | Company size not matched (51-200) | No non-technical founder signal found
+
+-@-
+
+Failed to click "Project Specialist | Bette" job on details button. Job ID: 4379935064!
+Click Failed! Didn't find 'Discard'
+HR info was not given for "Project Specialist" with Job ID: 4379935064!
+ICP not matched for Job ID 4379935064. Score: 15. Reason(s): No role keyword matched | Company size not matched (1001-5000) | No non-technical founder signal found
+
+-@-
+
+
+About the job
+We’re helping an SF based company hire a Growth Specialist. They have built one of the largest communities for AI founders, researchers, and builders, with over 20,000 members. Their 200+ events have hosted speakers from leading Silicon Valley startups.
+
+Role: Growth Specialist
+Location: Remote (India)
+
+They are looking to hire a Growth / GTM / Ops person who is comfortable with:
+- Using GTM / AI tools like Apollo / Unify / Clay etc.
+- Following up with folks for events / partnerships
+- Help with some basic Figma design and copywriting for social media e.g. Twitter / LinkedIn
+- Extra points if they have video editing skills (or using video generation)
+
+Couldn't find experience requirement in About the Job!
+ICP not matched for Job ID 4377923768. Score: 15. Reason(s): No role keyword matched | Company size not matched (2-10) | No non-technical founder signal found
+
+-@-
+
+HR info was not given for "AI Ventures Associate (BITS AI Incubator)" with Job ID: 4377933740!
+ICP not matched for Job ID 4377933740. Score: 35. Reason(s): Company size not matched (2-10) | No non-technical founder signal found
+
+-@-
+
+
+About the job
+Urgent Hiring Alert: - Business Development Executive.
+
+SNRU is expanding, and we are looking for driven, results-oriented professionals to join our team. We are seeking motivated individuals who are ready to make an impact and grow their careers with us.
+
+Location: - PAN INDIA
+
+Who Can Apply?
+• College Students (Internship)
+• Freshers
+• Experienced professionals
+(Anyone with strong communication skills and a growth mindset)
+
+Responsibilities:
+• Identify and connect with potential partners
+• Build and maintain strong professional relationships
+• Drive regional growth and expansion
+• Achieve performance targets.
+
+What We Offer:
+• Performance-based earnings(Uncapped)
+• Practical business exposure
+• Work from home option available (only 3 position available)
+• Opportunity to work from your current location. (Multiple position available).
+
+Share your resume with us.
+#Hiring #BusinessDevelopment #PanIndia #CareerOpportunity #WorkFromHome
+
+Couldn't find experience requirement in About the Job!
+ICP not matched for Job ID 4377645839. Score: 15. Reason(s): No role keyword matched | Company size not matched (2-10) | No non-technical founder signal found
+
+-@-
+
+HR info was not given for "Software Engineer (AI-Native Platform & Integrations) | Remote" with Job ID: 4377391131!
+
+About the job
+Position: Software Engineer (AI-Native Platform & Integrations)
+Type: Full-time position
+Compensation: $70-$110 per hour
+Location: Remote
+Commitment: 10–40 hours/week
+
+Role Responsibilities
+Own core product delivery end-to-end, including platform foundations, integrations, analytics surfaces, and pilot launch support
+Build AI-native workforce management platform components, including core entities, workflows, permissions, and multi-tenant foundations
+Develop an omni-tool integration layer, including connectors, event ingestion, sync, and actions
+Build real-time analytics dashboards with live metrics, drill-downs, and exports
+Architect an agentic tool-use layer compatible with MCP-style patterns, including tool registry, permissions, runtime, and observability
+Ship production features across backend and frontend
+Design and implement a scalable integrations framework
+Set up strong engineering hygiene, including testing, observability, and on-call readiness for the pilot
+Iterate quickly and pragmatically 
+
+Requirements
+Strong practical software engineering skills with the ability to ship end-to-end features independently
+Experience building SaaS products with APIs, data models, and production constraints
+Deep comfort with integrations, including OAuth2, webhooks, API pagination, rate limiting, and sync semantics
+Effective use of AI tools such as Copilot or ChatGPT while maintaining strong standards around tests, interfaces, and guardrails
+Familiarity with MCP-style tool interfaces or building tool servers
+Clear communication skills with the ability to explain tradeoffs and align stakeholders 
+
+Application Process (Takes 20 Mins)
+Upload resume
+Interview (15 min)
+Submit form
+
+Couldn't find experience requirement in About the Job!
+ICP not matched for Job ID 4377391131. Score: 35. Reason(s): Company size not matched (Unknown) | No non-technical founder signal found
+
+-@-
+
+
+About the job
+About the job
+
+About AceLink Software Solutions 
+We are a fully remote, Mumbai-headquartered private limited company specializing in custom AI solutions, OpenAI wrappers, internal tools, websites, apps, and B2B software development. We've delivered 10+ contracts (starting from $700+ range) and recently built and stabilized a production-ready AI health assistant (Maya) as a live showcase of our capabilities. We're lean, fast-moving, and focused on delivering high-quality builds for startups and SMEs.
+
+Role Overview
+We are hiring a freelance Marketing & Sales Specialist to fully own our growth efforts for 1 month. This is a completely remote, deadline-based role — you manage your own schedule with the focus on delivering results (content, leads, conversions) rather than fixed hours. 
+
+You will report progress and align daily through short regular morning meetings (usually 10–30 min stand-up call at a fixed time, e.g., 9:30–10:00 AM IST, via Google Meet/Zoom). 
+
+Your main objective: generate high-quality inbound and outbound leads, create content to build visibility, and help close new clients for custom AI/software projects.
+
+This is a high-upside role — low fixed pay, strong commission potential for real results.
+
+Key Responsibilities
+- Create and publish high-value content daily/weekly on LinkedIn , Instagram , X/Twitter, Medium
+- Develop and follow a simple content calendar: tech insights, case studies, AI trends, project showcases (using Maya as an example of our work), and value-first posts that attract organic interest.
+- Engage in communities: thoughtful comments, replies, discussions to increase visibility and generate warm leads (no spammy cold outreach required).
+- Identify and qualify potential clients (Indian/global startups/SMEs needing custom AI, software, websites, etc.).
+- Handle inbound leads: respond quickly, qualify interest, schedule intro calls, prepare basic proposals (using our templates), and support closing deals.
+- Track all content, engagement, leads, and outcomes in a shared Google Sheet; provide brief daily/weekly updates during morning meetings.
+- Suggest fast-impact growth tactics (content repurposing, group participation, profile optimization, etc.).
+
+Working Style
+- 100% remote — work from anywhere.
+- Deadline-based: Deliver agreed content, lead targets, and activities by set dates — no fixed 9–5 hours.
+- Daily short morning stand-up meeting (10–15 min) to align on priorities, blockers, and wins.
+- High autonomy: You own the strategy and execution; we provide direction and feedback.
+
+Requirements
+- Experience in digital marketing, content creation, lead generation, or B2B sales (tech/freelance/startup background preferred).
+- Excellent written English and ability to create professional, engaging posts.
+- Comfortable with LinkedIn, X/Twitter, Reddit, Canva, Loom, Google Sheets.
+- Self-motivated, proactive, results-oriented — thrives in remote, deadline-driven environments.
+- Basic understanding of software/IT services (AI, custom dev, B2B) is a plus.
+- Available for daily morning calls (short) and ~20–30 hours/week effort.
+- Reliable internet and quiet space for calls.
+
+Compensation & Terms
+- Fixed pay: ₹5,000 (paid in full at end of 1-month contract).
+- Commission: 10% of total contract value (excluding taxes) for any new client you bring that signs a paid project (minimum ~$800 equivalent). Commission paid within 7 days of client advance receipt. Leads tracked and attributed fairly.
+- Contract: Simple freelance agreement (1 month, remote, no leave/benefits).
+- Extension: Strong performance can lead to longer-term retainer or increased commission/fixed pay.
+
+We review applications quickly and aim to hire within the next few days. Serious applicants only.
+
+AceLink Software Solutions Pvt Ltd 
+Fully Remote | Mumbai HQ 
+Connecting strong ideas with carefully built software.
+
+Couldn't find experience requirement in About the Job!
+ICP not matched for Job ID 4378908188. Score: 15. Reason(s): No role keyword matched | Company size not matched (2-10) | No non-technical founder signal found
+
+-@-
+
+HR info was not given for "Founder's Office" with Job ID: 4375929789!
+
+About the job
+This role is for Weekday's internal team and not a client role
+
+About Us
+At Weekday, we are building the future of hiring. We’ve built India’s largest database of white-collar talent and developed outreach tools that consistently generate the highest response rates. On candidate front, we are building the most efficient way to discover and apply for jobs.
+
+We are backed by some of the world’s most respected investors: Y Combinator (early backers of Stripe, Airbnb, DoorDash, Coinbase), General Catalyst (prev. VH), Kunal Shah (Founder, Cred), Cloud Capital, and several reputed angel investors.
+
+We are profitable and growing rapidly, month after month.
+
+We are looking for Founder's Office folks to work closely with the CEO on strategic projects.
+
+Your direct point of contact will be the CEO, so you will have plenty of opportunities to learn about how a startup grows from the ground up and impact what processes are created to help the company scale.
+
+Interview process
+
+AI Interview
+
+Small assignment
+
+Two interview rounds
+
+You’re a good fit for this only if..
+
+You’re open to being a generalist and adapting to the uncertainty of early-stage startups.
+
+Strong ability to deal with ambiguity and problem-solve for aspects that you or the team may encounter the first time or are not familiar with.
+
+You bring your own unique skill set to the table and collaborate with others to accomplish your team’s goals.
+
+You prioritize your work with the team and its product owner, weighing both the business and technical value of each task.
+
+You experiment, test, try, fail, and learn continuously.
+
+You don’t do things just because they were always done that way, you bring your experience and expertise with you and help the team make the best decisions.
+
+You can work 50-60 hours, 6 days a week
+
+You are not coming here for “strategy” roles but for on-ground hands-on work
+
+We may use artificial intelligence (AI) tools to support parts of the hiring process, such as reviewing applications, analyzing resumes, or assessing responses. These tools assist our recruitment team but do not replace human judgment. Final hiring decisions are ultimately made by humans. If you would like more information about how your data is processed, please contact us.
+
+Couldn't find experience requirement in About the Job!
+ICP not matched for Job ID 4375929789. Score: 0. Reason(s): No role keyword matched | Company size not matched (11-50) | Industry keyword not matched | No non-technical founder signal found
+
+-@-
+
+HR info was not given for "Product Engineer" with Job ID: 4380790007!
+ICP not matched for Job ID 4380790007. Score: 35. Reason(s): Company size not matched (2-10) | No non-technical founder signal found
+
+-@-
+
+
+About the job
+About Us
+
+Emeritus is committed to teaching the skills of the future by making high-quality education accessible and affordable to individuals, companies, and governments around the world. It does this by collaborating with more than 80 top-tier universities across the United States, Europe, Latin America, Southeast Asia, India and China. Emeritus’ short courses, degree programs, professional certificates, and senior executive programs help individuals learn new skills and transform their lives, companies and organizations. Its unique model of state-of-the-art technology, curriculum innovation, and hands-on instruction from senior faculty, mentors and coaches has educated more than 300,000 individuals across 80+ countries.
+
+Founded in 2015, Emeritus, part of Eruditus Group, has more than 2,000 employees globally and offices in Mumbai, New Delhi, Shanghai, Singapore, Palo Alto, Mexico City, New York, Boston, London, and Dubai. The company is backed by prominent investors including Accel, SoftBank Vision Fund 2, the Chan Zuckerberg Initiative, Leeds Illuminate, Prosus Ventures, Sequoia Capital India, and Bertelsmann.
+
+About the role:
+
+The Assistant Manager - Academic Delivery will play a critical role in the delivery of a portfolio of professional
+certificate programs in partnership with top-ranked universities. This role requires a process-oriented and detail-oriented person who has a passion for making a difference, and is comfortable working with global, cross-functional teams.
+The successful candidate will take ownership of their programs end-to-end, focusing on driving learner satisfaction, learner completion, and online delivery at scale. This includes ensuring course launch readiness, managing course leaders, collaborating with stakeholders, and analyzing data to continuously improve learner experience.
+As we operate in a fast-moving environment, this role will work with a great deal of autonomy and
+flexibility, while being supported by a collaborative, global team.
+Our team brings diverse experiences, from running language schools to working as management
+consultants and managing programs and partnerships in higher education. We are highly collaborative, globally distributed across the US, UK, Spain, India, and Mexico, and a lot of fun to work with!
+
+Key Responsibilities: 
+
+Partnership & Stakeholder Management 
+• Manage internal and external stakeholders by maintaining healthy relationships across
+Outreach, Admissions, Design, University Partnerships, and Services Delivery.
+• Collaborate with university partners by providing updates on program performance, addressing
+delivery-related questions, and ensuring alignment with partner expectations.
+• Provide relevant information on the health of the program to cross-functional stakeholders and
+university partners.
+Program Management 
+• Own and effectively manage the learner (customer) journey, focused on satisfaction and completion.
+• Ensure course launch is ready to go live, including quality control, writing participant communications, and planning live sessions.
+• Oversee course leaders, including interviewing, onboarding, training, and performance management for the courses they deliver.
+• Manage escalated learner requests from the program support team and swiftly resolve problems in course deployment as they occur.
+• Analyze learner feedback and course results to recommend design or process improvements for
+future iterations.
+• Own and track key performance indicators that measure learner engagement, including program completion, satisfaction, course leader ratings, withdrawals, and deferrals.
+• Make timely and sound decisions and tradeoffs that always prioritize the learner experience.
+Project Management 
+• Propose and develop solutions to continuously improve the overall learner experience.
+• Establish and maintain scalable, efficient processes for program delivery.
+• Work cross-functionally and proactively to improve program delivery processes.
+
+Required Skills & Qualifications:
+
+• Exceptional English communication skills (written and verbal) are mandatory.
+• Fluent in Spanish (good to have)
+• Bachelor’s degree or equivalent qualification
+• Experience delivering online courses.
+• Experience in project management.
+• Experience hiring and managing course leaders, teaching assistants, faculty, or other instructional staff.
+• Experience analyzing large volumes of data, synthesizing insights, and making recommendations.
+• Self-starter with strong organizational skills and attention to detail.
+• Strong interpersonal and English communication skills.
+• Growth mindset with a comfort level navigating change and building processes.
+• Ability to operate independently as part of a remote team, building trust and strong relationships.
+• Flexibility to work hours to coordinate with a global team.
+
+Why Join Us:
+
+At Emeritus, you’ll make a meaningful impact by supporting learners globally while working in a collaborative, inclusive, and growth-oriented environment.
+
+Emeritus provides equal employment opportunities to all employees and applicants for employment and prohibits discrimination and harassment of any type without regard to race, color, religion, age, sex, national origin, disability status, genetics, protected veteran status, sexual orientation, gender identity or expression, or any other characteristic protected by federal, state or local laws.
+
+In press:
+https://inc42.com/buzz/edtech-startup-eruditus-fy23-revenue-crosses-inr-3000-cr-mark
+https://www.outlookbusiness.com/start-up/news/eruditus-secures-150-million-funding-for-ai-expansion-business-growth
+https://economictimes.indiatimes.com/tech/startups/edtech-unicorn-emeritus-story-now-a-harvard-business-school-case-study/articleshow/107648728.cms?from=mdr
+
+Couldn't find experience requirement in About the Job!
+ICP not matched for Job ID 4378394387. Score: 15. Reason(s): No role keyword matched | Company size not matched (1001-5000) | No non-technical founder signal found
+
+-@-
+
+ICP not matched for Job ID 4379190123. Score: 15. Reason(s): No role keyword matched | Company size not matched (201-500) | No non-technical founder signal found
+
+-@-
+
+
+About the job
+About the Company
+
+
+Gnani.ai is looking for a Presales Consultant to join our business and provide presales support to our customers. A Presales consultant plays a key role in building customer confidence, addressing technical concerns, and winning sales opportunities.
+
+
+About the Role
+
+
+Presales Specialists support the sales team by providing technical expertise, demonstrations, and solution presentations to potential customers. Their ability to understand customer requirements and propose tailored solutions drives successful presales engagements. You will also work closely with other employees to ensure customer questions and concerns are addressed in a timely manner.
+
+
+Responsibilities
+
+
+Being a Champion on Artificial Intelligence, Machine Learning, Large Language Models, Conversational AI, Omni-channel Automation solutions
+Be the first point of contact and advisor to the customer on all matters related to Conversational AI, Agent Assist & Analytics
+Developing solutions for AI & ML based Omni-Channel Automation
+Responsible for organizing, planning, creating & delivering compelling proof of concept demonstrations
+Ensuring solutions stated in the Statement of Work are best practice and in line with client requirements
+Managing the sales bid process by responding to RFI’s & RFP
+Working closely with Sales, Engineering, Delivery and project teams to ensure the successful closure of the sales process
+Liaising with Product Managers to provide feedback from clients about product requirements, roadmaps, etc
+Keeping abreast of market trends, product & competitor landscapes
+
+ Qualifications
+
+
+You possess a Degree in Computer Science, Engineering, or a related field.
+
+ Required Skills
+
+
+Proven work experience as a Pre-Sales consultant or similar role for a minimum of three years
+Working in a SAAS organization is a must.
+Experience in dealing with large and mid size Enterprise customers in India.
+You possess strong problem-solving and prioritization skills.
+You have strong presentation skills.
+You have excellent interpersonal and communication skills and are adept at working with multiple stakeholders
+LLMs, AI, ML, SAAS, Contact centre Technical skills & Clear grasp of digital technology stacks - API's, middleware, ecosystems and the ability to envision solutions is a must.
+Experience in working with a diverse group- Developers, Program Managers, Sales, Pre-sales is required.
+This role requires fair amount of travel meeting your clients and working from the office location.
+
+Couldn't find experience requirement in About the Job!
+ICP not matched for Job ID 4378684622. Score: 15. Reason(s): No role keyword matched | Company size not matched (11-50) | No non-technical founder signal found
+
+-@-
+
+
+About the job
+Company Description
+ Bhanzu is the world's largest online math learning platform, committed to transforming the way students learn and engage with mathematics. By integrating advanced pedagogy with modern technology, Bhanzu empowers learners to think critically, build confidence, and apply math in real-world situations. Headquartered in India, the platform serves students across 20+ countries, including the US, UK, Middle East, Canada, Australia, and New Zealand. With over 50,000 learners and growing, Bhanzu is on a mission to impact 1 million students globally through innovative and accessible education opportunities.
+ Role Description
+ This is a full-time, remote role for a Business Development Associate focusing on the ANZ and UK market. The role involves identifying and generating new business opportunities, developing relationships with potential clients and stakeholders, and executing strategic initiatives to drive customer acquisition. Responsibilities also include market research, representing Bhanzu at relevant forums, analyzing market trends, and collaborating with internal teams to align goals and strategies for continuous growth within the targeted regions.
+ Qualifications
+  Strong skills in market research, data analysis, and building client relationships
+Experience in sales, lead generation, and business development strategies
+Proficiency in communication, negotiation, and presentation skills
+Understanding of the education industry and familiarity with digital platforms
+Self-motivated, goal-oriented, and able to work effectively in a remote environment
+Bachelor's degree in Business, Marketing, or a related field is preferred
+Prior experience working in international markets such as ANZ and UK is an advantage
+Proficiency in CRM tools and tracking software is beneficial
+
+Couldn't find experience requirement in About the Job!
+ICP not matched for Job ID 4379626311. Score: 15. Reason(s): No role keyword matched | Company size not matched (1001-5000) | No non-technical founder signal found
+
+-@-
+
+ICP not matched for Job ID 4363126835. Score: 35. Reason(s): Company size not matched (2-10) | No non-technical founder signal found
+
+-@-
+
+HR info was not given for "Investor Outreach Consultant" with Job ID: 4380316374!
+
+About the job
+Investor Outreach Consultant
+Engagement: 3-Month Strategic Contract
+Reporting to: Founder & CEO
+
+Role Context
+Platonix is a spirituality-centric OTT and AI-enabled wellness platform focused on Soul–Mind–Body integration. The Investor Outreach Consultant was engaged to support early-stage fundraising efforts across European, Indian, and US markets, with a focus on mission-aligned angels, wellness-focused VCs, and impact investors.
+
+Core Mandate
+To design and execute a structured investor outreach strategy that:
+Identified high-probability investor targets aligned with wellness, tech, SaaS, and conscious capital sectors
+Initiated professional investor engagement
+Built a qualified funding pipeline
+Created repeatable systems for ongoing fundraising
+
+Key Responsibilities
+1. Investor Research & Targeting
+Mapped angel networks, VCs, family offices, and impact funds aligned with wellness, spirituality, SaaS, and media-tech.
+Analyzed portfolio patterns, cheque sizes, stage preference, and geographic focus.
+Built a curated database segmented by investor type and likelihood of fit.
+2. Strategic Outreach Execution
+Drafted customized cold outreach emails and LinkedIn messaging sequences.
+Positioned Platonix’s unique value proposition (AI-guided journeys + content partner marketplace + spiritual positioning).
+Managed structured follow-up cadence across multiple touchpoints.
+3. Pipeline & CRM Management
+Built and maintained a fundraising tracker with:
+Contact status
+Stage of conversation
+Follow-up timelines
+Warm introductions required
+Provided weekly reporting on:
+Outreach volume
+Response rates
+Meeting conversion metrics
+4. Meeting Coordination & Pre-Screening
+Secured introductory calls with aligned investors.
+Conducted initial qualification conversations where appropriate.
+Coordinated scheduling across time zones.
+5. Pitch Refinement Support
+Provided feedback insights from investor responses.
+Identified recurring objections and positioning gaps.
+Suggested refinements to pitch deck narrative and investor one-pager.
+
+Outcomes Delivered During Contract
+Created a structured global investor target list across EU / India / US.
+Initiated multi-channel outreach campaigns.
+Secured qualified investor introductions.
+Built a repeatable outreach playbook for continued fundraising.
+Strengthened Platonix’s investor positioning narrative.
+
+Competencies Demonstrated
+Understanding of early-stage venture dynamics
+Strategic alignment with conscious capital / impact ecosystem
+High-level written persuasion skills
+Fundraising pipeline structuring
+Confidentiality and professional discretion
+Analytical reporting and optimization mindset
+
+Couldn't find experience requirement in About the Job!
+ICP not matched for Job ID 4380316374. Score: 35. Reason(s): Company size not matched (11-50) | No non-technical founder signal found
+
+-@-
+
+
+About the job
+About the Company 
+Taevas Life sciences — is a leading market entry specialist company, providing a 360° brand custodianship and supports companies to launch, market and scale businesses globally. We currently extend our competencies to small, medium, and large-scale enterprises in Medical Devices, Pharmaceuticals, Food & Dietary Supplements, and Cosmetics. Taevas helps global life sciences innovators with global expansion strategies to connect with audiences worldwide and make it accessible for millions of people around the world. Our teams are driven by purpose, powered by data, and inspired by impact — and we’re excited to explore how you could be part of that story.
+
+Learn more about us: https://www.taevasglobal.com/
+
+Description
+We are seeking a dynamic and results-oriented Solutioning & Pre-Sales Specialist to drive business growth for Taevas Global’s service offerings, including:
+Legal Representation, Distribution Services, Logistics Handling, Import Services for Medical Devices, Pharma, and Consumer Companies worldwide.
+The ideal candidate will combine strong business acumen, industry knowledge, and solution-selling expertise to engage prospects, lead pre-sales activities, and provide tailored service solutions. This role requires collaboration with internal teams to ensure client requirements are understood, proposals are aligned with service capabilities, and opportunities are successfully converted into revenue.
+
+Key Responsibilities:
+1. Solutioning & Pre-Sales
+· Understand client requirements and craft tailored solutions across Taevas Global’s service offerings.
+· Collaborate with Marketing, Operations, and Legal teams to align service capabilities with client needs.
+· Prepare proposals, presentations, and service demonstrations for potential clients.
+· Participate in RFP/RFI responses, pre-sales meetings, and solution workshops.
+· Provide technical and commercial input to sales strategies and pricing models.
+2. Client Engagement & Relationship Management
+· Serve as a trusted advisor for clients during the pre-sales cycle.
+· Build and maintain strong client relationships to understand business objectives and pain points.
+· Identify upsell and cross-sell opportunities aligned with client needs.
+· Act as a point of contact for client queries regarding service scope, delivery, and feasibility.
+3. Market & Industry Analysis
+· Maintain knowledge of industry trends, competitor offerings, and regulatory landscapes in medical devices, pharma, and consumer sectors.
+· Support marketing and business development teams with insights for targeted campaigns.
+· Leverage data to refine solution offerings, proposal effectiveness, and client engagement strategies.
+4. Sales Enablement & Collaboration
+· Partner with Sales, Marketing, and Operations to ensure smooth handover from pre-sales to delivery teams.
+· Train internal teams on service capabilities, client expectations, and solution nuances.
+· Provide feedback on service enhancements, process improvements, and market requirements
+
+
+Skills & Competencies
+Strong understanding of medical device/regulatory service frameworks (LR, MAH, US Agent, Import, Warehousing).
+Excellent solutioning & proposal design capabilities.
+Strong analytical and problem-solving mindset.
+Excellent written and verbal communication skills — ability to translate technical terms into value propositions.
+Hands-on with MS Office / Google Suite, CRM tools, and proposal management systems.
+Experience in multi-stakeholder coordination and cross-functional project planning.
+
+Couldn't find experience requirement in About the Job!
+ICP not matched for Job ID 4378810128. Score: 35. Reason(s): Company size not matched (11-50) | No non-technical founder signal found
+
+-@-
+
+
+About the job
+Position Title: Business Development Manager / Sales Manager
+Industry: US Staffing, IT Consulting & RPO
+Compensation: Commission-Based (High Earning Potential)
+Employment Type: Contract / Commission Model
+Location: Remote / US Market Focus
+Role Overview
+We are seeking a results-driven Business Development Manager / Sales Manager with prior experience in US IT Staffing, Consulting, or RPO. This role focuses on generating new business, managing client relationships, and driving revenue growth through strategic sales efforts.
+Key Responsibilities
+Identify and develop new client relationships in the US market
+Generate leads through cold calling, LinkedIn outreach, email campaigns, and networking
+Set up meetings with hiring managers, procurement, and decision-makers
+Present staffing, IT consulting, and RPO services to prospective clients
+Negotiate contracts, MSA agreements, and rate structures
+Maintain and grow existing client relationships
+Track sales pipeline and forecast revenue
+Collaborate with recruitment teams to align client needs with talent delivery
+Develop long-term strategic partnerships
+Meet or exceed monthly and quarterly revenue targets
+Required Qualifications
+Proven experience in US IT Staffing / IT Consulting / RPO sales
+Strong client relationship management skills
+Demonstrated success in lead generation and meeting setup
+Excellent communication and negotiation skills
+Strong understanding of US staffing models (W2, C2C, 1099)
+Ability to work independently and drive revenue
+Preferred Skills
+Existing book of business or active client relationships
+Experience closing mid-to-large enterprise accounts
+Strong LinkedIn Sales Navigator experience
+Familiarity with VMS/MSP environments
+
+Couldn't find experience requirement in About the Job!
+ICP not matched for Job ID 4378166997. Score: 15. Reason(s): No role keyword matched | Company size not matched (11-50) | No non-technical founder signal found
+
+-@-
+
+HR info was not given for "Business Development Executive/Representative (BDE)" with Job ID: 4328768546!
+ICP not matched for Job ID 4328768546. Score: 35. Reason(s): Company size not matched (5001-10000) | No non-technical founder signal found
+
+-@-
+
+ICP not matched for Job ID 4371811629. Score: 35. Reason(s): Company size not matched (51-200) | No non-technical founder signal found
+
+-@-
+
+HR info was not given for "Project Coordinator" with Job ID: 4379400662!
+ICP not matched for Job ID 4379400662. Score: 15. Reason(s): No role keyword matched | Company size not matched (51-200) | No non-technical founder signal found
+
+-@-
+
+HR info was not given for "Lead Generation Executive" with Job ID: 4375156477!
+ICP not matched for Job ID 4375156477. Score: 35. Reason(s): Company size not matched (51-200) | No non-technical founder signal found
+
+-@-
+
+
+About the job
+Company Description
+ Pixels Planet is a Bengaluru-based creative production house that specializes in visual storytelling and strategic thinking to create high-quality, emotionally impactful video content. Serving high-growth startups, global enterprises, real estate leaders, and government organizations, Pixels Planet brings ideas to life with its expert end-to-end video production process. By focusing on audience psychology, platform behavior, and brand identity, the company ensures that every project delivers measurable business results. With clients like NVIDIA, Toyota, ISRO, and emerging ventures, Pixels Planet stands out for its scalable, results-driven approach and Pan-India execution capabilities.
+ Role Description
+ This is a contract-based remote role for a Business Development Executive. Responsibilities include identifying and generating leads, cultivating new business opportunities, building and maintaining relationships with clients, and managing existing accounts. The role requires a strategic approach to driving business growth, ensuring client satisfaction, and contributing to company objectives.
+ Qualifications
+  Expertise in New Business Development and Lead Generation
+Proven understanding of business operations and experience in driving revenue growth
+Strong Communication and interpersonal skills for interacting with clients and stakeholders
+Experience with Account Management and fostering long-term client relationships
+Strong analytical and negotiation skills with the ability to close deals effectively
+Capability to work independently in a remote environment
+Experience in the media, creative production, or related industry is a plus
+Bachelor’s degree in Business, Marketing, Communications, or a related field
+
+Couldn't find experience requirement in About the Job!
+ICP not matched for Job ID 4379622068. Score: 0. Reason(s): No role keyword matched | Company size not matched (2-10) | Industry keyword not matched | No non-technical founder signal found
+
+-@-
+
+ICP not matched for Job ID 4378163336. Score: 15. Reason(s): No role keyword matched | Company size not matched (501-1000) | No non-technical founder signal found
+
+-@-
+
+HR info was not given for "Cofounder Business Development" with Job ID: 4379140252!
+
+About the job
+Company Description
+ We suggest you enter details here.
+ Role Description
+ This is a full-time remote role for a Cofounder in Business Development. The Cofounder will be responsible for developing and executing business strategies to drive growth and profitability. Daily tasks include identifying new business opportunities, conducting market research, building and maintaining client relationships, and collaborating with other team members to develop and implement marketing and sales strategies.
+ Qualifications
+  Strong Analytical Skills and Research abilities
+Excellent Communication and Sales skills
+Marketing expertise
+Proven track record in business development or related field
+Strong leadership and team collaboration skills
+Ability to work independently and remotely
+Bachelor's degree in Business, Marketing, or related field
+
+Couldn't find experience requirement in About the Job!
+ICP not matched for Job ID 4379140252. Score: 0. Reason(s): No role keyword matched | Company size not matched (11-50) | Industry keyword not matched | No non-technical founder signal found
+
+>-> Now on Page 2 
+
+
+-@-
+
+
+About the job
+Position: Software Engineer (AI-Native Platform & Integrations)
+Type: Full-time position
+Compensation: $70-$110 per hour
+Location: Remote
+Commitment: 10–40 hours/week
+
+Role Responsibilities
+Own core product delivery end-to-end, including platform foundations, integrations, analytics surfaces, and pilot launch support
+Build AI-native workforce management platform components, including core entities, workflows, permissions, and multi-tenant foundations
+Develop an omni-tool integration layer, including connectors, event ingestion, sync, and actions
+Build real-time analytics dashboards with live metrics, drill-downs, and exports
+Architect an agentic tool-use layer compatible with MCP-style patterns, including tool registry, permissions, runtime, and observability
+Ship production features across backend and frontend
+Design and implement a scalable integrations framework
+Set up strong engineering hygiene, including testing, observability, and on-call readiness for the pilot
+Iterate quickly and pragmatically 
+
+Requirements
+Strong practical software engineering skills with the ability to ship end-to-end features independently
+Experience building SaaS products with APIs, data models, and production constraints
+Deep comfort with integrations, including OAuth2, webhooks, API pagination, rate limiting, and sync semantics
+Effective use of AI tools such as Copilot or ChatGPT while maintaining strong standards around tests, interfaces, and guardrails
+Familiarity with MCP-style tool interfaces or building tool servers
+Clear communication skills with the ability to explain tradeoffs and align stakeholders 
+
+Application Process (Takes 20 Mins)
+Upload resume
+Interview (15 min)
+Submit form
+
+Desired Skills and Experience
+Computer Software
+
+Couldn't find experience requirement in About the Job!
+ICP not matched for Job ID 4377391258. Score: 35. Reason(s): Company size not matched (11-50) | No non-technical founder signal found
+
+-@-
+
+HR info was not given for "GTM Engineer" with Job ID: 4378477590!
+ICP not matched for Job ID 4378477590. Score: 0. Reason(s): No role keyword matched | Company size not matched (2-10) | Industry keyword not matched | No non-technical founder signal found
+
+-@-
+
+HR info was not given for "Project Management Associate" with Job ID: 4379186350!
+
+About the job
+We're looking for Project Management Associates!
+
+Responsibilities
+
+Manage cross-functional and technical projects from end to end
+Track project issues, blockers, and milestones in a timely manner
+Coordinate with vendor partners and internal teams to ensure smooth execution
+Ensure projects meet deadlines, quality standards, and are within scope
+Escalate and address any issues or risks that could impact project delivery
+Identify and mitigate risks across various projects
+Provide regular status updates and assist in evaluating project performance against metrics
+Track and report project progress using appropriate tools and techniques
+Partner with functional teams during all project phases (initiation, deployment, post-deployment)
+Hold regular meetings with core teams to ensure alignment and progress
+Assist with process improvements to remove gaps across multiple teams and functions
+Collaborate with stakeholders to communicate project status and updates
+
+(*Note: This is a requirement for one of Scout's clients)
+
+Skills: project,analytical skills,project management
+
+Couldn't find experience requirement in About the Job!
+ICP not matched for Job ID 4379186350. Score: 15. Reason(s): No role keyword matched | Company size not matched (2-10) | No non-technical founder signal found
+
+-@-
+
+HR info was not given for "Senior Customer Success Manager (Remote from India)" with Job ID: 4379746947!
+ICP not matched for Job ID 4379746947. Score: 15. Reason(s): No role keyword matched | Company size not matched (11-50) | No non-technical founder signal found
+
+-@-
+
+HR info was not given for "Product Owner – AI," with Job ID: 4378773948!
+ICP not matched for Job ID 4378773948. Score: 15. Reason(s): No role keyword matched | Company size not matched (51-200) | No non-technical founder signal found
+
+-@-
+
+
+About the job
+Designation - Enterprise Sales Manager
+Location: Remote-first
+Type: Full-time | Founding Team
+■ About The Company
+We run your favourite dairy brands on Quick Commerce. A brand that invented Hawai chappals
+works with us. Many of the brands we partner with were founded in the 19th century — and are now
+growing faster than ever on Zepto, Blinkit, Instamart, and JioMart.
+This organization is India’s first exclusive operator model for Quick Commerce — we handle everything
+for brands that were built for shelves, not search bars. From onboarding and listings to pricing,
+fulfilment, and growth — we’re the execution layer that helps India’s most trusted consumer brands
+scale across platforms.
+■ What We Work On
+We operate across the Consumption Category — the everyday essentials that power India’s
+kitchens and households.
+Dairy & Ice Cream – Milk, curd, paneer, butter, ice cream, and novelty treats.Staples & Masalas –
+Rice, dal, atta, oil, ghee, spices.Bakery & Eggs – Bread, buns, eggs, and quick breakfast
+essentials.Meat & Fresh Produce – Chicken, fish, fruits, and vegetables.Personal & Home Care –
+Toothpaste, razors, soap, pads, and hygiene basics.Impulse & Emergency Buys – Chocolates,
+skincare, and last-minute needs.
+These are the categories that drive over 60% of all Quick Commerce demand — products people
+already love and buy every day. We don’t create new demand — we activate existing trust and
+make it instantly available online.
+■ The Role: Founder’s Office
+We’re looking for smart, self-aware generalists who can work directly with the founder and help
+scale company across brands, categories, cities, and platforms. You’ll solve live problems, create
+systems from scratch, and build what doesn’t exist yet.
+This is not a support role — it’s a get-it-done, think-fast, own-everything role.
+■ You’ll fit right in if you:
+Are sharp, scrappy, and grounded.Take full responsibility for what you touch.Are okay with
+failure, but allergic to excuses.Are comfortable saying “I don’t know” — and even more
+comfortable figuring it out.Can think in systems and thrive in motion.Care about learning and
+speed, not titles or process.
+■ What You’ll Do
+Work on brand expansion, category rollouts, and platform operations. Fix bottlenecks across
+supply, listings, and fulfilment. Build playbooks and execution frameworks from scratch. Partner
+closely with the founder on core initiatives.
+
+Couldn't find experience requirement in About the Job!
+ICP not matched for Job ID 4380165830. Score: 0. Reason(s): No role keyword matched | Company size not matched (11-50) | Industry keyword not matched | No non-technical founder signal found
+
+-@-
+
+HR info was not given for "Senior Solutions Engineer" with Job ID: 4376766750!
+ICP not matched for Job ID 4376766750. Score: 15. Reason(s): No role keyword matched | Company size not matched (201-500) | No non-technical founder signal found
+
+-@-
+
+ICP not matched for Job ID 4378346516. Score: 35. Reason(s): Company size not matched (501-1000) | No non-technical founder signal found
+
+-@-
+
+
+About the job
+About the Role
+The Client Support Specialist role at Talogy is primarily responsible for supporting customers and colleagues. People in this role are the front-line providers of excellent customer service to clients and partners who are using Talogy systems, working closely with other departments such as Sales, Consulting, Software Engineering and Product Management to ensure timely resolution of issues, complaints and challenges.
+This is a full-time, permanent position. Day-to-day the role can be performed remotely, with the expectation of occasional travel to Talogy offices in their region for team collaboration, meetings, and workshops.
+
+Role Responsibilities
+Developing a working knowledge of Talogy solutions and the administrative side of our platforms.
+Responding promptly and professionally to requests for client support, with the aim of ensuring satisfactory resolutions for all parties.
+Supporting clients with implementing their own assessment and development projects on Talogy platforms.
+Taking live calls and emails from clients and handling them in a friendly and professional manner. Scenarios can include (but not limited to):
+Supporting customers (internal and external) with resolving issues, answering general questions and requests for information about our services.
+Handling complaints or feedback on live projects.
+Reporting bugs or other software/product/platform issues, and collaborating with teams like Software Engineering and Product Management to implement fixes for client projects.
+Providing feedback on support tickets to colleagues in other departments.
+Meeting service level agreements (SLAs) .
+Following processes around documentation of client work and interactions, e.g. utilizing client relationship management and project management tools such as Salesforce and OpenAir.
+
+Knowledge, Skills and Experience Requirements
+Strong IT skills and the ability to learn new systems and administrative portals quickly.
+Proficiency with Microsoft Office products, e.g. Outlook, Excel, Word, Teams etc.
+Previous experience in a client/customer service environment is preferred, e.g. call center, retail, hospitality etc.
+Previous experience in the talent management industry is desirable but not required.
+Demonstrable evidence of being able to collaborate effectively with others, manage personal assignments, and drive tasks through to resolution.
+
+Couldn't find experience requirement in About the Job!
+ICP not matched for Job ID 4379477035. Score: 35. Reason(s): Company size not matched (501-1000) | No non-technical founder signal found
+
+-@-
+
+
+About the job
+Job Title: B2B Cloud & AI Sales Executive
+Location: Remote 
+Experience: Minimum 6 Months in B2B Cloud / AI Sales
+Salary: 3.5 LPA – 4 LPA + Attractive Incentives
+
+Job Overview
+
+We are looking for a dynamic and result-oriented B2B Cloud & AI Sales Executive to join our growing team. The ideal candidate should have prior experience in selling cloud-based or AI-driven solutions and be comfortable with high-volume outbound calling.
+
+Key Responsibilities
+
+• Generate and qualify leads through outbound calls (100+ calls per day).
+• Promote and sell Cloud and AI-based solutions to B2B clients.
+• Identify new business opportunities and build strong sales pipelines.
+• Conduct product presentations and virtual demos.
+• Understand client requirements and propose suitable solutions.
+• Follow up with prospects and close deals within the sales cycle.
+• Maintain CRM records and daily sales activity reports.
+• Achieve monthly and quarterly sales targets.
+
+Required Skills & Qualifications
+
+• Minimum 6 months of experience in B2B Cloud / AI Sales.
+• Excellent verbal and written communication skills.
+• Strong persuasion, negotiation, and closing skills.
+• Comfortable with high-volume outbound calling (100+ calls daily).
+• Self-motivated and target-driven.
+• Ability to work independently in a remote setup.
+• Basic understanding of Cloud technologies and AI solutions.
+
+Preferred Criteria
+• Candidates currently residing in Karnataka or Tamil Nadu.
+• Experience working with startups or tech product companies.
+• Familiarity with CRM tools and sales tracking systems.
+
+What We Offer
+• Competitive fixed salary + performance-based incentives.
+• 5-day work week.
+• Remote working flexibility.
+• Company-provided laptop.
+• Growth opportunities in Cloud & AI domain.
+
+Couldn't find experience requirement in About the Job!
+ICP not matched for Job ID 4380179343. Score: 15. Reason(s): No role keyword matched | Company size not matched (51-200) | No non-technical founder signal found
+
+-@-
+
+HR info was not given for "Freelance AI Assistant Expert" with Job ID: 4378349830!
+
+About the job
+This opportunity is only for candidates currently residing in the specified country. Your location may affect eligibility and rates. Please submit your resume in English and indicate your level of English proficiency.
+
+At Mindrift, innovation meets opportunity. We believe in using the power of collective intelligence to ethically shape the future of AI.
+
+What We Do
+
+The Mindrift platform connects specialists with AI projects from major tech innovators. Our mission is to unlock the potential of Generative AI by tapping into real-world expertise from across the globe.
+
+About The Role
+
+Mindrift is looking for passionate freelance contributors to join the Tendem project (https://tendem.ai/) to help build the future of hybrid agents — where human expertise and AI capabilities work hand in hand As an AI Agent Assistant, you'll collaborate with large language models (LLMs) that handle repetitive tasks, while you bring the nuance, judgment, and creativity required to deliver high-quality results. In this role, you won't just review what AI produces — you'll work alongside it, shaping and completing outputs so they are accurate, reliable, and ready for real-world application. Your day-to-day may range from fact-checking a scientific claim to curating a dataset, conducting market research, or refining sales leads. This flexible, part-time remote opportunity is ideal for professionals with backgrounds in research, editing, analysis, or related fields who are excited by the possibilities of human-AI collaboration. Your contributions will directly influence how AI systems learn, evolve, and support industries worldwide.
+
+This is a freelance role for a project, and your typical tasks may include:
+
+Your mission - deliver well-reasoned, accurate, and clearly written outputs backed by credible sources. 
+Conduct thorough web research to verify information and collect supporting evidence. 
+Collaborate with large language models (LLMs) and internal tools, using them as copilots to complete complex tasks. 
+Design and refine prompts to guide AI toward higher-quality results. 
+Apply best practices for working with LLMs, understanding both their strengths and limitations. 
+Adapt quickly between diverse annotation, research, and analysis tasks while following detailed guidelines
+
+How To Get Started
+
+Simply apply to this post, qualify, and get the chance to contribute to projects aligned with your skills, on your own schedule. From creating training prompts to refining model responses, you'll help shape the future of AI while ensuring technology benefits everyone.
+
+Requirements
+
+You are currently enrolled in or completed a Bachelor's and/or Master's degree in any field
+You have professional and/or educational experience in data annotation, demonstrate a deeper-than-user-level interest in AI, and possess intellectual breadth and curiosity. 
+You are skilled in web searching, fact-checking, intent-checking, able to work with LLMs and have great attention to detail
+Your level of English is upper-intermediate (B2) or above
+You are ready to learn new methods, able to switch between tasks and topics quickly and sometimes work with challenging, complex guidelines
+Our freelance role is fully remote so, you just need a laptop, internet connection, time available and enthusiasm to take on a challenge
+
+Benefits
+
+Why this freelance opportunity might be a great fit for you? 
+
+Get paid for your expertise, with rates that can go up to $9/hour depending on your skills, experience, location and project needs
+Take part in a part-time, remote, freelance project that fits around your primary professional or academic commitments
+Work on advanced AI projects and gain valuable experience that enhances your portfolio
+Influence how future AI models understand and communicate in your field of expertise
+
+Couldn't find experience requirement in About the Job!
+ICP not matched for Job ID 4378349830. Score: 15. Reason(s): No role keyword matched | Company size not matched (501-1000) | No non-technical founder signal found
+
+-@-
+
+ICP not matched for Job ID 4379619129. Score: 15. Reason(s): No role keyword matched | Company size not matched (501-1000) | No non-technical founder signal found
+
+-@-
+
+ICP not matched for Job ID 4379614241. Score: 15. Reason(s): No role keyword matched | Company size not matched (1001-5000) | No non-technical founder signal found
+
+-@-
+
+HR info was not given for "Subject Matter Expert" with Job ID: 4378144212!
+
+About the job
+About The Company:
+
+Are you excited about (quite literally) a game-changing idea? Does the cocktail of English gaming and tech give you an adrenaline rush? Then we have lots to talk about. 
+We are a Math and English based Ed Tech company founded by the World’s Fastest Human Calculator - Neelakantha Bhanu. We are a bunch of enthusiasts taking on contemporary education platforms through pedagogy-heavy courseware. Our single point focuses on delivering student outcomes through a gamified engagement model.
+
+To achieve this, we are actively looking for highly driven and skilled spartans.
+Job Description:
+We are seeking a highly qualified and experienced Subject Matter Expert (SME) to contribute to the development and enhancement of our English Creative Writing and Public Speaking course for grades 1-3. As an SME, you will ensure the quality, relevance, and effectiveness of our learning materials and assessments.
+Responsibilities:
+
+Collaborate with instructional designers and content developers to create engaging lesson plans, worksheets, activities, and assessments aligned with curriculum objectives.
+Review and refine course content to enhance clarity, engagement, and age-appropriateness.
+Provide subject matter expertise on English language learning pedagogy, early literacy, storytelling, creative writing, and public speaking.
+Develop formative and summative assessments to evaluate students’ comprehension and communication skills.
+Stay updated with best practices in early childhood education, instructional design, and digital learning tools.
+Requirements:
+
+Educational Qualifications: Graduate/Postgraduate degree in English Language, Literature, or Education.
+Subject Expertise: Strong knowledge of English language instruction for young learners.
+Language Skills: Excellent written English skills with the ability to communicate complex concepts clearly and concisely 
+Tech-Savvy: Familiarity with digital tools for content creation and interactive learning.
+Experience in other EdTech platforms is a plus.
+
+Couldn't find experience requirement in About the Job!
+ICP not matched for Job ID 4378144212. Score: 15. Reason(s): No role keyword matched | Company size not matched (1001-5000) | No non-technical founder signal found
+
+-@-
+
+ICP not matched for Job ID 4378247375. Score: 20. Reason(s): Company size not matched (11-50) | Industry keyword not matched | No non-technical founder signal found
+
+-@-
+
+
+About the job
+PLEASE NOTE THAT THIS IS AN ON SITE POSITION BASED OUT OF DUBAI. 
+PLEASE IGNORE THE LOCATION MENTIONED ABOVE.
+
+Role Purpose
+Own product strategy and delivery execution to drive adoption, retention, and monetization across fintech and B2B platforms, ensuring the roadmap is tied to measurable business outcomes.
+
+Key Responsibilities:
+
+Product Strategy & Roadmap
+Define product vision and roadmap aligned to growth, retention, monetization goals.
+Maintain a prioritized backlog based on customer value, risk, and ROI.
+Translate strategy into quarterly OKRs and release plans.
+
+Customer & Market Discovery
+Run structured discovery: interviews, merchant/agent field visits, competitor benchmarking.
+Convert insights into PRDs, prototypes, and experiments (A/B testing where possible).
+
+Delivery Management (with Engineering)
+Drive end-to-end execution: requirements → design → build → QA → launch → iteration.
+Ensure acceptance criteria, release notes, rollout plans, and training materials.
+Own product quality: usability, performance, stability, incident learnings.
+
+Analytics & Growth
+Establish measurement framework:
+Fintech: activation funnel, txn frequency, retained users, agent productivity, conversion.
+B2B: onboarding-to-first-order time, reorder rate, basket size, cancellations, SKU coverage.
+Partner with commercial teams on GTM, onboarding playbooks, promotions.
+
+Risk & Compliance in Product
+Embed KYC/AML, fraud checks, permissions, audit trails into product flows.
+Ensure data privacy and security-by-design with the tech team.
+
+Success Metrics (12–18 months)
+Improved activation and retention by cohort.
+Increased transaction frequency and reduced funnel drop-offs.
+Reduced time-to-first-order (B2B) and higher repeat order rate.
+Release predictability and quality (defect/incident/rollback rates).
+Roadmap execution tied to measurable ROI per major initiative.
+
+Requirements
+Strong product leadership experience; fintech/payments or B2B platforms strongly preferred.
+Strong discovery, PRD writing, prioritization, stakeholder management.
+Solid understanding of unit economics, funnel metrics, experimentation.
+Experience working with engineering, compliance, and operations.
+
+Couldn't find experience requirement in About the Job!
+ICP not matched for Job ID 4377202528. Score: 15. Reason(s): No role keyword matched | Company size not matched (11-50) | No non-technical founder signal found
+
+-@-
+
+HR info was not given for "Analyst – Closing Support" with Job ID: 4341252882!
+
+About the job
+Better is the first AI-native mortgage and home equity finance company, revolutionizing one of the largest financial markets in the world. We make home finance radically more transparent; using AI and proprietary technology to eliminate friction from the mortgage process through our industry-leading AI platform, Tinman®, and the first voice-based AI mortgage assistant, Betsy™. Our mission is simple: make homeownership cheaper, faster and more accessible by transforming how people buy and finance homes.
+
+The facts that speak for themselves:
+
+
+ We’ve funded over $110 billion in loans (more than any other fintech in the US!)
+ Raised over $1.2 billion in equity capital to modernize the $15 trillion mortgage industry
+ Better’s propriety AI platform makes us an award-winning lender:
+ Fintech Breakthrough Award 2025: Best Lending Innovation
+ Yahoo! Finance (Jan 2025): Best Mortgage Lender for First-Time Homebuyers – Best for quick approval
+ Yahoo! Finance (2025): Best Online Mortgage Lender
+ Money Magazine (2025): Best for fast closing
+ Forbes (2023): Best Online Mortgage Lender
+
+
+
+We’re building the future of home finance—and we’re looking for smart, driven, ambitious innovators who are ready to tackle the most impactful work of their careers.
+
+Description
+The Closing Support team plays a crucial role in assisting the Closing department by handling key pre-closing and quality control tasks. This includes preparing Initial Closing Disclosures (ICDs), pre-balancing files, performing quality reviews, and ensuring all regulatory requirements are met. The role requires strong attention to detail, organizational skills, and a clear understanding of mortgage documentation and compliance standards.
+
+Responsibilities
+
+ Communicate and coordinate with internal and external stakeholders
+ Generate accurate and timely disclosures and closing documents, ensuring all regulatory requirements are met
+ Pre-balance the Closing Disclosure (CD) by coordinating with settlement agents and internal teams
+ Coordinate with the Loan team—including Loan Specialists, Closers, and Title Companies—to drive progress toward key milestones
+ Review loan files prior to closing to identify potential roadblocks and escalate them to the appropriate teams to ensure timely loan closure
+ Assist with post-closing activities, including disbursement issues and supplemental wire requests, etc
+
+
+
+Basic Qualifications/ Skill Sets
+
+ High school diploma or equivalent; bachelor's degree in a related field is a plus
+ Minimum of [1] years of experience in mortgage closing, loan processing, or a related role
+ Strong understanding of mortgage loan documentation, terms, and regulatory guidelines
+ Excellent attention to detail and organizational skills
+ Ability to work independently and meet tight deadlines
+ Proficient in using mortgage industry software and tools
+ Strong communication and interpersonal skills
+
+
+
+Company Benefits
+In Office Perks
+
+Experience our comprehensive office perks, including daily meals and transport facility for commuting to and from the office, available for all employees coming to the office.
+
+Health & Well-being
+
+Our comprehensive medical plan is available for you, your spouse and dependents. Employees are covered under Mediclaim, Group Term life insurance and Accidental insurance.
+
+Other Perks at Better
+
+Experience flexibility with our night shift allowance, work from home allowance and transportation allowance, where applicable. We prioritize your convenience.
+
+We may use artificial intelligence (AI) tools to support parts of the hiring process, such as reviewing applications, analyzing resumes, or assessing responses. These tools assist our recruitment team but do not replace human judgment. Final hiring decisions are ultimately made by humans. If you would like more information about how your data is processed, please contact us.
+
+Couldn't find experience requirement in About the Job!
+ICP not matched for Job ID 4341252882. Score: 15. Reason(s): No role keyword matched | Company size not matched (1001-5000) | No non-technical founder signal found
+
+-@-
+
+HR info was not given for "Software Engineering Manager (Full Stack)" with Job ID: 4368215900!
+ICP not matched for Job ID 4368215900. Score: 35. Reason(s): Company size not matched (1001-5000) | No non-technical founder signal found
+
+-@-
+
+
+About the job
+We are hiring an experienced End-to-End Underwriter in US Mortgage (Must have) responsible for managing the complete underwriting lifecycle, from application review through final decisioning. The role requires strong analytical skills and hands-on experience evaluating risk using the 4Cs of Credit framework.
+
+Key Responsibilities
+Perform end-to-end underwriting for loan/insurance applications in line with company risk policies
+Assess applications using the 4Cs of Credit — Character, Capacity, Capital, and Collateral
+Review credit reports, income documents, bank statements, and financial records
+Conduct income analysis, debt-to-income calculations, and affordability assessment
+Evaluate risk exposure and provide approval, decline, or conditional decisions
+Identify red flags, discrepancies, and potential fraud indicators
+Ensure compliance with regulatory and internal underwriting guidelines
+Coordinate with processing, operations, and business teams for case resolution
+Maintain accurate underwriting documentation and audit-ready records
+Achieve productivity, accuracy, and turnaround time (TAT) targets
+
+Couldn't find experience requirement in About the Job!
+ICP not matched for Job ID 4378819547. Score: 15. Reason(s): No role keyword matched | Company size not matched (Unknown) | No non-technical founder signal found
+
+-@-
+
+HR info was not given for "Head of Product" with Job ID: 4380758345!
+
+About the job
+Define and own the product strategy and technology roadmap for motor control units used in electric drive systems.
+Stay current with trends in e-motors, inverters, power electronics, and battery systems.
+Analyze market trends, regulatory requirements, and competitive products to guide feature prioritization.
+Identify new business opportunities in ePowertrain and energy management solutions.
+Develop clear value propositions and business cases for product investments.
+Collaborate with sales, engineering, and program management to ensure customer satisfaction and project success.
+
+Couldn't find experience requirement in About the Job!
+ICP not matched for Job ID 4380758345. Score: 15. Reason(s): No role keyword matched | Company size not matched (51-200) | No non-technical founder signal found
+
+-@-
+
+ICP not matched for Job ID 4379160898. Score: 15. Reason(s): No role keyword matched | Company size not matched (Unknown) | No non-technical founder signal found
+
+-@-
+
+ICP not matched for Job ID 4377251532. Score: 15. Reason(s): No role keyword matched | Company size not matched (501-1000) | No non-technical founder signal found
+
+-@-
+
+ICP not matched for Job ID 4378356240. Score: 35. Reason(s): Company size not matched (201-500) | No non-technical founder signal found
+
+-@-
+
+HR info was not given for "Software Engineering Manager (Full Stack)" with Job ID: 4368823107!
+Failed to calculate the date posted!
+Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff7d545aa55
+	0x7ff7d51b8630
+	0x7ff7d4f4d546
+	0x7ff7d4f98113
+	0x7ff7d4fd18e2
+	0x7ff7d4fcbb11
+	0x7ff7d4fcadc3
+	0x7ff7d4f16505
+	0x7ff7d5487810
+	0x7ff7d5481afd
+	0x7ff7d54a2c1a
+	0x7ff7d51d3345
+	0x7ff7d51db81c
+	0x7ff7d4f1536a
+	0x7ff7d55e2b08
+	0x7ffdf538e8d7
+	0x7ffdf622c40c
+
+Unable to extract job description!
+ICP not matched for Job ID 4368823107. Score: 0. Reason(s): No role keyword matched | Company size not matched (Unknown) | Industry keyword not matched | No non-technical founder signal found
+
+-@-
+
+Browser window closed or session is invalid. Ending application process.
+Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff7d545aa55
+	0x7ff7d51b8630
+	0x7ff7d4f4d546
+	0x7ff7d4f98113
+	0x7ff7d4fd18e2
+	0x7ff7d4fcbb11
+	0x7ff7d4fcadc3
+	0x7ff7d4f16505
+	0x7ff7d5487810
+	0x7ff7d5481afd
+	0x7ff7d54a2c1a
+	0x7ff7d51d3345
+	0x7ff7d51db81c
+	0x7ff7d4f1536a
+	0x7ff7d55e2b08
+	0x7ffdf538e8d7
+	0x7ffdf622c40c
+
+Browser window closed or session is invalid. Exiting.
+Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff7d545aa55
+	0x7ff7d51b8630
+	0x7ff7d4f4d546
+	0x7ff7d4f98113
+	0x7ff7d4fd18e2
+	0x7ff7d4fcbb11
+	0x7ff7d4fcadc3
+	0x7ff7d4f16505
+	0x7ff7d5487810
+	0x7ff7d5481afd
+	0x7ff7d54a2c1a
+	0x7ff7d51d3345
+	0x7ff7d51db81c
+	0x7ff7d4f1536a
+	0x7ff7d55e2b08
+	0x7ffdf538e8d7
+	0x7ffdf622c40c
+
+Total runs: 1
+Jobs scanned: 58
+ICP leads matched: 2
+ICP leads saved: 2
+Jobs Easy Applied: 0
+External job links collected: 0
+Total applied or collected: 0
+Failed jobs: 0
+Irrelevant jobs skipped: 0
+
+
+
+Total runs:                     1
+Jobs scanned:                   58
+ICP leads matched:              2
+ICP leads saved:                2
+ICP leads file:                 all excels\icp_leads__20260304_144632.csv
+Jobs Easy Applied:              0
+External job links collected:   0
+                              ----------
+Total applied or collected:     0
+
+Failed jobs:                    0
+Irrelevant jobs skipped:        0
+
+Keep up with the progress. You got this. - Sai Vignesh Golla
+
+
+
+You can also get your quote and name shown here, or prioritize your bug reports by supporting the project at:
+
+https://github.com/sponsors/GodsScion
+
+
+Summary:
+Total runs: 1
+Jobs scanned: 58
+ICP leads matched: 2
+ICP leads saved: 2
+Jobs Easy Applied: 0
+External job links collected: 0
+Total applied or collected: 0
+Failed jobs: 0
+Irrelevant jobs skipped: 0
+
+
+
+Best regards,
+Sai Vignesh Golla
+https://www.linkedin.com/in/saivigneshgolla/
+
+Top Sponsors:
+Be the first to have your name here!
+Closing the browser...
+Detected local Chrome major version: 145. Attempting to download matching ChromeDriver first (if missing)...
+Fetching matching ChromeDriver version from: https://googlechromelabs.github.io/chrome-for-testing/LATEST_RELEASE_145
+Downloading ChromeDriver from: https://storage.googleapis.com/chrome-for-testing-public/145.0.7632.117/win64/chromedriver-win64.zip
+Pre-downloaded ChromeDriver for major 145: C:\Users\jammu\AppData\Local\Temp\auto_job_chromedriver\145.0.7632.117\chromedriver-win64\chromedriver.exe
+IF YOU HAVE MORE THAN 10 TABS OPENED, PLEASE CLOSE OR BOOKMARK THEM! Or it's highly likely that application will just open browser and not do anything!
+Using temporary Chrome profile (forced guest): C:\temp\auto-job-apply-profile
+Downloading Chrome Driver... This may take some time. Undetected mode requires download every run!
+Started Chrome using pre-downloaded matching chromedriver via Selenium Service.
+ICP leads for this run will be saved at: c:\Projects\Alerix-SDR\ICP Matching - Auto_job_applier_linkedIn\all excels\icp_leads__20260304_150236.csv
+
+########################################################################################################################
+
+Date and Time: 2026-03-04 15:02:43.252079
+Cycle number: 1
+Lead extraction mode: extractor_only | ICP match mode: score | ICP threshold: 70
+ICP leads output file: c:\Projects\Alerix-SDR\ICP Matching - Auto_job_applier_linkedIn\all excels\icp_leads__20260304_150236.csv
+Using search terms source: config/icp.py -> icp_search_terms
+Using search location source: config/search.py -> search_location
+Currently looking for jobs posted within 'Past week' and sorting them by ''
+The CSV file 'c:\Projects\Alerix-SDR\ICP Matching - Auto_job_applier_linkedIn\all excels\icp_leads__20260304_150236.csv' does not exist.
+
+________________________________________________________________________________________________________________________
+
+
+>>>> Now searching for "CTO" <<<<
+
+
+Setting search location as: "India"
+
+-@-
+
+HR info was not given for "CTO / Founding Full Stack Engineer | Node + React (Equity)" with Job ID: 4370603901!
+ICP lead saved for "CTO / Founding Full Stack Engineer | Node + React (Equity) | WellVantage (IIT-K incubated" with score 70. Job ID: 4370603901
+
+-@-
+
+HR info was not given for "SU - Chief Technology Officer (CTO)" with Job ID: 4371442393!
+ICP lead saved for "SU - Chief Technology Officer (CTO) | Somewher" with score 70. Job ID: 4371442393
+
+-@-
+
+HR info was not given for "Information Systems Manager | Remote" with Job ID: 4373966114!
+
+About the job
+Position: Computer & Information Systems Manager Expert
+Type: Contract
+Compensation: Competitive hourly rate
+Location: Remote
+Commitment: Flexible
+
+Role Responsibilities
+Direct daily IT operations, analyze workflows, set priorities, and ensure timely project delivery
+Collaborate with cross-functional teams, vendors, and department leaders to resolve technical challenges
+Oversee project planning and coordinate the work of systems analysts, programmers, and IT professionals
+Develop and implement data security, disaster recovery, and strategic computing policies
+Provide technical support and training to ensure seamless system operations
+Evaluate emerging technologies and recommend system improvements aligned with organizational goals
+Support AI training initiatives through strong infrastructure and technology management
+
+Requirements
+Expertise in database systems such as Apache Cassandra, MongoDB, NoSQL platforms, and Oracle PL/SQL
+Proficiency with AWS, Microsoft SQL Server, MySQL, Blackboard, and related query tools
+Experience with development environments including Apache Maven, Eclipse IDE, .NET Framework, and Visual Studio
+Knowledge of ERP systems such as Microsoft Dynamics, Oracle PeopleSoft, and SAP
+Strong understanding of web platform development and cloud-based architectures
+Excellent written and verbal communication skills
+Proven ability to manage projects, budgets, and technical teams in fast-paced environments
+
+Application Process
+Upload resume
+Interview
+Submit form
+
+Desired Skills and Experience
+management, information technology, computer programs
+
+Couldn't find experience requirement in About the Job!
+ICP not matched for Job ID 4373966114. Score: 15. Reason(s): No role keyword matched | Company size not matched (11-50) | No non-technical founder signal found
+
+-@-
+
+HR info was not given for "CTO (10+ experience) (Part-time, Equity only - No pay until funding)" with Job ID: 4379497740!
+ICP lead saved for "CTO (10+ experience) (Part-time, Equity only - No pay until funding) | PD Consultin" with score 70. Job ID: 4379497740
+
+-@-
+
+ICP not matched for Job ID 4373338585. Score: -5. Reason(s): Technical exclusion signal: vp engineering | Company size not matched (2-10) | Industry keyword not matched | No non-technical founder signal found
+
+-@-
+
+HR info was not given for "Co-Founder & CTO" with Job ID: 4379494922!
+
+About the job
+Co-Founder (CTO) | AI-Driven GTM Platform
+We’re building a GTM-AI platform where AI agents autonomously run go-to-market workflows—research, personalization, orchestration, and continuous learning.
+ The GTM world is moving from disconnected tools to AI-led execution systems, and we already have paying customers validating this shift.
+
+P.S-This is a co-founder role for someone who plans to build long-term and is willing to invest capital as part of that commitment. If this aligns with how you like to build and invest, please apply.
+
+Where We Are
+Live product with production GTM workflows
+~$1,500 USD MRR and growing
+Strong GTM, growth, and customer access from the founding team
+Clear technical direction with room to shape the architecture
+
+What We’re Building
+Agentic AI workflows for real GTM teams
+LLM-driven personalization and decisioning
+Learning loops based on outcomes, not dashboards
+Simple UX over complex intelligence
+
+Who This Is For
+This is a true co-founder role for someone who:
+Has built AI workflows or agentic systems before
+Is hands-on with LLMs, orchestration, tools, memory, RAG, and evaluation
+Thinks in terms of ownership, not employment
+Believes that shared risk builds shared conviction
+Is comfortable aligning early through both effort and capital to move faster and build right
+
+What You’ll Own
+End-to-end technical and AI architecture
+Designing, shipping, and scaling agent systems
+Turning resources into execution velocity
+Co-leading product, strategy, and long-term direction
+Building the foundation for a strong engineering org
+
+This Is / Is Not
+This is:
+A high-ownership, high-trust co-founder journey
+Early stage, fast learning, real impact
+A role where commitment matters more than titles
+This is NOT:
+A salaried CTO role
+A passive or low-involvement opportunity
+A comfort-first, playbook-driven job
+If you’re excited by 0 → 1 building, shared upside, and meaningful ownership—let’s talk.
+
+Couldn't find experience requirement in About the Job!
+ICP not matched for Job ID 4379494922. Score: 55. Reason(s): Company size not matched (11-50) | Industry keyword not matched | No non-technical founder signal found
+
+-@-
+
+ICP not matched for Job ID 4360586478. Score: 15. Reason(s): No role keyword matched | Company size not matched (1001-5000) | No non-technical founder signal found
+
+-@-
+
+HR info was not given for "B2B Staff Augmentation/IT-Marketing Services Business Development Executive – UK/US (Commission-Based)" with Job ID: 4379464273!
+
+About the job
+About ZeusInfinity
+ZeusInfinity operates across two high-value B2B verticals:
+1 SaaS & Software Product GTM Execution
+We help IT services companies, SaaS firms, and product-based tech businesses execute structured go-to-market campaigns including:
+SaaS SEO
+GTM positioning
+LinkedIn authority building
+Cold outreach systems
+Webinar funnels
+Performance-led pipeline growth
+2 Workforce & Staff Augmentation (UK-Focused)
+We help UK & European companies deploy cost-efficient remote teams from India, including:
+Virtual Assistants
+Accountants
+Operations Support
+SaaS Support Teams
+Admin & Back-office roles
+This is not a generic digital marketing role.
+ This is B2B technology & outsourcing-focused revenue acquisition.
+
+Who We Are Looking For
+We are seeking a B2B sales professional with experience selling to:
+SaaS companies
+IT services firms
+Software product companies
+UK/European SMEs hiring remote teams
+Outsourcing / staff augmentation clients
+If your background is in FMCG, construction, cosmetics, or retail distribution — this role is not aligned.
+
+Your Role
+Acquire and close high-value recurring contracts in:
+• SaaS GTM retainers (£2,000–£5,000/month)
+• Staff augmentation placements (recurring monthly billing)
+• IT / Digital Marketing Services
+We handle delivery.
+ You focus purely on revenue generation.
+
+What You’ll Do 
+Strategic Prospecting
+Identify SaaS & IT services companies expanding into UK/EU markets
+Target UK SMEs hiring operational talent
+Build ICP-based prospect lists
+Use LinkedIn, Apollo, email outreach, referrals, and professional communities
+Multi-Channel Outreach
+Run structured cold email campaigns
+LinkedIn authority-based outreach
+Direct founder/decision-maker conversations
+Follow-up systems & objection handling
+Discovery & Closing
+Conduct structured discovery calls
+Understand hiring or GTM needs
+Present ZeusInfinity’s SaaS GTM or Workforce solutions
+Close monthly recurring retainers
+Handover
+Structured client onboarding handoff
+Clear documentation of scope & expectations
+
+
+How You Earn (Recurring Commission Model)
+You earn:
+
+Up to 20% recurring commission
+On every monthly retainer client you bring in.
+Paid every month for as long as the client remains active.
+No cap on earnings.
+
+
+Example Earnings
+If you close:
+2 clients at £3,000/month retainers
+20% commission = £600 per client per month
+That’s:
+£1,200 per month recurring
+Every month those clients remain active.
+Now imagine:
+By Month 6, you have closed 7–10 clients averaging £2,500–£3,000/month.
+At ~£500 average commission per client:
+7 clients = £3,500/month
+10 clients = £5,000/month
+Your income compounds.
+Each new client adds to your recurring monthly base.
+
+
+Minimum Deal Size Requirement
+You must be comfortable closing retainers of £2,000+ per month.
+This is a premium B2B service role, not low-ticket selling.
+
+
+Work Structure
+Global opportunity
+Must align with Europe/UK business hours
+Fully remote
+No exclusivity required
+
+
+Ideal Candidate
+Proven B2B sales experience
+Comfortable pitching founders & decision-makers
+Confident running discovery calls
+Strong objection handling skills
+Independent, disciplined, target-driven
+Comfortable with cold outreach
+Proof of Sales Experience Required (Mandatory)
+To be considered, you must share at least one of the following:
+• Your Upwork / Fiverr / Freelancer profile link
+OR
+• LinkedIn profile clearly showing B2B sales experience
+OR
+• Evidence of closed B2B deals (portfolio, screenshots, references)
+Applications without proof of active B2B selling experience will not be reviewed.
+
+
+Commission Understanding Confirmation
+In your application, clearly confirm:
+☐ The counter for word "ZI" is 3..
+Applications without this confirmation will not be reviewed.
+
+
+Application Validation Step (Mandatory)
+To confirm that you have read the complete job description:
+Tell us the total number of times the word ZI appears in this job post.
+Add +2 to that number.
+Mention the final number in your application.
+Applications without this validation step will be automatically rejected.
+
+
+This Role Is NOT For You If
+You require a fixed base salary
+You are uncomfortable with cold outreach
+You prefer inbound-only leads
+You are not confident closing £2,000+ retainers
+You need daily supervision
+
+
+How to Apply
+Send:
+Short overview of your B2B sales experience
+Market you prefer (UK / Europe)
+Weekly availability
+Required validation answers
+Email: contact@zeusinfinity.in
+
+Or apply via LinkedIn.
+
+Couldn't find experience requirement in About the Job!
+ICP not matched for Job ID 4379464273. Score: 15. Reason(s): No role keyword matched | Company size not matched (11-50) | No non-technical founder signal found
+
+-@-
+
+
+About the job
+Job Description
+Job Description
+Key Responsibilities
+Strategic ITAM Leadership
+Define and own the global AI-first ITAM managed services strategy aligned to client outcomes, revenue growth, and operational scalability.
+Serve as executive ITAM SME for clients, pursuits, and internal stakeholders.
+Establish standardized ITAM operating models aligned to ITIL, ISO, and regulatory requirements.
+Translate client business drivers into measurable ITAM value outcomes such as cost optimization, risk reduction, and lifecycle efficiency.
+
+Pre Sales, Pursuit, and Solutions Design
+Lead ITAM solution design for qualified opportunities across enterprise and mid-market clients.
+Own ITAM sections of RFP responses, RFIs, and client proposals.
+Author Statements of Work including scope, assumptions, service levels, pricing inputs, and transition approach.
+Develop executive level presentation decks that articulate value, delivery model, and differentiation.
+Partner with Sales and Account teams to position ITAM as a strategic managed service offering.
+Support deal shaping, solution defensibility, and client presentations through close.
+
+Managed Services Delivery Oversight
+Govern end to end ITAM lifecycle services including hardware, software, and cloud assets.
+Define service catalogs, SLAs, SLOs, and KPIs for ITAM managed services.
+Ensure integration between ITAM, ITSM, procurement, CMDB, and financial systems.
+Oversee onboarding, transition, and stabilization of new ITAM managed services clients.
+Drive continuous improvement initiatives focused on automation, data quality, and process maturity.
+
+Governance, Risk, and Compliance
+Establish governance frameworks to manage licensing compliance, audit readiness, and contractual risk.
+Ensure alignment with software publishers, regulatory requirements, and client policies.
+Lead audit response strategy and remediation planning for managed services clients.
+Monitor asset risk exposure including underutilization, non compliance, and financial leakage.
+
+Business Growth and Market Expansion
+Identify new ITAM service offerings aligned to market demand and client needs.
+Expand ITAM managed services footprint within existing accounts.
+Support pricing strategy, cost models, and margin assumptions for ITAM services.
+Track market trends and competitor offerings to inform solution differentiation.
+
+Performance Management and Executive Reporting
+Define performance metrics across service delivery, financial optimization, and compliance.
+Build and govern executive dashboards for clients and internal leadership.
+Translate asset and license data into actionable insights for executive decision making.
+Drive service reviews focused on outcomes, not just operational metrics.
+
+Team Leadership and Capability Development
+Lead and mentor ITAM solution architects, analysts, and service leaders.
+Set clear expectations for quality, accountability, and client engagement.
+Build scalable delivery models leveraging onshore, nearshore, and offshore resources.
+Identify skill gaps and drive training in ITAM, ITIL, and managed services delivery.
+
+Industry Engagement and Thought Leadership
+Represent the organization in client briefings, industry forums, and conferences.
+Contribute to ITAM thought leadership, whitepapers, and service frameworks.
+Continuously refine solution methodologies to maintain competitive advantage.
+
+Qualifications and Experience
+Education and Certifications
+Bachelor’s degree in Information Systems, Computer Science, Engineering, or equivalent experience.
+ITAM certifications such as CSAM or CHAMP preferred.
+ITIL v3 or v4 Foundation or higher strongly preferred.
+
+Professional Experience
+10 or more years of progressive IT Asset Management experience.
+Demonstrated success delivering ITAM as a managed service to external clients.
+Proven leadership in pre sales, solution design, RFP responses, and SOW development.
+Strong background integrating ITAM with ITIL based ITSM, procurement, supply chain and financial processes.
+Experience supporting global environments including international logistics and regulatory constraints.
+
+Technical Expertise
+Enterprise ITAM and ITSM platforms such as ServiceNow, Flexera, Oomnitza, ManagedEngine, Jira ITAM, or equivalent.
+Asset lifecycle management, software license optimization, and audit defense.
+Reporting and analytics using Power BI, Looker Studio, Tableau, or similar tools.
+Automation and data quality improvement initiatives.
+
+Leadership and Client Skills
+Executive presence with strong storytelling and presentation capability.
+Ability to influence C level stakeholders and close complex services deals.
+Data driven decision making with strong analytical skills.
+Entrepreneurial mindset with a focus on scalable services and measurable outcomes.
+
+Couldn't find experience requirement in About the Job!
+ICP not matched for Job ID 4368717641. Score: 50. Reason(s): Company size not matched (1001-5000) | No non-technical founder signal found
+
+-@-
+
+HR info was not given for "Chief Technology Leader – B2B Platforms" with Job ID: 4379558251!
+Failed to calculate the date posted!
+Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=145.0.7632.117)
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff7c018aa55
+	0x7ff7bfee8630
+	0x7ff7bfc7d75d
+	0x7ff7bfc542a2
+	0x7ff7bfd08e86
+	0x7ff7bfd25282
+	0x7ff7bfcc9098
+	0x7ff7bfcc9f83
+	0x7ff7c01b7810
+	0x7ff7c01b1afd
+	0x7ff7c01d2c1a
+	0x7ff7bff03345
+	0x7ff7bff0b81c
+	0x7ff7bfef1924
+	0x7ff7bfef1ad6
+	0x7ff7bfed7e47
+	0x7ffdf538e8d7
+	0x7ffdf622c40c
+
+Unable to extract job description!
+ICP not matched for Job ID 4379558251. Score: 0. Reason(s): No role keyword matched | Company size not matched (Unknown) | Industry keyword not matched | No non-technical founder signal found
+
+-@-
+
+Browser window closed or session is invalid. Ending application process.
+Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=145.0.7632.117)
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff7c018aa55
+	0x7ff7bfee8630
+	0x7ff7bfc7d75d
+	0x7ff7bfc542a2
+	0x7ff7bfd08e86
+	0x7ff7bfd25282
+	0x7ff7bfcc9098
+	0x7ff7bfcc9f83
+	0x7ff7c01b7810
+	0x7ff7c01b1afd
+	0x7ff7c01d2c1a
+	0x7ff7bff03345
+	0x7ff7bff0b81c
+	0x7ff7bfef1924
+	0x7ff7bfef1ad6
+	0x7ff7bfed7e47
+	0x7ffdf538e8d7
+	0x7ffdf622c40c
+
+Browser window closed or session is invalid. Exiting.
+Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=145.0.7632.117)
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff7c018aa55
+	0x7ff7bfee8630
+	0x7ff7bfc7d75d
+	0x7ff7bfc542a2
+	0x7ff7bfd08e86
+	0x7ff7bfd25282
+	0x7ff7bfcc9098
+	0x7ff7bfcc9f83
+	0x7ff7c01b7810
+	0x7ff7c01b1afd
+	0x7ff7c01d2c1a
+	0x7ff7bff03345
+	0x7ff7bff0b81c
+	0x7ff7bfef1924
+	0x7ff7bfef1ad6
+	0x7ff7bfed7e47
+	0x7ffdf538e8d7
+	0x7ffdf622c40c
+
+Total runs: 1
+Jobs scanned: 11
+ICP leads matched: 3
+ICP leads saved: 3
+Jobs Easy Applied: 0
+External job links collected: 0
+Total applied or collected: 0
+Failed jobs: 0
+Irrelevant jobs skipped: 0
+
+
+
+Total runs:                     1
+Jobs scanned:                   11
+ICP leads matched:              3
+ICP leads saved:                3
+ICP leads file:                 c:\Projects\Alerix-SDR\ICP Matching - Auto_job_applier_linkedIn\all excels\icp_leads__20260304_150236.csv
+Jobs Easy Applied:              0
+External job links collected:   0
+                              ----------
+Total applied or collected:     0
+
+Failed jobs:                    0
+Irrelevant jobs skipped:        0
+
+If you're tired, learn to take rest but never give up. - Sai Vignesh Golla
+
+
+
+You can also get your quote and name shown here, or prioritize your bug reports by supporting the project at:
+
+https://github.com/sponsors/GodsScion
+
+
+Summary:
+Total runs: 1
+Jobs scanned: 11
+ICP leads matched: 3
+ICP leads saved: 3
+Jobs Easy Applied: 0
+External job links collected: 0
+Total applied or collected: 0
+Failed jobs: 0
+Irrelevant jobs skipped: 0
+
+
+
+Best regards,
+Sai Vignesh Golla
+https://www.linkedin.com/in/saivigneshgolla/
+
+Top Sponsors:
+Be the first to have your name here!
+Closing the browser...
+Detected local Chrome major version: 145. Attempting to download matching ChromeDriver first (if missing)...
+Fetching matching ChromeDriver version from: https://googlechromelabs.github.io/chrome-for-testing/LATEST_RELEASE_145
+Downloading ChromeDriver from: https://storage.googleapis.com/chrome-for-testing-public/145.0.7632.117/win64/chromedriver-win64.zip
+Pre-downloaded ChromeDriver for major 145: C:\Users\jammu\AppData\Local\Temp\auto_job_chromedriver\145.0.7632.117\chromedriver-win64\chromedriver.exe
+IF YOU HAVE MORE THAN 10 TABS OPENED, PLEASE CLOSE OR BOOKMARK THEM! Or it's highly likely that application will just open browser and not do anything!
+Using temporary Chrome profile (forced guest): C:\temp\auto-job-apply-profile
+Downloading Chrome Driver... This may take some time. Undetected mode requires download every run!
+Started Chrome using pre-downloaded matching chromedriver via Selenium Service.
+ICP leads for this run will be saved at: c:\Projects\Alerix-SDR\ICP Matching - Auto_job_applier_linkedIn\all excels\icp_leads__20260304_150402.csv
+
+########################################################################################################################
+
+Date and Time: 2026-03-04 15:04:08.725598
+Cycle number: 1
+Lead extraction mode: extractor_only | ICP match mode: score | ICP threshold: 70
+ICP leads output file: c:\Projects\Alerix-SDR\ICP Matching - Auto_job_applier_linkedIn\all excels\icp_leads__20260304_150402.csv
+Using search terms source: config/icp.py -> icp_search_terms
+Using search location source: config/icp.py -> icp_search_location
+Currently looking for jobs posted within 'Past week' and sorting them by ''
+The CSV file 'c:\Projects\Alerix-SDR\ICP Matching - Auto_job_applier_linkedIn\all excels\icp_leads__20260304_150402.csv' does not exist.
+
+________________________________________________________________________________________________________________________
+
+
+>>>> Now searching for "CTO" <<<<
+
+
+Setting search location as: "New York, NY, United States"
+
+-@-
+
+HR info was not given for "CTO (10+ experience) (Part-time, Equity only - No pay until funding)" with Job ID: 4379497740!
+ICP lead saved for "CTO (10+ experience) (Part-time, Equity only - No pay until funding) | PD Consultin" with score 70. Job ID: 4379497740
+
+-@-
+
+HR info was not given for "B2B Staff Augmentation/IT-Marketing Services Business Development Executive – UK/US (Commission-Based)" with Job ID: 4379464273!
+
+About the job
+About ZeusInfinity
+ZeusInfinity operates across two high-value B2B verticals:
+1 SaaS & Software Product GTM Execution
+We help IT services companies, SaaS firms, and product-based tech businesses execute structured go-to-market campaigns including:
+SaaS SEO
+GTM positioning
+LinkedIn authority building
+Cold outreach systems
+Webinar funnels
+Performance-led pipeline growth
+2 Workforce & Staff Augmentation (UK-Focused)
+We help UK & European companies deploy cost-efficient remote teams from India, including:
+Virtual Assistants
+Accountants
+Operations Support
+SaaS Support Teams
+Admin & Back-office roles
+This is not a generic digital marketing role.
+ This is B2B technology & outsourcing-focused revenue acquisition.
+
+Who We Are Looking For
+We are seeking a B2B sales professional with experience selling to:
+SaaS companies
+IT services firms
+Software product companies
+UK/European SMEs hiring remote teams
+Outsourcing / staff augmentation clients
+If your background is in FMCG, construction, cosmetics, or retail distribution — this role is not aligned.
+
+Your Role
+Acquire and close high-value recurring contracts in:
+• SaaS GTM retainers (£2,000–£5,000/month)
+• Staff augmentation placements (recurring monthly billing)
+• IT / Digital Marketing Services
+We handle delivery.
+ You focus purely on revenue generation.
+
+What You’ll Do 
+Strategic Prospecting
+Identify SaaS & IT services companies expanding into UK/EU markets
+Target UK SMEs hiring operational talent
+Build ICP-based prospect lists
+Use LinkedIn, Apollo, email outreach, referrals, and professional communities
+Multi-Channel Outreach
+Run structured cold email campaigns
+LinkedIn authority-based outreach
+Direct founder/decision-maker conversations
+Follow-up systems & objection handling
+Discovery & Closing
+Conduct structured discovery calls
+Understand hiring or GTM needs
+Present ZeusInfinity’s SaaS GTM or Workforce solutions
+Close monthly recurring retainers
+Handover
+Structured client onboarding handoff
+Clear documentation of scope & expectations
+
+
+How You Earn (Recurring Commission Model)
+You earn:
+
+Up to 20% recurring commission
+On every monthly retainer client you bring in.
+Paid every month for as long as the client remains active.
+No cap on earnings.
+
+
+Example Earnings
+If you close:
+2 clients at £3,000/month retainers
+20% commission = £600 per client per month
+That’s:
+£1,200 per month recurring
+Every month those clients remain active.
+Now imagine:
+By Month 6, you have closed 7–10 clients averaging £2,500–£3,000/month.
+At ~£500 average commission per client:
+7 clients = £3,500/month
+10 clients = £5,000/month
+Your income compounds.
+Each new client adds to your recurring monthly base.
+
+
+Minimum Deal Size Requirement
+You must be comfortable closing retainers of £2,000+ per month.
+This is a premium B2B service role, not low-ticket selling.
+
+
+Work Structure
+Global opportunity
+Must align with Europe/UK business hours
+Fully remote
+No exclusivity required
+
+
+Ideal Candidate
+Proven B2B sales experience
+Comfortable pitching founders & decision-makers
+Confident running discovery calls
+Strong objection handling skills
+Independent, disciplined, target-driven
+Comfortable with cold outreach
+Proof of Sales Experience Required (Mandatory)
+To be considered, you must share at least one of the following:
+• Your Upwork / Fiverr / Freelancer profile link
+OR
+• LinkedIn profile clearly showing B2B sales experience
+OR
+• Evidence of closed B2B deals (portfolio, screenshots, references)
+Applications without proof of active B2B selling experience will not be reviewed.
+
+
+Commission Understanding Confirmation
+In your application, clearly confirm:
+☐ The counter for word "ZI" is 3..
+Applications without this confirmation will not be reviewed.
+
+
+Application Validation Step (Mandatory)
+To confirm that you have read the complete job description:
+Tell us the total number of times the word ZI appears in this job post.
+Add +2 to that number.
+Mention the final number in your application.
+Applications without this validation step will be automatically rejected.
+
+
+This Role Is NOT For You If
+You require a fixed base salary
+You are uncomfortable with cold outreach
+You prefer inbound-only leads
+You are not confident closing £2,000+ retainers
+You need daily supervision
+
+
+How to Apply
+Send:
+Short overview of your B2B sales experience
+Market you prefer (UK / Europe)
+Weekly availability
+Required validation answers
+Email: contact@zeusinfinity.in
+
+Or apply via LinkedIn.
+
+Couldn't find experience requirement in About the Job!
+ICP not matched for Job ID 4379464273. Score: 15. Reason(s): No role keyword matched | Company size not matched (11-50) | No non-technical founder signal found
+
+-@-
+
+HR info was not given for "Chief Technology Leader – B2B Platforms" with Job ID: 4379558251!
+Failed to calculate the date posted!
+'NoneType' object has no attribute 'find_element'
+Unable to extract job description!
+ICP not matched for Job ID 4379558251. Score: 0. Reason(s): No role keyword matched | Company size not matched (Unknown) | Industry keyword not matched | No non-technical founder signal found
+
+-@-
+
+Browser window closed or session is invalid. Ending application process.
+Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff79669aa55
+	0x7ff7963f8630
+	0x7ff79618d546
+	0x7ff7961d8113
+	0x7ff7962118e2
+	0x7ff79620bb11
+	0x7ff79620adc3
+	0x7ff796156505
+	0x7ff7966c7810
+	0x7ff7966c1afd
+	0x7ff7966e2c1a
+	0x7ff796413345
+	0x7ff79641b81c
+	0x7ff79615536a
+	0x7ff796822b08
+	0x7ffdf538e8d7
+	0x7ffdf622c40c
+
+Browser window closed or session is invalid. Exiting.
+Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff79669aa55
+	0x7ff7963f8630
+	0x7ff79618d546
+	0x7ff7961d8113
+	0x7ff7962118e2
+	0x7ff79620bb11
+	0x7ff79620adc3
+	0x7ff796156505
+	0x7ff7966c7810
+	0x7ff7966c1afd
+	0x7ff7966e2c1a
+	0x7ff796413345
+	0x7ff79641b81c
+	0x7ff79615536a
+	0x7ff796822b08
+	0x7ffdf538e8d7
+	0x7ffdf622c40c
+
+Total runs: 1
+Jobs scanned: 4
+ICP leads matched: 1
+ICP leads saved: 1
+Jobs Easy Applied: 0
+External job links collected: 0
+Total applied or collected: 0
+Failed jobs: 0
+Irrelevant jobs skipped: 0
+
+
+
+Total runs:                     1
+Jobs scanned:                   4
+ICP leads matched:              1
+ICP leads saved:                1
+ICP leads file:                 c:\Projects\Alerix-SDR\ICP Matching - Auto_job_applier_linkedIn\all excels\icp_leads__20260304_150402.csv
+Jobs Easy Applied:              0
+External job links collected:   0
+                              ----------
+Total applied or collected:     0
+
+Failed jobs:                    0
+Irrelevant jobs skipped:        0
+
+Obstacles are those frightful things you see when you take your eyes off your goal. - Henry Ford (Not a sponsor)
+
+
+
+You can also get your quote and name shown here, or prioritize your bug reports by supporting the project at:
+
+https://github.com/sponsors/GodsScion
+
+
+Summary:
+Total runs: 1
+Jobs scanned: 4
+ICP leads matched: 1
+ICP leads saved: 1
+Jobs Easy Applied: 0
+External job links collected: 0
+Total applied or collected: 0
+Failed jobs: 0
+Irrelevant jobs skipped: 0
+
+
+
+Best regards,
+Sai Vignesh Golla
+https://www.linkedin.com/in/saivigneshgolla/
+
+Top Sponsors:
+Be the first to have your name here!
+Closing the browser...
+Detected local Chrome major version: 145. Attempting to download matching ChromeDriver first (if missing)...
+Fetching matching ChromeDriver version from: https://googlechromelabs.github.io/chrome-for-testing/LATEST_RELEASE_145
+Downloading ChromeDriver from: https://storage.googleapis.com/chrome-for-testing-public/145.0.7632.117/win64/chromedriver-win64.zip
+Pre-downloaded ChromeDriver for major 145: C:\Users\jammu\AppData\Local\Temp\auto_job_chromedriver\145.0.7632.117\chromedriver-win64\chromedriver.exe
+IF YOU HAVE MORE THAN 10 TABS OPENED, PLEASE CLOSE OR BOOKMARK THEM! Or it's highly likely that application will just open browser and not do anything!
+Using temporary Chrome profile (forced guest): C:\temp\auto-job-apply-profile
+Downloading Chrome Driver... This may take some time. Undetected mode requires download every run!
+Started Chrome using pre-downloaded matching chromedriver via Selenium Service.
+ICP leads for this run will be saved at: c:\Projects\Alerix-SDR\ICP Matching - Auto_job_applier_linkedIn\all excels\icp_leads__20260304_150558.csv
+
+########################################################################################################################
+
+Date and Time: 2026-03-04 15:06:05.469565
+Cycle number: 1
+Lead extraction mode: extractor_only | ICP match mode: score | ICP threshold: 70
+ICP leads output file: c:\Projects\Alerix-SDR\ICP Matching - Auto_job_applier_linkedIn\all excels\icp_leads__20260304_150558.csv
+Using search terms source: config/icp.py -> icp_search_terms
+Using search location source: config/icp.py -> icp_search_location
+Currently looking for jobs posted within 'Past week' and sorting them by ''
+The CSV file 'c:\Projects\Alerix-SDR\ICP Matching - Auto_job_applier_linkedIn\all excels\icp_leads__20260304_150558.csv' does not exist.
+
+________________________________________________________________________________________________________________________
+
+
+>>>> Now searching for "CTO" <<<<
+
+
+Setting search location as: "New York, NY"
+
+-@-
+
+HR info was not given for "Vice President of Digital Transformation" with Job ID: 4378403522!
+
+About the job
+Vice President of Digital Transformation
+
+Location: United States (Flexible / Remote-friendly OR Hybrid)
+Employment Type: Full-time
+Compensation: $250,000-$350,000 (base + bonus + equity potential)
+Company: (Confidential Executive Search)
+
+The Mission
+This organization is a science-first carbon management firm dedicated to helping companies reduce, remove, and utilize emissions with measurable impact. Their work empowers global organizations to take meaningful climate action through science, data, and technology. With a team spanning multiple countries and states, they bring together scientists, technologists, and strategists to deliver scalable solutions that advance the path to net zero.
+
+
+The Opportunity
+We are seeking a Vice President of Digital Transformation to drive the integration of technology into climate advisory services and lead the growth of next-generation, data-driven solutions. This role sits at the intersection of strategy, technology, and sustainability, offering the chance to shape how leading organizations worldwide operationalize decarbonization. As a senior executive, you will design digital advisory frameworks, lead cross-functional innovation, and spearhead client-facing growth initiatives that make climate action scalable and actionable.
+
+
+What You’ll Do
+Advisory Digital Innovation
+Design scalable, tech-enabled advisory solutions leveraging data, AI, and digital platforms.
+Oversee the development of high-quality datasets to ensure scientific rigor and impact.
+Partner with scientists, engineers, and product leaders to deliver actionable digital solutions.
+Build repeatable methodologies that scale across clients and industries.
+
+Strategic Leadership
+
+Shape company growth strategy, resource allocation, and team design.
+Serve as an external thought leader on digital tools for decarbonization.
+Translate emerging policies and sustainability trends into service innovation.
+
+Client & Business Development
+
+Cultivate and expand executive-level client relationships.
+Lead go-to-market strategy for digital advisory offerings.
+Drive revenue growth by identifying and winning high-impact engagements.
+Mentor team members, building a scalable and future-ready advisory practice.
+
+
+What You Bring
+Extensive experience in management consulting, strategy, or advisory leadership (Director/Partner level).
+Proven success applying digital platforms, AI/ML, and data science to solve client challenges.
+Track record of building and commercializing digital consulting practices.
+Deep expertise in sustainability, carbon management, or climate strategy.
+Advanced degree required (PhD in technical/scientific field preferred).
+Exceptional communicator with the ability to align technical and commercial teams.
+Strong understanding of regulatory, policy, and data governance considerations.
+
+
+Why Join
+Mission with Meaning - Every project advances global climate action.
+Scale + Innovation - Work at the cutting edge of carbon science and technology, scaling solutions across industries.
+Flexibility + Balance - Remote-friendly work culture, generous leave, and full support for family needs.
+Long-Term Growth - Join a purpose-driven firm that invests in its people as much as its mission.
+
+This is a rare opportunity to apply your consulting, technology, and sustainability expertise to one of the defining challenges of our time, helping organizations around the globe reach their net zero goals with speed, scale, and integrity.
+
+Couldn't find experience requirement in About the Job!
+ICP not matched for Job ID 4378403522. Score: 35. Reason(s): Company size not matched (Unknown) | No non-technical founder signal found
+
+-@-
+
+
+About the job
+Equity only (no salary until funding). This is a job for US citizens only.
+
+We’re pre-funding / initial stage and building a serverless, event-driven platform that automates quarantine + blue/green failover + idempotent recovery to minimize cloud outage and security-incident blast radius.
+
+What you’ll build (0→1)
+Architect the event-driven serverless orchestration layer
+Design multi-plane quarantine (network, routing, service mesh, identity/IAM)
+Automate blue/green + canary cutover and clean-environment provisioning
+Implement idempotent remediation + state rehydration (e.g., DynamoDB/CosmosDB patterns)
+Set up CI/CD + IaC and bake in SOC 2 / ISO 27001-ready controls
+Own the 12-month MVP roadmap and early technical hiring/IP direction
+
+You’re a fit if you have
+10+ yrs building cloud-native SaaS (startup speed + production rigor)
+Deep AWS/Azure/GCP + control-plane API experience
+Strong serverless + security automation + resilience engineering background
+Proven zero-to-one leadership as a hands-on builder
+
+Stage & comp
+Stealth mode
+Pre-funding (initial stage)
+Equity-only until funding
+
+Couldn't find experience requirement in About the Job!
+ICP not matched for Job ID 4373812538. Score: 50. Reason(s): Company size not matched (2-10) | No non-technical founder signal found
+
+-@-
+
+ICP not matched for Job ID 4365411158. Score: 20. Reason(s): Company size not matched (11-50) | Industry keyword not matched | No non-technical founder signal found
+
+-@-
+
+HR info was not given for "Senior Vice President, Technology & Innovation" with Job ID: 4379177859!
+
+About the job
+Position: Senior Vice President (SVP), Technology & Innovation
+Compensation: $300,000 - $400,000 annually
+Location: United States - Flexible Remote or Hybrid Options
+Company: Confidential
+
+About the Company
+Our company partners with organizations at pivotal moments, helping build leadership teams that drive transformative growth. We’ve been retained by a privately held consumer and lifestyle company with a diverse portfolio of brands to identify a Senior Vice President of Technology & Innovation. This executive will lead the company’s digital and technical evolution, connecting creativity, commerce, and scale.
+
+The Role
+The SVP of Technology & Innovation will serve as the architect of the company’s enterprise-wide digital transformation. This hands-on, forward-looking executive will:
+Modernize legacy systems and integrate emerging technologies.
+Build platforms and processes that scale operations, enhance productivity, and elevate the customer experience.
+Translate innovation into actionable systems, data platforms, and technology solutions.
+
+Key Responsibilities
+Technology Leadership
+Define and execute a technology roadmap aligned with business priorities and long-term growth.
+Oversee product engineering, systems architecture, data infrastructure, and platform reliability.
+Lead modernization initiatives to ensure scalable, secure, and efficient enterprise operations.
+Establish industry-leading standards for cybersecurity, compliance, and governance.
+
+Innovation & AI Integration
+Drive adoption of emerging technologies, including AI, machine learning, and advanced analytics.
+Foster a culture of experimentation, innovation, and data-driven decision-making across teams.
+
+Leadership & Collaboration
+Build, mentor, and lead high-performing technology teams.
+Partner with executives across functions to align technology with business objectives.
+Act as a trusted advisor to the C-suite, translating complex technical concepts into actionable strategies.
+
+Who You Are
+You are a visionary technologist with a builder’s mindset - pragmatic, creative, and grounded. You thrive at the intersection of innovation and execution, modernizing existing systems while imagining what’s next. You are energized by transformation, fluent in collaboration, and trusted by engineers and executives alike.
+
+Qualifications / Experience
+Extensive leadership experience in technology, innovation, or digital transformation at scale.
+Proven ability to modernize legacy systems and integrate emerging technologies.
+Deep technical expertise in enterprise architecture, cloud platforms, and AI/ML adoption.
+Strong track record of leading cross-functional teams and delivering measurable business impact.
+
+Base Compensation Range
+$300,000 - $400,000 USD
+
+Equal Opportunity Statement
+Our company is an Equal Opportunity Employer. Employment decisions are based on qualifications, merit, and business needs, without regard to race, color, religion, sex, sexual orientation, gender identity, age, disability, or other protected characteristics.
+
+Couldn't find experience requirement in About the Job!
+ICP not matched for Job ID 4379177859. Score: 15. Reason(s): No role keyword matched | Company size not matched (Unknown) | No non-technical founder signal found
+
+-@-
+
+ICP not matched for Job ID 4370046623. Score: 35. Reason(s): Company size not matched (11-50) | No non-technical founder signal found
+
+-@-
+
+HR info was not given for "Chief Operating Officer - Technology Match" with Job ID: 4378613102!
+ICP not matched for Job ID 4378613102. Score: 35. Reason(s): Company size not matched (2-10) | No non-technical founder signal found
+
+-@-
+
+HR info was not given for "Chief Technology Officer" with Job ID: 4358882757!
+
+About the job
+Chief Technology Officer – Cloud Services (Google Cloud Platform)
+Location: United States
+Sector: FinTech
+Reporting to: Group Executive Team
+Company: $3B global FinTech
+The Opportunity
+We are supporting a $3B global FinTech in the appointment of a Chief Technology Officer, Cloud Services, a senior executive role reporting directly into the Group Executive team.
+This is a foundational technology and business leadership mandate. The CTO will own Google Cloud Platform (GCP) end-to-end as the firm’s core execution layer. This is not a migration or optimisation programme. The focus is on embedding GCP deeply into how the organisation architects, builds, secures, and operates software at global scale — and how technology directly enables revenue growth, product velocity, and market expansion.
+You will be fully accountable for making GCP the default platform across infrastructure, platforms, and engineering, while ensuring cloud capabilities translate into faster product delivery, improved customer outcomes, and scalable commercial growth.
+Key Responsibilities
+Cloud Strategy, Ownership & Commercial Impact
+Own the global GCP strategy and execution across all regions, products, and engineering domains
+Establish GCP as the default execution layer across infrastructure, platforms, and application engineering
+Define and evolve the firm’s long-term cloud operating model, governance, and FinOps discipline
+Translate cloud strategy into measurable business outcomes, including faster time-to-market, improved platform scalability, and revenue enablement
+Partner with executive leadership to ensure cloud investment supports growth priorities, new product launches, and geographic expansion
+Architecture & Platform Engineering
+Design and evolve multi-region, highly resilient GCP architectures, including:
+GKE and container platforms
+Networking, IAM, and security controls
+Observability, reliability, and disaster recovery
+Build standardised, reusable platform capabilities that enable engineering teams to ship faster, scale safely, and innovate with confidence
+Ensure platforms are designed to support high-volume transactions, customer growth, and future product diversification
+Software Delivery & Operations
+Embed GCP deeply into the SDLC with an automation-first mindset:
+CI/CD pipelines
+Infrastructure as Code
+SRE-led operational and reliability practices
+Bake reliability, security, and compliance into platforms by design, enabling trust, availability, and regulatory confidence at scale
+Modernisation, Data & Revenue Enablement
+Lead the modernisation of core platforms to fully leverage native GCP services for scale, performance, and cost efficiency
+Define and own the organisation’s data, analytics, and AI readiness on Google Cloud
+Enable data-driven product innovation, pricing intelligence, and customer insight that directly supports revenue growth and commercial strategy
+Partner with product leadership to ensure cloud capabilities accelerate feature velocity and monetisation opportunities
+Leadership, Board Engagement & Executive Influence
+Build and lead a GCP-first cloud organisation, starting with senior leaders and scaling globally
+Act as a senior technology advisor to the executive team and board, clearly articulating:
+How cloud strategy supports revenue growth and margin expansion
+Technology investment trade-offs and return on investment
+Platform scalability aligned to long-term business strategy
+Provide board-level visibility into platform performance, risk posture, and growth readiness
+Represent technology as a strategic growth lever, not just an operational function
+Candidate Profile
+Experience
+Proven experience leading enterprise-scale Google Cloud Platform adoption
+Track record of building cloud platforms that extend beyond infrastructure into true engineering and product enablement
+Deep hands-on understanding of GCP services, architectures, and operating models at scale
+Experience in complex, regulated, or high-availability environments (FinTech or financial services preferred)
+Leadership & Mindset
+Executive-level technology leader with full accountability for strategy, execution, and outcomes
+Comfortable operating at board level and deep technical depth
+Strong builder mindset — able to design, implement, and scale platforms and teams
+Commercially aware leader who understands how technology choices drive growth, efficiency, and competitive advantage
+Pragmatic, outcomes-focused approach with a strong bias for automation and simplicity
+Why This Role?
+Full ownership of Google Cloud across a global, high-growth FinTech
+Rare opportunity to define cloud, platform, and engineering strategy with direct revenue impact
+Significant scope, visibility, and influence at executive and board level
+A mandate that blends engineering excellence, commercial outcomes, and strategic leadership
+Even if the timing isn’t right for a move, this is a high-impact, career-defining CTO role that warrants a conversation given the scale, ownership, and growth influence involved.
+
+Couldn't find experience requirement in About the Job!
+ICP not matched for Job ID 4358882757. Score: 35. Reason(s): Company size not matched (Unknown) | No non-technical founder signal found
+
+-@-
+
+HR info was not given for "Chief Information Officer" with Job ID: 4371460952!
+Unable to extract years of experience required!
+ICP not matched for Job ID 4371460952. Score: 15. Reason(s): No role keyword matched | Company size not matched (2-10) | No non-technical founder signal found
+
+-@-
+
+
+About the job
+VP of Information Technology - CRO - Remote
+
+About our Client: Barrington James is proud to partner with a highly respected CRO client, seeking an experienced Strong VP of Information Technology to join their growing team, this is an excellent opportunity to take on a leadership role in a collaborative, innovative environment working remotely.
+
+Key Responsibilities:
+Oversee the CRO’s technology strategy and execution.
+Serve as internal SME and power user for clinical systems including CTMS, CRM, and TMF.
+Lead technology delivery and system support for both internal teams and external clients.
+Partner directly with clients as part of service delivery.
+Manage and coordinate third-party vendors and technology partners.
+Drive technology projects, implementations, upgrades, and optimizations.
+Ensure systems support compliant, efficient clinical operations.
+
+
+Qualifications & Skills:
+Senior IT leadership experience in a CRO or technology-enabled CRO environment.
+Strong hands-on background with CTMS, CRMs, and eTMF systems.
+Proven project management experience.
+Comfortable operating as a player-coach in a small, fast-growing organization.
+Experience working with third-party vendors and outsourced technology services.
+
+Couldn't find experience requirement in About the Job!
+ICP not matched for Job ID 4372101125. Score: 15. Reason(s): No role keyword matched | Company size not matched (201-500) | No non-technical founder signal found
+
+-@-
+
+HR info was not given for "Chief Technology Officer" with Job ID: 4369766849!
+Unable to extract years of experience required!
+ICP not matched for Job ID 4369766849. Score: 35. Reason(s): Company size not matched (201-500) | No non-technical founder signal found
+
+-@-
+
+HR info was not given for "Vice President, Data Strategy and Technology" with Job ID: 4369965780!
+Unable to extract years of experience required!
+ICP not matched for Job ID 4369965780. Score: 15. Reason(s): No role keyword matched | Company size not matched (2-10) | No non-technical founder signal found
+
+-@-
+
+HR info was not given for "Chief Information Officer" with Job ID: 4377252078!
+ICP not matched for Job ID 4377252078. Score: 35. Reason(s): Company size not matched (Unknown) | No non-technical founder signal found
+
+-@-
+
+
+About the job
+Banyan Software provides the best permanent home for successful enterprise software companies, their employees, and customers. We are on a mission to acquire, build and grow great enterprise software businesses all over the world that have dominant positions in niche vertical markets. In recent years, Banyan was named the #1 fastest-growing private software company in the US on the Inc. 5000 and amongst the top 10 fastest-growing companies by the Deloitte Technology Fast 500. Founded in 2016 with a permanent capital base setup to preserve the legacy of founders, Banyan focuses on a buy and hold for life strategy for growing software companies that serve specialized vertical markets.
+ Head of Technology 
+Remote (Pacific Time Hours Required: 8:00am–5:00pm PT)
+About School Pathways, a Banyan Software Company
+School Pathways is a rapidly growing education technology company serving K–12 districts, charter schools, and alternative education programs. Our solutions empower educators to manage virtual, online, and personalized learning environments more effectively, helping every student find their path to success.
+We are a tight-knit, mission-driven team building innovative technology for educators. If you are passionate about education, relationship-driven sales, and making a meaningful impact, we’d love to meet you.
+The Opportunity:
+This is an exciting opportunity to lead the technology evolution of a mission driven education platform at a pivotal stage of growth and modernization.
+As Head of Technology, you will define and execute the long-term technology vision for School Pathways. Ensuring the platform is scalable, secure, reliable and well positioned for the future of education technology. 
+You will lead Engineering and Technical Operations, driving architectural excellence, AI first innovation, and execution in close partnership with Product and Executive Leadership. You will also inspire and develop a talented team, fostering a culture of accountability, growth, and innovation.
+For a leader who is equally energized by innovation, transformation and fostering a great culture, this is an opportunity to create lasting impact on both the platform and the people behind it.
+What You Will Do:
+Define and own the technical vision and architecture for the School Pathways platform
+Lead and mentor engineering teams to deliver high-quality, scalable, and secure solutions
+Drive modernization of the platform, including infrastructure, APIs, performance optimization and AI-first capabilities.
+Partner with Product to translate vision and roadmap into technical strategy and execution plans
+Establish engineering best practices, development standards, and operational excellence
+Ensure platform security, data privacy, and compliance with education regulations
+Evaluate and adopt emerging technologies that enable innovation and long-term scalability
+Balance technical debt reduction with new feature development
+Build a strong engineering culture focused on accountability, innovation, and continuous improvement
+What We’re Looking For:
+Senior engineering leadership experience, ideally as a CTO, VP of Engineering, Director or similar role
+Deep technical expertise in SaaS architecture, infrastructure, and modern development practices
+Experience building SaaS products where AI capabilities are foundational to the value proposition (e.g., predictive insights, automation, personalization, intelligent workflows).
+Proven ability to scale platforms and teams in a growing organization
+Strong understanding of security, compliance, and reliability in enterprise software
+Strategic thinker with the ability to execute pragmatically
+Collaborative leadership style with strong cross-functional partnership skills
+The expected base salary for this position is: USD $175,000 - $250,000 excluding annual bonus and equity (when applicable). Salary is based on a number of factors including market conditions, location and may vary depending on job-related skills and experience.
+ Diversity, Equity, Inclusion & Equal Employment Opportunity at Banyan: Banyan affirms that inequality is detrimental to our Global Teams, associates, our Operating Companies, and the communities we serve. As a collective, our goal is to impact lasting change through our actions. Together, we unite for equality and equity. Banyan is committed to equal employment opportunities regardless of any protected characteristic, including race, color, genetic information, creed, national origin, religion, sex, affectional or sexual orientation, gender identity or expression, lawful alien status, ancestry, age, marital status, or protected veteran status and will not discriminate against anyone on the basis of a disability. We support an inclusive workplace where associates excel based on personal merit, qualifications, experience, ability, and job performance.
+ Beware of Recruitment Scams
+We have been made aware of individuals fraudulently posing as members of our Talent Acquisition team and extending fake job offers. These scams may involve requests for personal information or payment for equipment. 
+Protect yourself by following these steps:
+Verify that all communications from our recruiting team come from an @banyansoftware.com email address.
+Remember, employers will never request payment or banking information during the hiring process.
+If you receive a suspicious message, do not respond — instead, forward it to careers@banyansoftware.com and/or report it to the platform where you received it.
+Your safety and security are important to us. Thank you for staying vigilant.
+
+Couldn't find experience requirement in About the Job!
+ICP not matched for Job ID 4376013309. Score: 35. Reason(s): Company size not matched (1001-5000) | No non-technical founder signal found
+
+-@-
+
+
+About the job
+Chief Technology Officer (CTO) - CRM, EP, Structural Heart Devices
+
+Location: USA (Remote-based with Extensive Travel)
+
+George Thomas Executive Search is exclusively retained to find a visionary CTO to drive global innovation in cardiac healthcare.
+
+Key Responsibilities:
+
+- Develop and execute global technology strategies in Cardiac Rhythm Management, Structural Heart, and Heart Failure.
+- Lead an international R&D team of 30 employees, fostering innovation and excellence.
+- Identify and leverage synergies between subsidiaries to enhance product development.
+- Improve operational efficiency and build a collaborative R&D platform.
+- Collaborate with cross-functional stakeholders to align technology and market needs.
+
+Qualifications:
+
+- Proven global R&D leadership in cardiac healthcare.
+- Track record in full-cycle product development.
+- Strong knowledge of regulatory affairs worldwide.
+- Expertise in managing complex matrix relationships.
+- Strategic thinker with strong analytical skills.
+- Executive presence and confidence in high-level presentations.
+- Excellent leadership and coaching abilities.
+- Fluent in English.
+
+Join us in shaping the future of cardiac healthcare technology. Apply now to make a difference!
+
+Couldn't find experience requirement in About the Job!
+ICP lead saved for "Chief Technology Officer (CTO) - CRM, EP, Structural Heart Devices | George Thoma" with score 70. Job ID: 4372481159
+
+-@-
+
+HR info was not given for "VP, IT" with Job ID: 4378613712!
+ICP not matched for Job ID 4378613712. Score: 35. Reason(s): Company size not matched (51-200) | No non-technical founder signal found
+
+-@-
+
+HR info was not given for "Head of Technology" with Job ID: 4346971696!
+ICP not matched for Job ID 4346971696. Score: 35. Reason(s): Company size not matched (51-200) | No non-technical founder signal found
+
+-@-
+
+Unable to extract years of experience required!
+ICP not matched for Job ID 4353184532. Score: 35. Reason(s): Company size not matched (Unknown) | No non-technical founder signal found
+
+-@-
+
+HR info was not given for "Chief Technical Officer - Encore" with Job ID: 4345954383!
+ICP not matched for Job ID 4345954383. Score: 35. Reason(s): Company size not matched (11-50) | No non-technical founder signal found
+
+-@-
+
+ICP lead saved for "Field CTO | WSO" with score 70. Job ID: 4367421075
+
+-@-
+
+HR info was not given for "Director of Information Technology" with Job ID: 4373355519!
+ICP lead saved for "Director of Information Technology | Optom" with score 70. Job ID: 4373355519
+
+-@-
+
+ICP not matched for Job ID 4374808238. Score: -5. Reason(s): Technical exclusion signal: vp engineering | Company size not matched (51-200) | Industry keyword not matched | No non-technical founder signal found
+
+-@-
+
+HR info was not given for "Founding CTO (Non-Founder) — ML + Predictive Sytems + Full-Stack | US-Based Only | Equity-First (3–7%)" with Job ID: 4380573964!
+ICP lead saved for "Founding CTO (Non-Founder) — ML + Predictive Sytems + Full-Stack | US-Based Only | Equity-First (3–7%) | Tradora.a" with score 70. Job ID: 4380573964
+
+-@-
+
+HR info was not given for "Deputy Chief Technology Officer" with Job ID: 4352420643!
+ICP not matched for Job ID 4352420643. Score: 35. Reason(s): Company size not matched (51-200) | No non-technical founder signal found
+
+-@-
+
+HR info was not given for "Customer Success Director (Technology Vertical)" with Job ID: 4376810799!
+ICP lead saved for "Customer Success Director (Technology Vertical) | First Advantag" with score 70. Job ID: 4376810799
+
+-@-
+
+HR info was not given for "CTO - BFSI" with Job ID: 4370740753!
+Unable to extract years of experience required!
+ICP lead saved for "CTO - BFSI | GlobalLogi" with score 70. Job ID: 4370740753
+
+>-> Now on Page 2 
+
+
+-@-
+
+ICP lead saved for "Business Architect (CTO Office) | WSO" with score 70. Job ID: 4373288796
+
+-@-
+
+ICP lead saved for "NetSuite Managing Director/Partner (Technology Advisory) | Executive Staffing Group (ESG" with score 70. Job ID: 4362718618
+
+-@-
+
+HR info was not given for "Director of Investment Systems & AI" with Job ID: 4373859570!
+ICP lead saved for "Director of Investment Systems & AI | CVS Healt" with score 70. Job ID: 4373859570
+
+-@-
+
+ICP lead saved for "Founding CTO / Stealth Cybersecurity Startup (Equity-Only, Pre-Funding) | NeedTech Lab" with score 70. Job ID: 4373807635
+
+-@-
+
+ICP not matched for Job ID 4369848069. Score: 15. Reason(s): No role keyword matched | Company size not matched (201-500) | No non-technical founder signal found
+
+-@-
+
+HR info was not given for "Enterprise Imaging Systems Director" with Job ID: 4347414583!
+Failed to calculate the date posted!
+'NoneType' object has no attribute 'find_element'
+Unable to extract job description!
+ICP not matched for Job ID 4347414583. Score: 35. Reason(s): Company size not matched (Unknown) | Industry keyword not matched | No non-technical founder signal found
+
+-@-
+
+Browser window closed or session is invalid. Ending application process.
+Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff7088aaa55
+	0x7ff708608630
+	0x7ff70839d546
+	0x7ff7083e8113
+	0x7ff7084218e2
+	0x7ff70841bb11
+	0x7ff70841adc3
+	0x7ff708366505
+	0x7ff7088d7810
+	0x7ff7088d1afd
+	0x7ff7088f2c1a
+	0x7ff708623345
+	0x7ff70862b81c
+	0x7ff70836536a
+	0x7ff708a32b08
+	0x7ffdf538e8d7
+	0x7ffdf622c40c
+
+Browser window closed or session is invalid. Exiting.
+Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff7088aaa55
+	0x7ff708608630
+	0x7ff70839d546
+	0x7ff7083e8113
+	0x7ff7084218e2
+	0x7ff70841bb11
+	0x7ff70841adc3
+	0x7ff708366505
+	0x7ff7088d7810
+	0x7ff7088d1afd
+	0x7ff7088f2c1a
+	0x7ff708623345
+	0x7ff70862b81c
+	0x7ff70836536a
+	0x7ff708a32b08
+	0x7ffdf538e8d7
+	0x7ffdf622c40c
+
+Total runs: 1
+Jobs scanned: 32
+ICP leads matched: 10
+ICP leads saved: 10
+Jobs Easy Applied: 0
+External job links collected: 0
+Total applied or collected: 0
+Failed jobs: 0
+Irrelevant jobs skipped: 0
+
+
+
+Total runs:                     1
+Jobs scanned:                   32
+ICP leads matched:              10
+ICP leads saved:                10
+ICP leads file:                 c:\Projects\Alerix-SDR\ICP Matching - Auto_job_applier_linkedIn\all excels\icp_leads__20260304_150558.csv
+Jobs Easy Applied:              0
+External job links collected:   0
+                              ----------
+Total applied or collected:     0
+
+Failed jobs:                    0
+Irrelevant jobs skipped:        0
+
+Believe in yourself and all that you are. Know that there is something inside you that is greater than any obstacle. - Christian D. Larson (Not a sponsor)
+
+
+
+You can also get your quote and name shown here, or prioritize your bug reports by supporting the project at:
+
+https://github.com/sponsors/GodsScion
+
+
+Summary:
+Total runs: 1
+Jobs scanned: 32
+ICP leads matched: 10
+ICP leads saved: 10
+Jobs Easy Applied: 0
+External job links collected: 0
+Total applied or collected: 0
+Failed jobs: 0
+Irrelevant jobs skipped: 0
+
+
+
+Best regards,
+Sai Vignesh Golla
+https://www.linkedin.com/in/saivigneshgolla/
+
+Top Sponsors:
+Be the first to have your name here!
+Closing the browser...
