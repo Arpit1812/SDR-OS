@@ -3681,3 +3681,594 @@ https://www.linkedin.com/in/saivigneshgolla/
 Top Sponsors:
 Be the first to have your name here!
 Closing the browser...
+Detected local Chrome major version: 146. Attempting to download matching ChromeDriver first (if missing)...
+Fetching matching ChromeDriver version from: https://googlechromelabs.github.io/chrome-for-testing/LATEST_RELEASE_146
+Downloading ChromeDriver from: https://storage.googleapis.com/chrome-for-testing-public/146.0.7680.153/win64/chromedriver-win64.zip
+Pre-downloaded ChromeDriver for major 146: C:\Users\jammu\AppData\Local\Temp\auto_job_chromedriver\146.0.7680.153\chromedriver-win64\chromedriver.exe
+IF YOU HAVE MORE THAN 10 TABS OPENED, PLEASE CLOSE OR BOOKMARK THEM! Or it's highly likely that application will just open browser and not do anything!
+Using temporary Chrome profile (forced guest): C:\temp\auto-job-apply-profile
+Downloading Chrome Driver... This may take some time. Undetected mode requires download every run!
+Started Chrome using pre-downloaded matching chromedriver via Selenium Service.
+Output file ready: c:\Projects\Alerix-SDR\ICP Matching - Auto_job_applier_linkedIn\all excels/icp_posts_leads__20260320_202119.csv
+Loaded 0 already-seen post URLs.
+Terms (8): ['Looking for a CTO', 'looking for the CTO', 'looking for a Technical Co-Founder', 'looking for a Tech co-founder', 'looking for a technical co-founder', 'Looking for a technical co-founder', 'just raised', 'we just raised']
+Max pages ceiling: 9999
+Detail mode: off
+Navigating → https://www.linkedin.com/search/results/content/?keywords=Looking+for+a+CTO&origin=GLOBAL_SEARCH_HEADER
+WARNING: cards matched '//main//*[@role='listitem' and (@componentkey or @data-view-name or @data-view-tracking-scope)]' (9) but 0 passed card_has_post_marker; falling back to raw cards.
+DEBUG card[0]: anchors=21 tracking=0 time=0 urn='' preview='Feed post Chetan Keinturaa • 2nd IIT-J Tech MBA Candidate 24 | Building Trust Layer for Global IT So'
+DEBUG card[1]: anchors=7 tracking=0 time=0 urn='' preview='Feed post Anurag Abhay • 3rd+ Managing Partner and Practice Head @ The Growth Partners | People Powe'
+DEBUG card[2]: anchors=11 tracking=0 time=0 urn='' preview='Feed post Samata Gwalani • 3rd+ Strategic Partner to CEO | IICA Certified Independent Director | Gov'
+  Page 1: 9 card(s) found.
+WARNING: cards matched '//main//*[@role='listitem' and (@componentkey or @data-view-name or @data-view-tracking-scope)]' (9) but 0 passed card_has_post_marker; falling back to raw cards.
+DEBUG card[0]: anchors=21 tracking=0 time=0 urn='' preview='Feed post Chetan Keinturaa • 2nd IIT-J Tech MBA Candidate 24 | Building Trust Layer for Global IT So'
+DEBUG card[1]: anchors=7 tracking=0 time=0 urn='' preview='Feed post Anurag Abhay • 3rd+ Managing Partner and Practice Head @ The Growth Partners | People Powe'
+DEBUG card[2]: anchors=11 tracking=0 time=0 urn='' preview='Feed post Samata Gwalani • 3rd+ Strategic Partner to CEO | IICA Certified Independent Director | Gov'
+      DEBUG: copy-link menu did not yield a URL for card 0.
+    Card 0: no URL, saving without it. Text preview: Feed post Chetan Keinturaa • 2nd IIT-J Tech MBA Candidate 24 | Building Trust Layer for Global IT Sourcing | SpecXwise B
+      DEBUG no-URL hrefs=['https://www.linkedin.com/in/chetankeintura/', 'https://www.linkedin.com/in/chetankeintura/', 'https://www.linkedin.com/safety/go/?url=https%3A%2F%2Fsprect%2Ecom%2Fpro%2Fchetan%2Ek&urlhash=2o5v&mt=YyDTZhth44__AzlbIeESPVKAYeG9TTIeCyArI-', 'https://www.linkedin.com/search/results/all/?keywords=%23cofoundermatch&origin=HASH_TAG_FROM_FEED', 'https://www.linkedin.com/search/results/all/?keywords=%23cto&origin=HASH_TAG_FROM_FEED', 'https://www.linkedin.com/search/results/all/?keywords=%23startupindia&origin=HASH_TAG_FROM_FEED'] html_activity=
+    Saved: (no name) | (no post url)
+WARNING: cards matched '//main//*[@role='listitem' and (@componentkey or @data-view-name or @data-view-tracking-scope)]' (9) but 0 passed card_has_post_marker; falling back to raw cards.
+DEBUG card[0]: anchors=21 tracking=0 time=0 urn='' preview='Feed post Chetan Keinturaa • 2nd IIT-J Tech MBA Candidate 24 | Building Trust Layer for Global IT So'
+DEBUG card[1]: anchors=7 tracking=0 time=0 urn='' preview='Feed post Anurag Abhay • 3rd+ Managing Partner and Practice Head @ The Growth Partners | People Powe'
+DEBUG card[2]: anchors=11 tracking=0 time=0 urn='' preview='Feed post Samata Gwalani • 3rd+ Strategic Partner to CEO | IICA Certified Independent Director | Gov'
+      DEBUG: copy-link menu did not yield a URL for card 1.
+    Card 1: no URL, saving without it. Text preview: Feed post Anurag Abhay • 3rd+ Managing Partner and Practice Head @ The Growth Partners | People Power evangelist, Strate
+      DEBUG no-URL hrefs=['https://www.linkedin.com/in/anurag-abhay-135582/', 'https://www.linkedin.com/in/anurag-abhay-135582/', 'https://www.linkedin.com/search/results/all/?keywords=%23cofounder&origin=HASH_TAG_FROM_FEED', 'https://www.linkedin.com/search/results/all/?keywords=%23cto&origin=HASH_TAG_FROM_FEED', 'https://www.linkedin.com/search/results/content/?keywords=Looking%20for%20a%20CTO&origin=GLOBAL_SEARCH_HEADER', 'https://www.linkedin.com/search/results/content/?keywords=Looking%20for%20a%20CTO&origin=GLOBAL_SEARCH_HEADER'] html_activity=
+    Saved: (no name) | (no post url)
+WARNING: cards matched '//main//*[@role='listitem' and (@componentkey or @data-view-name or @data-view-tracking-scope)]' (9) but 0 passed card_has_post_marker; falling back to raw cards.
+DEBUG card[0]: anchors=21 tracking=0 time=0 urn='' preview='Feed post Chetan Keinturaa • 2nd IIT-J Tech MBA Candidate 24 | Building Trust Layer for Global IT So'
+DEBUG card[1]: anchors=7 tracking=0 time=0 urn='' preview='Feed post Anurag Abhay • 3rd+ Managing Partner and Practice Head @ The Growth Partners | People Powe'
+DEBUG card[2]: anchors=11 tracking=0 time=0 urn='' preview='Feed post Samata Gwalani • 3rd+ Strategic Partner to CEO | IICA Certified Independent Director | Gov'
+      DEBUG: copy-link menu did not yield a URL for card 2.
+    Card 2: no URL, saving without it. Text preview: Feed post Samata Gwalani • 3rd+ Strategic Partner to CEO | IICA Certified Independent Director | Governance, Risk & IPO 
+      DEBUG no-URL hrefs=['https://www.linkedin.com/in/samata-gwalani-6a40671a0/', 'https://www.linkedin.com/in/samata-gwalani-6a40671a0/', 'https://www.linkedin.com/in/reema-somaiya-9915211b/', 'https://www.linkedin.com/search/results/all/?keywords=%23hiring&origin=HASH_TAG_FROM_FEED', 'https://www.linkedin.com/search/results/all/?keywords=%23cto&origin=HASH_TAG_FROM_FEED', 'https://www.linkedin.com/search/results/all/?keywords=%23technologyleadership&origin=HASH_TAG_FROM_FEED'] html_activity=
+    Saved: (no name) | (no post url)
+WARNING: cards matched '//main//*[@role='listitem' and (@componentkey or @data-view-name or @data-view-tracking-scope)]' (9) but 0 passed card_has_post_marker; falling back to raw cards.
+DEBUG card[0]: anchors=21 tracking=0 time=0 urn='' preview='Feed post Chetan Keinturaa • 2nd IIT-J Tech MBA Candidate 24 | Building Trust Layer for Global IT So'
+DEBUG card[1]: anchors=7 tracking=0 time=0 urn='' preview='Feed post Anurag Abhay • 3rd+ Managing Partner and Practice Head @ The Growth Partners | People Powe'
+DEBUG card[2]: anchors=11 tracking=0 time=0 urn='' preview='Feed post Samata Gwalani • 3rd+ Strategic Partner to CEO | IICA Certified Independent Director | Gov'
+      DEBUG: copy-link menu did not yield a URL for card 3.
+    Card 3: no URL, saving without it. Text preview: Feed post Ankita Thakur • 3rd+ Recruitment Executive at The Growth partners (TGP) 1d • Follow 📢We are Looking for a Co-F
+      DEBUG no-URL hrefs=['https://www.linkedin.com/in/ankita-thakur-7a725b250/', 'https://www.linkedin.com/in/ankita-thakur-7a725b250/', 'mailto:ankitathakur@thegrowthpartners.in', 'https://www.linkedin.com/search/results/all/?keywords=%23hiring&origin=HASH_TAG_FROM_FEED', 'https://www.linkedin.com/search/results/all/?keywords=%23cto&origin=HASH_TAG_FROM_FEED', 'https://www.linkedin.com/search/results/all/?keywords=%23cofounder&origin=HASH_TAG_FROM_FEED'] html_activity=
+    Saved: (no name) | (no post url)
+WARNING: cards matched '//main//*[@role='listitem' and (@componentkey or @data-view-name or @data-view-tracking-scope)]' (9) but 0 passed card_has_post_marker; falling back to raw cards.
+DEBUG card[0]: anchors=21 tracking=0 time=0 urn='' preview='Feed post Chetan Keinturaa • 2nd IIT-J Tech MBA Candidate 24 | Building Trust Layer for Global IT So'
+DEBUG card[1]: anchors=7 tracking=0 time=0 urn='' preview='Feed post Anurag Abhay • 3rd+ Managing Partner and Practice Head @ The Growth Partners | People Powe'
+DEBUG card[2]: anchors=11 tracking=0 time=0 urn='' preview='Feed post Samata Gwalani • 3rd+ Strategic Partner to CEO | IICA Certified Independent Director | Gov'
+      DEBUG: copy-link menu did not yield a URL for card 4.
+    Card 4: no URL, saving without it. Text preview: Feed post Asad A. • 3rd+ Creating World’s Biggest Skin Care Brand From INDIA. 1d • Connect Hi, I’m looking for a full-st
+      DEBUG no-URL hrefs=['https://www.linkedin.com/in/asadansari7/', 'https://www.linkedin.com/in/asadansari7/', 'https://www.linkedin.com/search/results/content/?keywords=Looking%20for%20a%20CTO&origin=GLOBAL_SEARCH_HEADER', 'https://www.linkedin.com/search/results/content/?keywords=Looking%20for%20a%20CTO&origin=GLOBAL_SEARCH_HEADER', 'https://www.linkedin.com/search/results/content/?keywords=Looking%20for%20a%20CTO&origin=GLOBAL_SEARCH_HEADER'] html_activity=
+    Saved: (no name) | (no post url)
+WARNING: cards matched '//main//*[@role='listitem' and (@componentkey or @data-view-name or @data-view-tracking-scope)]' (9) but 0 passed card_has_post_marker; falling back to raw cards.
+DEBUG card[0]: anchors=21 tracking=0 time=0 urn='' preview='Feed post Chetan Keinturaa • 2nd IIT-J Tech MBA Candidate 24 | Building Trust Layer for Global IT So'
+DEBUG card[1]: anchors=7 tracking=0 time=0 urn='' preview='Feed post Anurag Abhay • 3rd+ Managing Partner and Practice Head @ The Growth Partners | People Powe'
+DEBUG card[2]: anchors=11 tracking=0 time=0 urn='' preview='Feed post Samata Gwalani • 3rd+ Strategic Partner to CEO | IICA Certified Independent Director | Gov'
+      DEBUG: copy-link menu did not yield a URL for card 5.
+    Card 5: no URL, saving without it. Text preview: Feed post Lalit Patel • 2nd Founder of GrowAsk 1w • Connect Seeking Technical Co-Founder (CTO) I am currently building a
+      DEBUG no-URL hrefs=['https://www.linkedin.com/in/lalitzpatel/', 'https://www.linkedin.com/in/lalitzpatel/', 'https://www.linkedin.com/search/results/content/?keywords=Looking%20for%20a%20CTO&origin=GLOBAL_SEARCH_HEADER', 'https://www.linkedin.com/search/results/content/?keywords=Looking%20for%20a%20CTO&origin=GLOBAL_SEARCH_HEADER', 'https://www.linkedin.com/search/results/content/?keywords=Looking%20for%20a%20CTO&origin=GLOBAL_SEARCH_HEADER'] html_activity=
+    Saved: (no name) | (no post url)
+WARNING: cards matched '//main//*[@role='listitem' and (@componentkey or @data-view-name or @data-view-tracking-scope)]' (12) but 0 passed card_has_post_marker; falling back to raw cards.
+DEBUG card[0]: anchors=21 tracking=0 time=0 urn='' preview='Feed post Chetan Keinturaa • 2nd IIT-J Tech MBA Candidate 24 | Building Trust Layer for Global IT So'
+DEBUG card[1]: anchors=7 tracking=0 time=0 urn='' preview='Feed post Anurag Abhay • 3rd+ Managing Partner and Practice Head @ The Growth Partners | People Powe'
+DEBUG card[2]: anchors=11 tracking=0 time=0 urn='' preview='Feed post Samata Gwalani • 3rd+ Strategic Partner to CEO | IICA Certified Independent Director | Gov'
+      DEBUG: copy-link menu did not yield a URL for card 6.
+    Card 6: no URL, saving without it. Text preview: Feed post Vivek P. • 2nd Founder & CEO at Kickstart & Leadzar & Gigzar | Working With 25+ Brands | Bootstrapped & Profit
+      DEBUG no-URL hrefs=['https://www.linkedin.com/in/kickstartvtr/', 'https://www.linkedin.com/in/kickstartvtr/', 'https://www.linkedin.com/safety/go/?url=http%3A%2F%2Fwww%2Ekickstartvtr%2Ecom&urlhash=d0RH&mt=U9xRxkdPD102DGrruoQzJuG1yOv-gQS88XSPlRCEy722re', 'https://www.linkedin.com/search/results/all/?keywords=%23hiring&origin=HASH_TAG_FROM_FEED', 'https://www.linkedin.com/search/results/all/?keywords=%23cto&origin=HASH_TAG_FROM_FEED', 'https://www.linkedin.com/search/results/all/?keywords=%23techjobs&origin=HASH_TAG_FROM_FEED'] html_activity=
+    Saved: (no name) | (no post url)
+WARNING: cards matched '//main//*[@role='listitem' and (@componentkey or @data-view-name or @data-view-tracking-scope)]' (12) but 0 passed card_has_post_marker; falling back to raw cards.
+DEBUG card[0]: anchors=21 tracking=0 time=0 urn='' preview='Feed post Chetan Keinturaa • 2nd IIT-J Tech MBA Candidate 24 | Building Trust Layer for Global IT So'
+DEBUG card[1]: anchors=7 tracking=0 time=0 urn='' preview='Feed post Anurag Abhay • 3rd+ Managing Partner and Practice Head @ The Growth Partners | People Powe'
+DEBUG card[2]: anchors=11 tracking=0 time=0 urn='' preview='Feed post Samata Gwalani • 3rd+ Strategic Partner to CEO | IICA Certified Independent Director | Gov'
+      DEBUG: copy-link menu did not yield a URL for card 7.
+    Card 7: no URL, saving without it. Text preview: Feed post Milind Labhe • 2nd Chief of Strategy & Co-founder fintech startup, Banking, Fintech & Payments industry experi
+      DEBUG no-URL hrefs=['https://www.linkedin.com/in/milindlabhe/', 'https://www.linkedin.com/in/milindlabhe/', 'https://www.linkedin.com/company/sprintmoney/', 'https://www.linkedin.com/search/results/all/?keywords=%23recruitment&origin=HASH_TAG_FROM_FEED', 'https://www.linkedin.com/search/results/all/?keywords=%23cto&origin=HASH_TAG_FROM_FEED', 'https://www.linkedin.com/search/results/all/?keywords=%23fintech&origin=HASH_TAG_FROM_FEED'] html_activity=
+    Saved: (no name) | (no post url)
+WARNING: cards matched '//main//*[@role='listitem' and (@componentkey or @data-view-name or @data-view-tracking-scope)]' (12) but 0 passed card_has_post_marker; falling back to raw cards.
+DEBUG card[0]: anchors=21 tracking=0 time=0 urn='' preview='Feed post Chetan Keinturaa • 2nd IIT-J Tech MBA Candidate 24 | Building Trust Layer for Global IT So'
+DEBUG card[1]: anchors=7 tracking=0 time=0 urn='' preview='Feed post Anurag Abhay • 3rd+ Managing Partner and Practice Head @ The Growth Partners | People Powe'
+DEBUG card[2]: anchors=11 tracking=0 time=0 urn='' preview='Feed post Samata Gwalani • 3rd+ Strategic Partner to CEO | IICA Certified Independent Director | Gov'
+      DEBUG: copy-link menu did not yield a URL for card 8.
+    Card 8: no URL, saving without it. Text preview: Feed post Nagesh Nandala • 2nd Founder, SecurePay Shield | Preventing UPI Fraud with Device-Level AI | 10 Years Mobile S
+      DEBUG no-URL hrefs=['https://www.linkedin.com/in/nageshnanda/', 'https://www.linkedin.com/in/nageshnanda/', 'https://www.linkedin.com/search/results/all/?keywords=%23cto&origin=HASH_TAG_FROM_FEED', 'https://www.linkedin.com/search/results/all/?keywords=%23technicalcofounder&origin=HASH_TAG_FROM_FEED', 'https://www.linkedin.com/search/results/all/?keywords=%23fintech&origin=HASH_TAG_FROM_FEED', 'https://www.linkedin.com/search/results/all/?keywords=%23startupindia&origin=HASH_TAG_FROM_FEED'] html_activity=
+    Saved: (no name) | (no post url)
+  Pagination exhausted at page 1 for "Looking for a CTO".
+[TERM DONE] "Looking for a CTO" | pages=1 scanned=9 saved=9 skipped=0 failed=0
+Navigating → https://www.linkedin.com/search/results/content/?keywords=looking+for+the+CTO&origin=GLOBAL_SEARCH_HEADER
+WARNING: cards matched '//main//*[@role='listitem' and (@componentkey or @data-view-name or @data-view-tracking-scope)]' (6) but 0 passed card_has_post_marker; falling back to raw cards.
+DEBUG card[0]: anchors=21 tracking=0 time=0 urn='' preview='Feed post Chetan Keinturaa • 2nd IIT-J Tech MBA Candidate 24 | Building Trust Layer for Global IT So'
+DEBUG card[1]: anchors=11 tracking=0 time=0 urn='' preview='Feed post Samata Gwalani • 3rd+ Strategic Partner to CEO | IICA Certified Independent Director | Gov'
+DEBUG card[2]: anchors=7 tracking=0 time=0 urn='' preview='Feed post Anurag Abhay • 3rd+ Managing Partner and Practice Head @ The Growth Partners | People Powe'
+  Page 1: 6 card(s) found.
+WARNING: cards matched '//main//*[@role='listitem' and (@componentkey or @data-view-name or @data-view-tracking-scope)]' (6) but 0 passed card_has_post_marker; falling back to raw cards.
+DEBUG card[0]: anchors=21 tracking=0 time=0 urn='' preview='Feed post Chetan Keinturaa • 2nd IIT-J Tech MBA Candidate 24 | Building Trust Layer for Global IT So'
+DEBUG card[1]: anchors=11 tracking=0 time=0 urn='' preview='Feed post Samata Gwalani • 3rd+ Strategic Partner to CEO | IICA Certified Independent Director | Gov'
+DEBUG card[2]: anchors=7 tracking=0 time=0 urn='' preview='Feed post Anurag Abhay • 3rd+ Managing Partner and Practice Head @ The Growth Partners | People Powe'
+      DEBUG: copy-link menu did not yield a URL for card 0.
+WARNING: cards matched '//main//*[@role='listitem' and (@componentkey or @data-view-name or @data-view-tracking-scope)]' (6) but 0 passed card_has_post_marker; falling back to raw cards.
+DEBUG card[0]: anchors=21 tracking=0 time=0 urn='' preview='Feed post Chetan Keinturaa • 2nd IIT-J Tech MBA Candidate 24 | Building Trust Layer for Global IT So'
+DEBUG card[1]: anchors=11 tracking=0 time=0 urn='' preview='Feed post Samata Gwalani • 3rd+ Strategic Partner to CEO | IICA Certified Independent Director | Gov'
+DEBUG card[2]: anchors=7 tracking=0 time=0 urn='' preview='Feed post Anurag Abhay • 3rd+ Managing Partner and Practice Head @ The Growth Partners | People Powe'
+      DEBUG: copy-link menu did not yield a URL for card 1.
+WARNING: cards matched '//main//*[@role='listitem' and (@componentkey or @data-view-name or @data-view-tracking-scope)]' (6) but 0 passed card_has_post_marker; falling back to raw cards.
+DEBUG card[0]: anchors=21 tracking=0 time=0 urn='' preview='Feed post Chetan Keinturaa • 2nd IIT-J Tech MBA Candidate 24 | Building Trust Layer for Global IT So'
+DEBUG card[1]: anchors=11 tracking=0 time=0 urn='' preview='Feed post Samata Gwalani • 3rd+ Strategic Partner to CEO | IICA Certified Independent Director | Gov'
+DEBUG card[2]: anchors=7 tracking=0 time=0 urn='' preview='Feed post Anurag Abhay • 3rd+ Managing Partner and Practice Head @ The Growth Partners | People Powe'
+      DEBUG: copy-link menu did not yield a URL for card 2.
+WARNING: cards matched '//main//*[@role='listitem' and (@componentkey or @data-view-name or @data-view-tracking-scope)]' (9) but 0 passed card_has_post_marker; falling back to raw cards.
+DEBUG card[0]: anchors=21 tracking=0 time=0 urn='' preview='Feed post Chetan Keinturaa • 2nd IIT-J Tech MBA Candidate 24 | Building Trust Layer for Global IT So'
+DEBUG card[1]: anchors=11 tracking=0 time=0 urn='' preview='Feed post Samata Gwalani • 3rd+ Strategic Partner to CEO | IICA Certified Independent Director | Gov'
+DEBUG card[2]: anchors=7 tracking=0 time=0 urn='' preview='Feed post Anurag Abhay • 3rd+ Managing Partner and Practice Head @ The Growth Partners | People Powe'
+      DEBUG: copy-link menu did not yield a URL for card 3.
+WARNING: cards matched '//main//*[@role='listitem' and (@componentkey or @data-view-name or @data-view-tracking-scope)]' (9) but 0 passed card_has_post_marker; falling back to raw cards.
+DEBUG card[0]: anchors=21 tracking=0 time=0 urn='' preview='Feed post Chetan Keinturaa • 2nd IIT-J Tech MBA Candidate 24 | Building Trust Layer for Global IT So'
+DEBUG card[1]: anchors=11 tracking=0 time=0 urn='' preview='Feed post Samata Gwalani • 3rd+ Strategic Partner to CEO | IICA Certified Independent Director | Gov'
+DEBUG card[2]: anchors=7 tracking=0 time=0 urn='' preview='Feed post Anurag Abhay • 3rd+ Managing Partner and Practice Head @ The Growth Partners | People Powe'
+      DEBUG: copy-link menu did not yield a URL for card 4.
+WARNING: cards matched '//main//*[@role='listitem' and (@componentkey or @data-view-name or @data-view-tracking-scope)]' (9) but 0 passed card_has_post_marker; falling back to raw cards.
+DEBUG card[0]: anchors=21 tracking=0 time=0 urn='' preview='Feed post Chetan Keinturaa • 2nd IIT-J Tech MBA Candidate 24 | Building Trust Layer for Global IT So'
+DEBUG card[1]: anchors=11 tracking=0 time=0 urn='' preview='Feed post Samata Gwalani • 3rd+ Strategic Partner to CEO | IICA Certified Independent Director | Gov'
+DEBUG card[2]: anchors=7 tracking=0 time=0 urn='' preview='Feed post Anurag Abhay • 3rd+ Managing Partner and Practice Head @ The Growth Partners | People Powe'
+      DEBUG: copy-link menu did not yield a URL for card 5.
+  Pagination exhausted at page 1 for "looking for the CTO".
+[TERM DONE] "looking for the CTO" | pages=1 scanned=6 saved=0 skipped=6 failed=0
+Navigating → https://www.linkedin.com/search/results/content/?keywords=looking+for+a+Technical+Co-Founder&origin=GLOBAL_SEARCH_HEADER
+Detected local Chrome major version: 146. Attempting to download matching ChromeDriver first (if missing)...
+Fetching matching ChromeDriver version from: https://googlechromelabs.github.io/chrome-for-testing/LATEST_RELEASE_146
+Downloading ChromeDriver from: https://storage.googleapis.com/chrome-for-testing-public/146.0.7680.153/win64/chromedriver-win64.zip
+Pre-downloaded ChromeDriver for major 146: C:\Users\jammu\AppData\Local\Temp\auto_job_chromedriver\146.0.7680.153\chromedriver-win64\chromedriver.exe
+IF YOU HAVE MORE THAN 10 TABS OPENED, PLEASE CLOSE OR BOOKMARK THEM! Or it's highly likely that application will just open browser and not do anything!
+Using temporary Chrome profile (forced guest): C:\temp\auto-job-apply-profile
+Downloading Chrome Driver... This may take some time. Undetected mode requires download every run!
+Started Chrome using pre-downloaded matching chromedriver via Selenium Service.
+Output file ready: c:\Projects\Alerix-SDR\ICP Matching - Auto_job_applier_linkedIn\all excels/icp_posts_leads__20260320_203116.csv
+Loaded 0 already-seen post URLs.
+Terms (8): ['Looking for a CTO', 'looking for the CTO', 'looking for a Technical Co-Founder', 'looking for a Tech co-founder', 'looking for a technical co-founder', 'Looking for a technical co-founder', 'just raised', 'we just raised']
+Max pages ceiling: 9999
+Detail mode: off
+Navigating → https://www.linkedin.com/search/results/content/?keywords=Looking+for+a+CTO&origin=GLOBAL_SEARCH_HEADER
+WARNING: cards matched '//main//*[@role='listitem' and (@componentkey or @data-view-name or @data-view-tracking-scope)]' (9) but 0 passed card_has_post_marker; falling back to raw cards.
+DEBUG card[0]: anchors=21 tracking=0 time=0 urn='' preview='Feed post Chetan Keinturaa • 2nd IIT-J Tech MBA Candidate 24 | Building Trust Layer for Global IT So'
+DEBUG card[1]: anchors=7 tracking=0 time=0 urn='' preview='Feed post Anurag Abhay • 3rd+ Managing Partner and Practice Head @ The Growth Partners | People Powe'
+DEBUG card[2]: anchors=11 tracking=0 time=0 urn='' preview='Feed post Samata Gwalani • 3rd+ Strategic Partner to CEO | IICA Certified Independent Director | Gov'
+  Page 1: 9 card(s) found.
+WARNING: cards matched '//main//*[@role='listitem' and (@componentkey or @data-view-name or @data-view-tracking-scope)]' (9) but 0 passed card_has_post_marker; falling back to raw cards.
+DEBUG card[0]: anchors=21 tracking=0 time=0 urn='' preview='Feed post Chetan Keinturaa • 2nd IIT-J Tech MBA Candidate 24 | Building Trust Layer for Global IT So'
+DEBUG card[1]: anchors=7 tracking=0 time=0 urn='' preview='Feed post Anurag Abhay • 3rd+ Managing Partner and Practice Head @ The Growth Partners | People Powe'
+DEBUG card[2]: anchors=11 tracking=0 time=0 urn='' preview='Feed post Samata Gwalani • 3rd+ Strategic Partner to CEO | IICA Certified Independent Director | Gov'
+DEBUG: clipboard unchanged after 'Copy link' click (value='__li_clipboard_sentinel_1774018916.357765__').
+      DEBUG: copy-link menu did not yield a URL for card 0.
+    Card 0 recoverable error: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=146.0.7680.80); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff610223045+14585]
+	chromedriver!GetHandleVerifier [0x7ff6102230b0+145f0]
+	chromedriver!(No symbol) [0x7ff60ff8db7d]
+	chromedriver!(No symbol) [0x7ff60ff95af1]
+	chromedriver!(No symbol) [0x7ff60ff98c15]
+	chromedriver!(No symbol) [0x7ff60ff98cdf]
+	chromedriver!(No symbol) [0x7ff60ffe25ec]
+	chromedriver!(No symbol) [0x7ff61001069a]
+	chromedriver!(No symbol) [0x7ff60ffdb176]
+	chromedriver!(No symbol) [0x7ff6100345af]
+	chromedriver!(No symbol) [0x7ff60ffd9a18]
+	chromedriver!(No symbol) [0x7ff60ffda8f3]
+	chromedriver!GetHandleVerifier [0x7ff61052ac5d+31c19d]
+	chromedriver!GetHandleVerifier [0x7ff61052536d+3168ad]
+	chromedriver!GetHandleVerifier [0x7ff610547d8a+3392ca]
+	chromedriver!GetHandleVerifier [0x7ff61023f445+30985]
+	chromedriver!GetHandleVerifier [0x7ff6102484dc+39a1c]
+	chromedriver!GetHandleVerifier [0x7ff61022c634+1db74]
+	chromedriver!GetHandleVerifier [0x7ff61022c7e6+1dd26]
+	chromedriver!GetHandleVerifier [0x7ff610211387+28c7]
+	KERNEL32!BaseThreadInitThunk [0x7ff820a0e8d7+17]
+	ntdll!RtlUserThreadStart [0x7ff82186c48c+2c]
+
+WARNING: cards matched '//main//*[@role='listitem' and (@componentkey or @data-view-name or @data-view-tracking-scope)]' (9) but 0 passed card_has_post_marker; falling back to raw cards.
+DEBUG card[0]: anchors=21 tracking=0 time=0 urn='' preview='Feed post Chetan Keinturaa • 2nd IIT-J Tech MBA Candidate 24 | Building Trust Layer for Global IT So'
+DEBUG card[1]: anchors=7 tracking=0 time=0 urn='' preview='Feed post Anurag Abhay • 3rd+ Managing Partner and Practice Head @ The Growth Partners | People Powe'
+DEBUG card[2]: anchors=11 tracking=0 time=0 urn='' preview='Feed post Samata Gwalani • 3rd+ Strategic Partner to CEO | IICA Certified Independent Director | Gov'
+DEBUG: clipboard unchanged after 'Copy link' click (value='__li_clipboard_sentinel_1774018948.511507__').
+      DEBUG: copy-link menu did not yield a URL for card 1.
+    Card 1: no URL, saving without it. Text preview: Feed post Anurag Abhay • 3rd+ Managing Partner and Practice Head @ The Growth Partners | People Power evangelist, Strate
+      DEBUG no-URL hrefs=['https://www.linkedin.com/in/anurag-abhay-135582/', 'https://www.linkedin.com/in/anurag-abhay-135582/', 'https://www.linkedin.com/search/results/all/?keywords=%23cofounder&origin=HASH_TAG_FROM_FEED', 'https://www.linkedin.com/search/results/all/?keywords=%23cto&origin=HASH_TAG_FROM_FEED', 'https://www.linkedin.com/search/results/content/?keywords=Looking%20for%20a%20CTO&origin=GLOBAL_SEARCH_HEADER', 'https://www.linkedin.com/search/results/content/?keywords=Looking%20for%20a%20CTO&origin=GLOBAL_SEARCH_HEADER'] html_activity=
+    Saved: (no name) | (no post url)
+WARNING: cards matched '//main//*[@role='listitem' and (@componentkey or @data-view-name or @data-view-tracking-scope)]' (9) but 0 passed card_has_post_marker; falling back to raw cards.
+DEBUG card[0]: anchors=21 tracking=0 time=0 urn='' preview='Feed post Chetan Keinturaa • 2nd IIT-J Tech MBA Candidate 24 | Building Trust Layer for Global IT So'
+DEBUG card[1]: anchors=7 tracking=0 time=0 urn='' preview='Feed post Anurag Abhay • 3rd+ Managing Partner and Practice Head @ The Growth Partners | People Powe'
+DEBUG card[2]: anchors=11 tracking=0 time=0 urn='' preview='Feed post Samata Gwalani • 3rd+ Strategic Partner to CEO | IICA Certified Independent Director | Gov'
+DEBUG: clipboard unchanged after 'Copy link' click (value='__li_clipboard_sentinel_1774018981.972476__').
+      DEBUG: copy-link menu did not yield a URL for card 2.
+    Card 2: no URL, saving without it. Text preview: Feed post Samata Gwalani • 3rd+ Strategic Partner to CEO | IICA Certified Independent Director | Governance, Risk & IPO 
+      DEBUG no-URL hrefs=['https://www.linkedin.com/in/samata-gwalani-6a40671a0/', 'https://www.linkedin.com/in/samata-gwalani-6a40671a0/', 'https://www.linkedin.com/in/reema-somaiya-9915211b/', 'https://www.linkedin.com/search/results/all/?keywords=%23hiring&origin=HASH_TAG_FROM_FEED', 'https://www.linkedin.com/search/results/all/?keywords=%23cto&origin=HASH_TAG_FROM_FEED', 'https://www.linkedin.com/search/results/all/?keywords=%23technologyleadership&origin=HASH_TAG_FROM_FEED'] html_activity=
+    Saved: (no name) | (no post url)
+WARNING: cards matched '//main//*[@role='listitem' and (@componentkey or @data-view-name or @data-view-tracking-scope)]' (9) but 0 passed card_has_post_marker; falling back to raw cards.
+      DEBUG: copy-link menu did not yield a URL for card 3.
+    Card 3 unexpected error: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=146.0.7680.80)
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff610223045+14585]
+	chromedriver!GetHandleVerifier [0x7ff6102230b0+145f0]
+	chromedriver!(No symbol) [0x7ff60ff8db7d]
+	chromedriver!(No symbol) [0x7ff60ff64332]
+	chromedriver!(No symbol) [0x7ff6100178b6]
+	chromedriver!(No symbol) [0x7ff610033eb2]
+	chromedriver!(No symbol) [0x7ff60ffd9a18]
+	chromedriver!(No symbol) [0x7ff60ffda8f3]
+	chromedriver!GetHandleVerifier [0x7ff61052ac5d+31c19d]
+	chromedriver!GetHandleVerifier [0x7ff61052536d+3168ad]
+	chromedriver!GetHandleVerifier [0x7ff610547d8a+3392ca]
+	chromedriver!GetHandleVerifier [0x7ff61023f445+30985]
+	chromedriver!GetHandleVerifier [0x7ff6102484dc+39a1c]
+	chromedriver!GetHandleVerifier [0x7ff61022c634+1db74]
+	chromedriver!GetHandleVerifier [0x7ff61022c7e6+1dd26]
+	chromedriver!GetHandleVerifier [0x7ff610211387+28c7]
+	KERNEL32!BaseThreadInitThunk [0x7ff820a0e8d7+17]
+	ntdll!RtlUserThreadStart [0x7ff82186c48c+2c]
+
+WARNING: No cards found on this page.
+  Pagination exhausted at page 1 for "Looking for a CTO".
+[TERM DONE] "Looking for a CTO" | pages=1 scanned=4 saved=2 skipped=0 failed=2
+Navigating → https://www.linkedin.com/search/results/content/?keywords=looking+for+the+CTO&origin=GLOBAL_SEARCH_HEADER
+Navigation error for query 'looking for the CTO': Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=146.0.7680.80)
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff610223045+14585]
+	chromedriver!GetHandleVerifier [0x7ff6102230b0+145f0]
+	chromedriver!(No symbol) [0x7ff60ff8db7d]
+	chromedriver!(No symbol) [0x7ff60ff64332]
+	chromedriver!(No symbol) [0x7ff6100178b6]
+	chromedriver!(No symbol) [0x7ff610033eb2]
+	chromedriver!(No symbol) [0x7ff60ffd9a18]
+	chromedriver!(No symbol) [0x7ff60ffda8f3]
+	chromedriver!GetHandleVerifier [0x7ff61052ac5d+31c19d]
+	chromedriver!GetHandleVerifier [0x7ff61052536d+3168ad]
+	chromedriver!GetHandleVerifier [0x7ff610547d8a+3392ca]
+	chromedriver!GetHandleVerifier [0x7ff61023f445+30985]
+	chromedriver!GetHandleVerifier [0x7ff6102484dc+39a1c]
+	chromedriver!GetHandleVerifier [0x7ff61022c634+1db74]
+	chromedriver!GetHandleVerifier [0x7ff61022c7e6+1dd26]
+	chromedriver!GetHandleVerifier [0x7ff610211387+28c7]
+	KERNEL32!BaseThreadInitThunk [0x7ff820a0e8d7+17]
+	ntdll!RtlUserThreadStart [0x7ff82186c48c+2c]
+
+SKIP "looking for the CTO": navigation failed.
+Navigating → https://www.linkedin.com/search/results/content/?keywords=looking+for+a+Technical+Co-Founder&origin=GLOBAL_SEARCH_HEADER
+Navigation error for query 'looking for a Technical Co-Founder': Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=146.0.7680.80)
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff610223045+14585]
+	chromedriver!GetHandleVerifier [0x7ff6102230b0+145f0]
+	chromedriver!(No symbol) [0x7ff60ff8db7d]
+	chromedriver!(No symbol) [0x7ff60ff64332]
+	chromedriver!(No symbol) [0x7ff6100178b6]
+	chromedriver!(No symbol) [0x7ff610033eb2]
+	chromedriver!(No symbol) [0x7ff60ffd9a18]
+	chromedriver!(No symbol) [0x7ff60ffda8f3]
+	chromedriver!GetHandleVerifier [0x7ff61052ac5d+31c19d]
+	chromedriver!GetHandleVerifier [0x7ff61052536d+3168ad]
+	chromedriver!GetHandleVerifier [0x7ff610547d8a+3392ca]
+	chromedriver!GetHandleVerifier [0x7ff61023f445+30985]
+	chromedriver!GetHandleVerifier [0x7ff6102484dc+39a1c]
+	chromedriver!GetHandleVerifier [0x7ff61022c634+1db74]
+	chromedriver!GetHandleVerifier [0x7ff61022c7e6+1dd26]
+	chromedriver!GetHandleVerifier [0x7ff610211387+28c7]
+	KERNEL32!BaseThreadInitThunk [0x7ff820a0e8d7+17]
+	ntdll!RtlUserThreadStart [0x7ff82186c48c+2c]
+
+SKIP "looking for a Technical Co-Founder": navigation failed.
+Navigating → https://www.linkedin.com/search/results/content/?keywords=looking+for+a+Tech+co-founder&origin=GLOBAL_SEARCH_HEADER
+Navigation error for query 'looking for a Tech co-founder': Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=146.0.7680.80)
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff610223045+14585]
+	chromedriver!GetHandleVerifier [0x7ff6102230b0+145f0]
+	chromedriver!(No symbol) [0x7ff60ff8db7d]
+	chromedriver!(No symbol) [0x7ff60ff64332]
+	chromedriver!(No symbol) [0x7ff6100178b6]
+	chromedriver!(No symbol) [0x7ff610033eb2]
+	chromedriver!(No symbol) [0x7ff60ffd9a18]
+	chromedriver!(No symbol) [0x7ff60ffda8f3]
+	chromedriver!GetHandleVerifier [0x7ff61052ac5d+31c19d]
+	chromedriver!GetHandleVerifier [0x7ff61052536d+3168ad]
+	chromedriver!GetHandleVerifier [0x7ff610547d8a+3392ca]
+	chromedriver!GetHandleVerifier [0x7ff61023f445+30985]
+	chromedriver!GetHandleVerifier [0x7ff6102484dc+39a1c]
+	chromedriver!GetHandleVerifier [0x7ff61022c634+1db74]
+	chromedriver!GetHandleVerifier [0x7ff61022c7e6+1dd26]
+	chromedriver!GetHandleVerifier [0x7ff610211387+28c7]
+	KERNEL32!BaseThreadInitThunk [0x7ff820a0e8d7+17]
+	ntdll!RtlUserThreadStart [0x7ff82186c48c+2c]
+
+SKIP "looking for a Tech co-founder": navigation failed.
+Navigating → https://www.linkedin.com/search/results/content/?keywords=looking+for+a+technical+co-founder&origin=GLOBAL_SEARCH_HEADER
+Navigation error for query 'looking for a technical co-founder': Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=146.0.7680.80)
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff610223045+14585]
+	chromedriver!GetHandleVerifier [0x7ff6102230b0+145f0]
+	chromedriver!(No symbol) [0x7ff60ff8db7d]
+	chromedriver!(No symbol) [0x7ff60ff64332]
+	chromedriver!(No symbol) [0x7ff6100178b6]
+	chromedriver!(No symbol) [0x7ff610033eb2]
+	chromedriver!(No symbol) [0x7ff60ffd9a18]
+	chromedriver!(No symbol) [0x7ff60ffda8f3]
+	chromedriver!GetHandleVerifier [0x7ff61052ac5d+31c19d]
+	chromedriver!GetHandleVerifier [0x7ff61052536d+3168ad]
+	chromedriver!GetHandleVerifier [0x7ff610547d8a+3392ca]
+	chromedriver!GetHandleVerifier [0x7ff61023f445+30985]
+	chromedriver!GetHandleVerifier [0x7ff6102484dc+39a1c]
+	chromedriver!GetHandleVerifier [0x7ff61022c634+1db74]
+	chromedriver!GetHandleVerifier [0x7ff61022c7e6+1dd26]
+	chromedriver!GetHandleVerifier [0x7ff610211387+28c7]
+	KERNEL32!BaseThreadInitThunk [0x7ff820a0e8d7+17]
+	ntdll!RtlUserThreadStart [0x7ff82186c48c+2c]
+
+SKIP "looking for a technical co-founder": navigation failed.
+Navigating → https://www.linkedin.com/search/results/content/?keywords=Looking+for+a+technical+co-founder&origin=GLOBAL_SEARCH_HEADER
+Navigation error for query 'Looking for a technical co-founder': Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=146.0.7680.80)
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff610223045+14585]
+	chromedriver!GetHandleVerifier [0x7ff6102230b0+145f0]
+	chromedriver!(No symbol) [0x7ff60ff8db7d]
+	chromedriver!(No symbol) [0x7ff60ff64332]
+	chromedriver!(No symbol) [0x7ff6100178b6]
+	chromedriver!(No symbol) [0x7ff610033eb2]
+	chromedriver!(No symbol) [0x7ff60ffd9a18]
+	chromedriver!(No symbol) [0x7ff60ffda8f3]
+	chromedriver!GetHandleVerifier [0x7ff61052ac5d+31c19d]
+	chromedriver!GetHandleVerifier [0x7ff61052536d+3168ad]
+	chromedriver!GetHandleVerifier [0x7ff610547d8a+3392ca]
+	chromedriver!GetHandleVerifier [0x7ff61023f445+30985]
+	chromedriver!GetHandleVerifier [0x7ff6102484dc+39a1c]
+	chromedriver!GetHandleVerifier [0x7ff61022c634+1db74]
+	chromedriver!GetHandleVerifier [0x7ff61022c7e6+1dd26]
+	chromedriver!GetHandleVerifier [0x7ff610211387+28c7]
+	KERNEL32!BaseThreadInitThunk [0x7ff820a0e8d7+17]
+	ntdll!RtlUserThreadStart [0x7ff82186c48c+2c]
+
+SKIP "Looking for a technical co-founder": navigation failed.
+Navigating → https://www.linkedin.com/search/results/content/?keywords=just+raised&origin=GLOBAL_SEARCH_HEADER
+Navigation error for query 'just raised': Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=146.0.7680.80)
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff610223045+14585]
+	chromedriver!GetHandleVerifier [0x7ff6102230b0+145f0]
+	chromedriver!(No symbol) [0x7ff60ff8db7d]
+	chromedriver!(No symbol) [0x7ff60ff64332]
+	chromedriver!(No symbol) [0x7ff6100178b6]
+	chromedriver!(No symbol) [0x7ff610033eb2]
+	chromedriver!(No symbol) [0x7ff60ffd9a18]
+	chromedriver!(No symbol) [0x7ff60ffda8f3]
+	chromedriver!GetHandleVerifier [0x7ff61052ac5d+31c19d]
+	chromedriver!GetHandleVerifier [0x7ff61052536d+3168ad]
+	chromedriver!GetHandleVerifier [0x7ff610547d8a+3392ca]
+	chromedriver!GetHandleVerifier [0x7ff61023f445+30985]
+	chromedriver!GetHandleVerifier [0x7ff6102484dc+39a1c]
+	chromedriver!GetHandleVerifier [0x7ff61022c634+1db74]
+	chromedriver!GetHandleVerifier [0x7ff61022c7e6+1dd26]
+	chromedriver!GetHandleVerifier [0x7ff610211387+28c7]
+	KERNEL32!BaseThreadInitThunk [0x7ff820a0e8d7+17]
+	ntdll!RtlUserThreadStart [0x7ff82186c48c+2c]
+
+SKIP "just raised": navigation failed.
+Navigating → https://www.linkedin.com/search/results/content/?keywords=we+just+raised&origin=GLOBAL_SEARCH_HEADER
+Navigation error for query 'we just raised': Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=146.0.7680.80)
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff610223045+14585]
+	chromedriver!GetHandleVerifier [0x7ff6102230b0+145f0]
+	chromedriver!(No symbol) [0x7ff60ff8db7d]
+	chromedriver!(No symbol) [0x7ff60ff64332]
+	chromedriver!(No symbol) [0x7ff6100178b6]
+	chromedriver!(No symbol) [0x7ff610033eb2]
+	chromedriver!(No symbol) [0x7ff60ffd9a18]
+	chromedriver!(No symbol) [0x7ff60ffda8f3]
+	chromedriver!GetHandleVerifier [0x7ff61052ac5d+31c19d]
+	chromedriver!GetHandleVerifier [0x7ff61052536d+3168ad]
+	chromedriver!GetHandleVerifier [0x7ff610547d8a+3392ca]
+	chromedriver!GetHandleVerifier [0x7ff61023f445+30985]
+	chromedriver!GetHandleVerifier [0x7ff6102484dc+39a1c]
+	chromedriver!GetHandleVerifier [0x7ff61022c634+1db74]
+	chromedriver!GetHandleVerifier [0x7ff61022c7e6+1dd26]
+	chromedriver!GetHandleVerifier [0x7ff610211387+28c7]
+	KERNEL32!BaseThreadInitThunk [0x7ff820a0e8d7+17]
+	ntdll!RtlUserThreadStart [0x7ff82186c48c+2c]
+
+SKIP "we just raised": navigation failed.
+[FINAL] pages=1 scanned=4 saved=2 skipped=0 failed=9
+CSV: c:\Projects\Alerix-SDR\ICP Matching - Auto_job_applier_linkedIn\all excels/icp_posts_leads__20260320_203116.csv
+Detected local Chrome major version: 146. Attempting to download matching ChromeDriver first (if missing)...
+Fetching matching ChromeDriver version from: https://googlechromelabs.github.io/chrome-for-testing/LATEST_RELEASE_146
+Downloading ChromeDriver from: https://storage.googleapis.com/chrome-for-testing-public/146.0.7680.153/win64/chromedriver-win64.zip
+Pre-downloaded ChromeDriver for major 146: C:\Users\jammu\AppData\Local\Temp\auto_job_chromedriver\146.0.7680.153\chromedriver-win64\chromedriver.exe
+IF YOU HAVE MORE THAN 10 TABS OPENED, PLEASE CLOSE OR BOOKMARK THEM! Or it's highly likely that application will just open browser and not do anything!
+Using temporary Chrome profile (forced guest): C:\temp\auto-job-apply-profile
+Downloading Chrome Driver... This may take some time. Undetected mode requires download every run!
+Started Chrome using pre-downloaded matching chromedriver via Selenium Service.
+Output file ready: c:\Projects\Alerix-SDR\ICP Matching - Auto_job_applier_linkedIn\all excels/icp_posts_leads__20260320_203343.csv
+Loaded 0 already-seen post URLs.
+Terms (8): ['Looking for a CTO', 'looking for the CTO', 'looking for a Technical Co-Founder', 'looking for a Tech co-founder', 'looking for a technical co-founder', 'Looking for a technical co-founder', 'just raised', 'we just raised']
+Max pages ceiling: 9999
+Detail mode: off
+Navigating → https://www.linkedin.com/search/results/content/?keywords=Looking+for+a+CTO&origin=GLOBAL_SEARCH_HEADER
+WARNING: cards matched '//main//*[@role='listitem' and (@componentkey or @data-view-name or @data-view-tracking-scope)]' (9) but 0 passed card_has_post_marker; falling back to raw cards.
+DEBUG card[0]: anchors=21 tracking=0 time=0 urn='' preview='Feed post Chetan Keinturaa • 2nd IIT-J Tech MBA Candidate 24 | Building Trust Layer for Global IT So'
+DEBUG card[1]: anchors=7 tracking=0 time=0 urn='' preview='Feed post Anurag Abhay • 3rd+ Managing Partner and Practice Head @ The Growth Partners | People Powe'
+DEBUG card[2]: anchors=11 tracking=0 time=0 urn='' preview='Feed post Samata Gwalani • 3rd+ Strategic Partner to CEO | IICA Certified Independent Director | Gov'
+  Page 1: 9 card(s) found.
+WARNING: cards matched '//main//*[@role='listitem' and (@componentkey or @data-view-name or @data-view-tracking-scope)]' (9) but 0 passed card_has_post_marker; falling back to raw cards.
+DEBUG card[0]: anchors=21 tracking=0 time=0 urn='' preview='Feed post Chetan Keinturaa • 2nd IIT-J Tech MBA Candidate 24 | Building Trust Layer for Global IT So'
+DEBUG card[1]: anchors=7 tracking=0 time=0 urn='' preview='Feed post Anurag Abhay • 3rd+ Managing Partner and Practice Head @ The Growth Partners | People Powe'
+DEBUG card[2]: anchors=11 tracking=0 time=0 urn='' preview='Feed post Samata Gwalani • 3rd+ Strategic Partner to CEO | IICA Certified Independent Director | Gov'
+DEBUG: clipboard unchanged after 'Copy link' click (value='__li_clipboard_sentinel_1774019053.83041__').
+      DEBUG: copy-link menu did not yield a URL for card 0.
+    Card 0: no URL, saving without it. Text preview: Feed post Chetan Keinturaa • 2nd IIT-J Tech MBA Candidate 24 | Building Trust Layer for Global IT Sourcing | SpecXwise B
+      DEBUG no-URL hrefs=['https://www.linkedin.com/in/chetankeintura/', 'https://www.linkedin.com/in/chetankeintura/', 'https://www.linkedin.com/safety/go/?url=https%3A%2F%2Fsprect%2Ecom%2Fpro%2Fchetan%2Ek&urlhash=2o5v&mt=RFgxviqO4R58ubCnq5AiKRLfdf2NnfWqchJl__', 'https://www.linkedin.com/search/results/all/?keywords=%23cofoundermatch&origin=HASH_TAG_FROM_FEED', 'https://www.linkedin.com/search/results/all/?keywords=%23cto&origin=HASH_TAG_FROM_FEED', 'https://www.linkedin.com/search/results/all/?keywords=%23startupindia&origin=HASH_TAG_FROM_FEED'] html_activity=
+    Saved: (no name) | (no post url)
+WARNING: cards matched '//main//*[@role='listitem' and (@componentkey or @data-view-name or @data-view-tracking-scope)]' (9) but 0 passed card_has_post_marker; falling back to raw cards.
+DEBUG card[0]: anchors=21 tracking=0 time=0 urn='' preview='Feed post Chetan Keinturaa • 2nd IIT-J Tech MBA Candidate 24 | Building Trust Layer for Global IT So'
+DEBUG card[1]: anchors=7 tracking=0 time=0 urn='' preview='Feed post Anurag Abhay • 3rd+ Managing Partner and Practice Head @ The Growth Partners | People Powe'
+DEBUG card[2]: anchors=11 tracking=0 time=0 urn='' preview='Feed post Samata Gwalani • 3rd+ Strategic Partner to CEO | IICA Certified Independent Director | Gov'
+DEBUG: clipboard unchanged after 'Copy link' click (value='__li_clipboard_sentinel_1774019082.500079__').
+      DEBUG: copy-link menu did not yield a URL for card 1.
+    Card 1: no URL, saving without it. Text preview: Feed post Anurag Abhay • 3rd+ Managing Partner and Practice Head @ The Growth Partners | People Power evangelist, Strate
+      DEBUG no-URL hrefs=['https://www.linkedin.com/in/anurag-abhay-135582/', 'https://www.linkedin.com/in/anurag-abhay-135582/', 'https://www.linkedin.com/search/results/all/?keywords=%23cofounder&origin=HASH_TAG_FROM_FEED', 'https://www.linkedin.com/search/results/all/?keywords=%23cto&origin=HASH_TAG_FROM_FEED', 'https://www.linkedin.com/search/results/content/?keywords=Looking%20for%20a%20CTO&origin=GLOBAL_SEARCH_HEADER', 'https://www.linkedin.com/search/results/content/?keywords=Looking%20for%20a%20CTO&origin=GLOBAL_SEARCH_HEADER'] html_activity=
+    Saved: (no name) | (no post url)
+WARNING: cards matched '//main//*[@role='listitem' and (@componentkey or @data-view-name or @data-view-tracking-scope)]' (9) but 0 passed card_has_post_marker; falling back to raw cards.
+DEBUG card[0]: anchors=21 tracking=0 time=0 urn='' preview='Feed post Chetan Keinturaa • 2nd IIT-J Tech MBA Candidate 24 | Building Trust Layer for Global IT So'
+DEBUG card[1]: anchors=7 tracking=0 time=0 urn='' preview='Feed post Anurag Abhay • 3rd+ Managing Partner and Practice Head @ The Growth Partners | People Powe'
+DEBUG card[2]: anchors=11 tracking=0 time=0 urn='' preview='Feed post Samata Gwalani • 3rd+ Strategic Partner to CEO | IICA Certified Independent Director | Gov'
+Detected local Chrome major version: 146. Attempting to download matching ChromeDriver first (if missing)...
+Fetching matching ChromeDriver version from: https://googlechromelabs.github.io/chrome-for-testing/LATEST_RELEASE_146
+Downloading ChromeDriver from: https://storage.googleapis.com/chrome-for-testing-public/146.0.7680.153/win64/chromedriver-win64.zip
+Pre-downloaded ChromeDriver for major 146: C:\Users\jammu\AppData\Local\Temp\auto_job_chromedriver\146.0.7680.153\chromedriver-win64\chromedriver.exe
+IF YOU HAVE MORE THAN 10 TABS OPENED, PLEASE CLOSE OR BOOKMARK THEM! Or it's highly likely that application will just open browser and not do anything!
+Using temporary Chrome profile (forced guest): C:\temp\auto-job-apply-profile
+Downloading Chrome Driver... This may take some time. Undetected mode requires download every run!
+Started Chrome using pre-downloaded matching chromedriver via Selenium Service.
+Output file ready: c:\Projects\Alerix-SDR\ICP Matching - Auto_job_applier_linkedIn\all excels/icp_posts_leads__20260320_204013.csv
+Loaded 0 already-seen post URLs.
+Terms (8): ['Looking for a CTO', 'looking for the CTO', 'looking for a Technical Co-Founder', 'looking for a Tech co-founder', 'looking for a technical co-founder', 'Looking for a technical co-founder', 'just raised', 'we just raised']
+Max pages ceiling: 9999
+Detail mode: off
+Navigating → https://www.linkedin.com/search/results/content/?keywords=Looking+for+a+CTO&origin=GLOBAL_SEARCH_HEADER
+WARNING: cards matched '//main//*[@role='listitem' and (@componentkey or @data-view-name or @data-view-tracking-scope)]' (9) but 0 passed card_has_post_marker; falling back to raw cards.
+DEBUG card[0]: anchors=21 tracking=0 time=0 urn='' preview='Feed post Chetan Keinturaa • 2nd IIT-J Tech MBA Candidate 24 | Building Trust Layer for Global IT So'
+DEBUG card[1]: anchors=7 tracking=0 time=0 urn='' preview='Feed post Anurag Abhay • 3rd+ Managing Partner and Practice Head @ The Growth Partners | People Powe'
+DEBUG card[2]: anchors=11 tracking=0 time=0 urn='' preview='Feed post Samata Gwalani • 3rd+ Strategic Partner to CEO | IICA Certified Independent Director | Gov'
+  Page 1: 9 card(s) found.
+WARNING: cards matched '//main//*[@role='listitem' and (@componentkey or @data-view-name or @data-view-tracking-scope)]' (9) but 0 passed card_has_post_marker; falling back to raw cards.
+DEBUG card[0]: anchors=21 tracking=0 time=0 urn='' preview='Feed post Chetan Keinturaa • 2nd IIT-J Tech MBA Candidate 24 | Building Trust Layer for Global IT So'
+DEBUG card[1]: anchors=7 tracking=0 time=0 urn='' preview='Feed post Anurag Abhay • 3rd+ Managing Partner and Practice Head @ The Growth Partners | People Powe'
+DEBUG card[2]: anchors=11 tracking=0 time=0 urn='' preview='Feed post Samata Gwalani • 3rd+ Strategic Partner to CEO | IICA Certified Independent Director | Gov'
+DEBUG: extracted post URL from toast: https://www.linkedin.com/posts/chetankeintura_cofoundermatch-cto-startupindia-share-7432527437005123585-eh-L?rcm=ACoAADA6mBABGkVo_WY59HnCWOWKPtbK6SntIb8
+      DEBUG: copy-link yielded post_url='https://www.linkedin.com/posts/chetankeintura_cofoundermatch-cto-startupindia-share-7432527437005123585-eh-L?rcm=ACoAADA'
+    Saved: (no name) | https://www.linkedin.com/posts/chetankeintura_cofoundermatch-cto-startupindia-sh
+WARNING: cards matched '//main//*[@role='listitem' and (@componentkey or @data-view-name or @data-view-tracking-scope)]' (9) but 0 passed card_has_post_marker; falling back to raw cards.
+DEBUG card[0]: anchors=21 tracking=0 time=0 urn='' preview='Feed post Chetan Keinturaa • 2nd IIT-J Tech MBA Candidate 24 | Building Trust Layer for Global IT So'
+DEBUG card[1]: anchors=7 tracking=0 time=0 urn='' preview='Feed post Anurag Abhay • 3rd+ Managing Partner and Practice Head @ The Growth Partners | People Powe'
+DEBUG card[2]: anchors=11 tracking=0 time=0 urn='' preview='Feed post Samata Gwalani • 3rd+ Strategic Partner to CEO | IICA Certified Independent Director | Gov'
+DEBUG: extracted post URL from toast: https://www.linkedin.com/posts/anurag-abhay-135582_cofounder-cto-share-7439666711601225728-HsJu?rcm=ACoAADA6mBABGkVo_WY59HnCWOWKPtbK6SntIb8
+      DEBUG: copy-link yielded post_url='https://www.linkedin.com/posts/anurag-abhay-135582_cofounder-cto-share-7439666711601225728-HsJu?rcm=ACoAADA6mBABGkVo_WY5'
+    Saved: (no name) | https://www.linkedin.com/posts/anurag-abhay-135582_cofounder-cto-share-743966671
+WARNING: cards matched '//main//*[@role='listitem' and (@componentkey or @data-view-name or @data-view-tracking-scope)]' (9) but 0 passed card_has_post_marker; falling back to raw cards.
+DEBUG card[0]: anchors=21 tracking=0 time=0 urn='' preview='Feed post Chetan Keinturaa • 2nd IIT-J Tech MBA Candidate 24 | Building Trust Layer for Global IT So'
+DEBUG card[1]: anchors=7 tracking=0 time=0 urn='' preview='Feed post Anurag Abhay • 3rd+ Managing Partner and Practice Head @ The Growth Partners | People Powe'
+DEBUG card[2]: anchors=11 tracking=0 time=0 urn='' preview='Feed post Samata Gwalani • 3rd+ Strategic Partner to CEO | IICA Certified Independent Director | Gov'
+DEBUG: extracted post URL from toast: https://www.linkedin.com/posts/samata-gwalani-6a40671a0_hiring-cto-technologyleadership-share-7436735507889311744-0KgK?rcm=ACoAADA6mBABGkVo_WY59HnCWOWKPtbK6SntIb8
+      DEBUG: copy-link yielded post_url='https://www.linkedin.com/posts/samata-gwalani-6a40671a0_hiring-cto-technologyleadership-share-7436735507889311744-0KgK?r'
+    Saved: (no name) | https://www.linkedin.com/posts/samata-gwalani-6a40671a0_hiring-cto-technologylea
+WARNING: cards matched '//main//*[@role='listitem' and (@componentkey or @data-view-name or @data-view-tracking-scope)]' (9) but 0 passed card_has_post_marker; falling back to raw cards.
+DEBUG card[0]: anchors=21 tracking=0 time=0 urn='' preview='Feed post Chetan Keinturaa • 2nd IIT-J Tech MBA Candidate 24 | Building Trust Layer for Global IT So'
+DEBUG card[1]: anchors=7 tracking=0 time=0 urn='' preview='Feed post Anurag Abhay • 3rd+ Managing Partner and Practice Head @ The Growth Partners | People Powe'
+DEBUG card[2]: anchors=11 tracking=0 time=0 urn='' preview='Feed post Samata Gwalani • 3rd+ Strategic Partner to CEO | IICA Certified Independent Director | Gov'
+DEBUG: extracted post URL from toast: https://www.linkedin.com/posts/ankita-thakur-7a725b250_hiring-cto-cofounder-share-7440281556910440450-QqgK?rcm=ACoAADA6mBABGkVo_WY59HnCWOWKPtbK6SntIb8
+      DEBUG: copy-link yielded post_url='https://www.linkedin.com/posts/ankita-thakur-7a725b250_hiring-cto-cofounder-share-7440281556910440450-QqgK?rcm=ACoAADA6m'
+    Saved: (no name) | https://www.linkedin.com/posts/ankita-thakur-7a725b250_hiring-cto-cofounder-shar
+Detected local Chrome major version: 146. Attempting to download matching ChromeDriver first (if missing)...
+Fetching matching ChromeDriver version from: https://googlechromelabs.github.io/chrome-for-testing/LATEST_RELEASE_146
+Downloading ChromeDriver from: https://storage.googleapis.com/chrome-for-testing-public/146.0.7680.153/win64/chromedriver-win64.zip
+Pre-downloaded ChromeDriver for major 146: C:\Users\jammu\AppData\Local\Temp\auto_job_chromedriver\146.0.7680.153\chromedriver-win64\chromedriver.exe
+IF YOU HAVE MORE THAN 10 TABS OPENED, PLEASE CLOSE OR BOOKMARK THEM! Or it's highly likely that application will just open browser and not do anything!
+Using temporary Chrome profile (forced guest): C:\temp\auto-job-apply-profile
+Downloading Chrome Driver... This may take some time. Undetected mode requires download every run!
+Starting with pre-downloaded chromedriver failed, will try undetected_chromedriver as fallback.
+Message: session not created: Chrome failed to start: crashed.
+  (session not created: DevToolsActivePort file doesn't exist)
+  (The process started from chrome location C:\Program Files\Google\Chrome\Application\chrome.exe is no longer running, so ChromeDriver is assuming that Chrome has crashed.); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff7bf433045+14585]
+	chromedriver!GetHandleVerifier [0x7ff7bf4330b0+145f0]
+	chromedriver!(No symbol) [0x7ff7bf19db7d]
+	chromedriver!(No symbol) [0x7ff7bf1deebe]
+	chromedriver!(No symbol) [0x7ff7bf1d9f69]
+	chromedriver!(No symbol) [0x7ff7bf22e681]
+	chromedriver!(No symbol) [0x7ff7bf22dee6]
+	chromedriver!(No symbol) [0x7ff7bf1e9a18]
+	chromedriver!(No symbol) [0x7ff7bf1ea8f3]
+	chromedriver!GetHandleVerifier [0x7ff7bf73ac5d+31c19d]
+	chromedriver!GetHandleVerifier [0x7ff7bf73536d+3168ad]
+	chromedriver!GetHandleVerifier [0x7ff7bf757d8a+3392ca]
+	chromedriver!GetHandleVerifier [0x7ff7bf44f445+30985]
+	chromedriver!GetHandleVerifier [0x7ff7bf4584dc+39a1c]
+	chromedriver!GetHandleVerifier [0x7ff7bf43c634+1db74]
+	chromedriver!GetHandleVerifier [0x7ff7bf43c7e6+1dd26]
+	chromedriver!GetHandleVerifier [0x7ff7bf421387+28c7]
+	KERNEL32!BaseThreadInitThunk [0x7ff820a0e8d7+17]
+	ntdll!RtlUserThreadStart [0x7ff82186c48c+2c]
+
+Detected local Chrome major version: 146. Attempting to download matching ChromeDriver first (if missing)...
+Fetching matching ChromeDriver version from: https://googlechromelabs.github.io/chrome-for-testing/LATEST_RELEASE_146
+Downloading ChromeDriver from: https://storage.googleapis.com/chrome-for-testing-public/146.0.7680.153/win64/chromedriver-win64.zip
+Pre-downloaded ChromeDriver for major 146: C:\Users\jammu\AppData\Local\Temp\auto_job_chromedriver\146.0.7680.153\chromedriver-win64\chromedriver.exe
+IF YOU HAVE MORE THAN 10 TABS OPENED, PLEASE CLOSE OR BOOKMARK THEM! Or it's highly likely that application will just open browser and not do anything!
+Using temporary Chrome profile (forced guest): C:\temp\auto-job-apply-profile
+Downloading Chrome Driver... This may take some time. Undetected mode requires download every run!
+Started Chrome using pre-downloaded matching chromedriver via Selenium Service.
+Output file ready: c:\Projects\Alerix-SDR\ICP Matching - Auto_job_applier_linkedIn\all excels/icp_posts_leads__20260320_204550.csv
+Loaded 0 already-seen post URLs.
+Terms (8): ['Looking for a CTO', 'looking for the CTO', 'looking for a Technical Co-Founder', 'looking for a Tech co-founder', 'looking for a technical co-founder', 'Looking for a technical co-founder', 'just raised', 'we just raised']
+Max pages ceiling: 9999
+Detail mode: off
+Navigating → https://www.linkedin.com/search/results/content/?keywords=Looking+for+a+CTO&origin=GLOBAL_SEARCH_HEADER
+WARNING: cards matched '//main//*[@role='listitem' and (@componentkey or @data-view-name or @data-view-tracking-scope)]' (9) but 0 passed card_has_post_marker; falling back to raw cards.
+DEBUG card[0]: anchors=21 tracking=0 time=0 urn='' preview='Feed post Chetan Keinturaa • 2nd IIT-J Tech MBA Candidate 24 | Building Trust Layer for Global IT So'
+DEBUG card[1]: anchors=7 tracking=0 time=0 urn='' preview='Feed post Anurag Abhay • 3rd+ Managing Partner and Practice Head @ The Growth Partners | People Powe'
+DEBUG card[2]: anchors=11 tracking=0 time=0 urn='' preview='Feed post Samata Gwalani • 3rd+ Strategic Partner to CEO | IICA Certified Independent Director | Gov'
+  Page 1: 9 card(s) found.
+WARNING: cards matched '//main//*[@role='listitem' and (@componentkey or @data-view-name or @data-view-tracking-scope)]' (9) but 0 passed card_has_post_marker; falling back to raw cards.
+DEBUG card[0]: anchors=21 tracking=0 time=0 urn='' preview='Feed post Chetan Keinturaa • 2nd IIT-J Tech MBA Candidate 24 | Building Trust Layer for Global IT So'
+DEBUG card[1]: anchors=7 tracking=0 time=0 urn='' preview='Feed post Anurag Abhay • 3rd+ Managing Partner and Practice Head @ The Growth Partners | People Powe'
+DEBUG card[2]: anchors=11 tracking=0 time=0 urn='' preview='Feed post Samata Gwalani • 3rd+ Strategic Partner to CEO | IICA Certified Independent Director | Gov'
+DEBUG: extracted post URL from toast: https://www.linkedin.com/posts/chetankeintura_cofoundermatch-cto-startupindia-share-7432527437005123585-eh-L?rcm=ACoAADA6mBABGkVo_WY59HnCWOWKPtbK6SntIb8
+      DEBUG: copy-link yielded post_url='https://www.linkedin.com/posts/chetankeintura_cofoundermatch-cto-startupindia-share-7432527437005123585-eh-L?rcm=ACoAADA'
+    Saved: (no name) | https://www.linkedin.com/posts/chetankeintura_cofoundermatch-cto-startupindia-sh
+WARNING: cards matched '//main//*[@role='listitem' and (@componentkey or @data-view-name or @data-view-tracking-scope)]' (9) but 0 passed card_has_post_marker; falling back to raw cards.
+DEBUG card[0]: anchors=21 tracking=0 time=0 urn='' preview='Feed post Chetan Keinturaa • 2nd IIT-J Tech MBA Candidate 24 | Building Trust Layer for Global IT So'
+DEBUG card[1]: anchors=7 tracking=0 time=0 urn='' preview='Feed post Anurag Abhay • 3rd+ Managing Partner and Practice Head @ The Growth Partners | People Powe'
+DEBUG card[2]: anchors=11 tracking=0 time=0 urn='' preview='Feed post Samata Gwalani • 3rd+ Strategic Partner to CEO | IICA Certified Independent Director | Gov'
+DEBUG: extracted post URL from toast: https://www.linkedin.com/posts/anurag-abhay-135582_cofounder-cto-share-7439666711601225728-HsJu?rcm=ACoAADA6mBABGkVo_WY59HnCWOWKPtbK6SntIb8
+      DEBUG: copy-link yielded post_url='https://www.linkedin.com/posts/anurag-abhay-135582_cofounder-cto-share-7439666711601225728-HsJu?rcm=ACoAADA6mBABGkVo_WY5'
+    Saved: (no name) | https://www.linkedin.com/posts/anurag-abhay-135582_cofounder-cto-share-743966671
+WARNING: cards matched '//main//*[@role='listitem' and (@componentkey or @data-view-name or @data-view-tracking-scope)]' (9) but 0 passed card_has_post_marker; falling back to raw cards.
+DEBUG card[0]: anchors=21 tracking=0 time=0 urn='' preview='Feed post Chetan Keinturaa • 2nd IIT-J Tech MBA Candidate 24 | Building Trust Layer for Global IT So'
+DEBUG card[1]: anchors=7 tracking=0 time=0 urn='' preview='Feed post Anurag Abhay • 3rd+ Managing Partner and Practice Head @ The Growth Partners | People Powe'
+DEBUG card[2]: anchors=11 tracking=0 time=0 urn='' preview='Feed post Samata Gwalani • 3rd+ Strategic Partner to CEO | IICA Certified Independent Director | Gov'
+DEBUG: extracted post URL from toast: https://www.linkedin.com/posts/samata-gwalani-6a40671a0_hiring-cto-technologyleadership-share-7436735507889311744-0KgK?rcm=ACoAADA6mBABGkVo_WY59HnCWOWKPtbK6SntIb8
+      DEBUG: copy-link yielded post_url='https://www.linkedin.com/posts/samata-gwalani-6a40671a0_hiring-cto-technologyleadership-share-7436735507889311744-0KgK?r'
+    Saved: (no name) | https://www.linkedin.com/posts/samata-gwalani-6a40671a0_hiring-cto-technologylea
+WARNING: cards matched '//main//*[@role='listitem' and (@componentkey or @data-view-name or @data-view-tracking-scope)]' (9) but 0 passed card_has_post_marker; falling back to raw cards.
+DEBUG card[0]: anchors=21 tracking=0 time=0 urn='' preview='Feed post Chetan Keinturaa • 2nd IIT-J Tech MBA Candidate 24 | Building Trust Layer for Global IT So'
+DEBUG card[1]: anchors=7 tracking=0 time=0 urn='' preview='Feed post Anurag Abhay • 3rd+ Managing Partner and Practice Head @ The Growth Partners | People Powe'
+DEBUG card[2]: anchors=11 tracking=0 time=0 urn='' preview='Feed post Samata Gwalani • 3rd+ Strategic Partner to CEO | IICA Certified Independent Director | Gov'
+DEBUG: extracted post URL from toast: https://www.linkedin.com/posts/ankita-thakur-7a725b250_hiring-cto-cofounder-share-7440281556910440450-QqgK?rcm=ACoAADA6mBABGkVo_WY59HnCWOWKPtbK6SntIb8
+      DEBUG: copy-link yielded post_url='https://www.linkedin.com/posts/ankita-thakur-7a725b250_hiring-cto-cofounder-share-7440281556910440450-QqgK?rcm=ACoAADA6m'
+    Saved: (no name) | https://www.linkedin.com/posts/ankita-thakur-7a725b250_hiring-cto-cofounder-shar
+WARNING: cards matched '//main//*[@role='listitem' and (@componentkey or @data-view-name or @data-view-tracking-scope)]' (9) but 0 passed card_has_post_marker; falling back to raw cards.
+DEBUG card[0]: anchors=21 tracking=0 time=0 urn='' preview='Feed post Chetan Keinturaa • 2nd IIT-J Tech MBA Candidate 24 | Building Trust Layer for Global IT So'
+DEBUG card[1]: anchors=7 tracking=0 time=0 urn='' preview='Feed post Anurag Abhay • 3rd+ Managing Partner and Practice Head @ The Growth Partners | People Powe'
+DEBUG card[2]: anchors=11 tracking=0 time=0 urn='' preview='Feed post Samata Gwalani • 3rd+ Strategic Partner to CEO | IICA Certified Independent Director | Gov'
+DEBUG: extracted post URL from toast: https://www.linkedin.com/posts/asadansari7_hi-im-looking-for-a-full-stack-developer-share-7440066236064972800-od5r?rcm=ACoAADA6mBABGkVo_WY59HnCWOWKPtbK6SntIb8
+      DEBUG: copy-link yielded post_url='https://www.linkedin.com/posts/asadansari7_hi-im-looking-for-a-full-stack-developer-share-7440066236064972800-od5r?rcm=A'
+    Saved: (no name) | https://www.linkedin.com/posts/asadansari7_hi-im-looking-for-a-full-stack-develo
+WARNING: cards matched '//main//*[@role='listitem' and (@componentkey or @data-view-name or @data-view-tracking-scope)]' (9) but 0 passed card_has_post_marker; falling back to raw cards.
+DEBUG card[0]: anchors=21 tracking=0 time=0 urn='' preview='Feed post Chetan Keinturaa • 2nd IIT-J Tech MBA Candidate 24 | Building Trust Layer for Global IT So'
+DEBUG card[1]: anchors=7 tracking=0 time=0 urn='' preview='Feed post Anurag Abhay • 3rd+ Managing Partner and Practice Head @ The Growth Partners | People Powe'
+DEBUG card[2]: anchors=11 tracking=0 time=0 urn='' preview='Feed post Samata Gwalani • 3rd+ Strategic Partner to CEO | IICA Certified Independent Director | Gov'
+DEBUG: extracted post URL from toast: https://www.linkedin.com/posts/lalitzpatel_seeking-technical-co-founder-cto-i-am-share-7437453719371153409-mf31?rcm=ACoAADA6mBABGkVo_WY59HnCWOWKPtbK6SntIb8
+      DEBUG: copy-link yielded post_url='https://www.linkedin.com/posts/lalitzpatel_seeking-technical-co-founder-cto-i-am-share-7437453719371153409-mf31?rcm=ACoA'
+    Saved: (no name) | https://www.linkedin.com/posts/lalitzpatel_seeking-technical-co-founder-cto-i-am
+WARNING: cards matched '//main//*[@role='listitem' and (@componentkey or @data-view-name or @data-view-tracking-scope)]' (9) but 0 passed card_has_post_marker; falling back to raw cards.
+DEBUG card[0]: anchors=21 tracking=0 time=0 urn='' preview='Feed post Chetan Keinturaa • 2nd IIT-J Tech MBA Candidate 24 | Building Trust Layer for Global IT So'
+DEBUG card[1]: anchors=7 tracking=0 time=0 urn='' preview='Feed post Anurag Abhay • 3rd+ Managing Partner and Practice Head @ The Growth Partners | People Powe'
+DEBUG card[2]: anchors=11 tracking=0 time=0 urn='' preview='Feed post Samata Gwalani • 3rd+ Strategic Partner to CEO | IICA Certified Independent Director | Gov'
