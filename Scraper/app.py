@@ -46,6 +46,26 @@ def get_applied_jobs():
         return jsonify({"error": "No applications history found"}), 404
     except Exception as e:
         return jsonify({"error": str(e)}), 500
+    
+@app.route('/leads', methods=['GET'])
+def get_leads():
+    '''
+    Returns scraped LinkedIn leads from leads.json
+    '''
+    try:
+        file_path = "leads.json"
+
+        if not os.path.exists(file_path):
+            return jsonify([])
+
+        import json
+        with open(file_path, encoding='utf-8') as f:
+            data = json.load(f)
+
+        return jsonify(data)
+
+    except Exception as e:
+        return jsonify({"error": str(e)}), 500
 
 @app.route('/applied-jobs/<job_id>', methods=['PUT'])
 def update_applied_date(job_id):

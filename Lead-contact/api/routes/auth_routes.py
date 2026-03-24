@@ -1,9 +1,31 @@
 from fastapi import APIRouter, HTTPException, Query
+from fastapi.responses import RedirectResponse
 from api.dependencies.providers import get_oauth_provider, get_oauth_service
 from core.auth.models import AuthUrlResponse, OAuthCallbackResponse
+from config import settings
 from utils.logger import logger
+from urllib.parse import urlencode
 
 router = APIRouter()
+
+
+async def _process_oauth_callback(provider: str, code: str) -> OAuthCallbackResponse:
+    """Shared OAuth callback handler used by both callback route formats."""
+    try:
+        oauth_provider = await get_oauth_provider(provider)
+        oauth_service = await get_oauth_service()
+
+        result = await oauth_service.handle_oauth_callback(
+            oauth_provider, provider, code
+        )
+
+        return OAuthCallbackResponse(**result)
+    except ValueError as e:
+        logger.warning(f"Invalid provider in callback: {provider}")
+        raise HTTPException(status_code=400, detail=str(e))
+    except Exception as e:
+        logger.error(f"OAuth callback failed for provider {provider}: {e}")
+        raise HTTPException(status_code=500, detail="Authentication failed")
 
 
 @router.get("/auth/{provider}/url", response_model=AuthUrlResponse)
@@ -44,19 +66,38 @@ async def oauth_callback(
     - **code**: Authorization code received from the provider
     - **state**: Optional state parameter
     """
-    try:
-        oauth_provider = await get_oauth_provider(provider)
-        oauth_service = await get_oauth_service()
+    return await _process_oauth_callback(provider, code)
 
-        result = await oauth_service.handle_oauth_callback(
-            oauth_provider, provider, code
-        )
 
-        return OAuthCallbackResponse(**result)
+@router.get("/auth/{provider}/callback", response_model=OAuthCallbackResponse)
+async def auth_style_oauth_callback(
+    provider: str,
+    code: str = Query(..., description="Authorization code from OAuth provider"),
+    state: str = Query(None, description="State parameter for CSRF protection")
+):
+    """
+    Compatibility callback route for providers configured as /api/auth/{provider}/callback.
 
-    except ValueError as e:
-        logger.warning(f"Invalid provider in callback: {provider}")
-        raise HTTPException(status_code=400, detail=str(e))
-    except Exception as e:
-        logger.error(f"OAuth callback failed for provider {provider}: {e}")
-        raise HTTPException(status_code=500, detail="Authentication failed")
+    This mirrors /api/oauth/callback/{provider} to support existing Google console setup.
+    """
+    return await _process_oauth_callback(provider, code)
+
+
+@router.get("/api/auth/{provider}/callback")
+async def api_prefixed_auth_callback_redirect(
+    provider: str,
+    code: str = Query(..., description="Authorization code from OAuth provider"),
+    state: str = Query(None, description="State parameter for CSRF protection")
+):
+    """
+    Compatibility redirect for providers configured with /api/auth/{provider}/callback.
+
+    Google can only return to one redirect URI. When that URI points to backend with `/api`,
+    redirect the browser to frontend callback so the existing client-side flow can continue.
+    """
+    query = urlencode({
+        "code": code,
+        "state": state or provider
+    })
+    callback_url = f"{settings.frontend_url.rstrip('/')}/callback?{query}"
+    return RedirectResponse(url=callback_url, status_code=307)

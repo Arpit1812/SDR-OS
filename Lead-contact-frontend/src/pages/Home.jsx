@@ -13,14 +13,30 @@ function Home() {
     fetchProviders()
   }, [])
 
+  // const fetchProviders = async () => {
+  //   try {
+  //     const response = await fetch(apiUrl('/api/providers'))
+  //     const data = await response.json()
+  //     setProviders(data)
+  //   } catch (err) {
+  //     console.error('Error fetching providers:', err)
+  //     setError('Failed to fetch providers')
+  //   }
+  // }
+
   const fetchProviders = async () => {
+    setError(null)
     try {
       const response = await fetch(apiUrl('/api/providers'))
+      if (!response.ok) {
+        const errorText = await response.text().catch(() => '')
+        throw new Error(`Providers API failed: ${response.status} ${response.statusText} ${errorText}`)
+      }
       const data = await response.json()
       setProviders(data)
     } catch (err) {
       console.error('Error fetching providers:', err)
-      setError('Failed to fetch providers')
+      setError('Failed to fetch providers (see console for details)')
     }
   }
 

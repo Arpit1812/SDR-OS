@@ -1,4 +1,5 @@
 from motor.motor_asyncio import AsyncIOMotorClient, AsyncIOMotorDatabase
+import certifi
 from config import settings
 from utils.logger import logger
 
@@ -11,16 +12,29 @@ class MongoDBConnection:
         self.database: AsyncIOMotorDatabase = None
 
     async def connect(self):
-        """Connect to MongoDB"""
-        try:
-            self.client = AsyncIOMotorClient(settings.mongo_uri)
-            self.database = self.client[settings.mongo_db_name]
-            # Test the connection
-            await self.client.admin.command('ping')
-            logger.info(f"Connected to MongoDB database: {settings.mongo_db_name}")
-        except Exception as e:
-            logger.error(f"Failed to connect to MongoDB: {e}")
-            raise
+        """Connect to MongoDB, trying multiple TLS strategies."""
+        strategies = [
+            {"tls": True, "tlsCAFile": certifi.where()},
+            {"tls": True},
+            {"tls": True, "tlsAllowInvalidCertificates": True},
+        ]
+        last_error = None
+        for i, tls_opts in enumerate(strategies, 1):
+            try:
+                self.client = AsyncIOMotorClient(settings.mongo_uri, **tls_opts)
+                self.database = self.client[settings.mongo_db_name]
+                await self.client.admin.command('ping')
+                logger.info(f"Connected to MongoDB database: {settings.mongo_db_name} (strategy {i})")
+                return
+            except Exception as e:
+                last_error = e
+                logger.warning(f"MongoDB connection strategy {i} failed: {e}")
+                self.client = None
+                self.database = None
+
+        logger.error(f"All MongoDB connection strategies failed. Last error: {last_error}")
+        logger.error("Please check: 1) Your IP is whitelisted in MongoDB Atlas Network Access  "
+                      "2) Your MONGO_URI in .env is correct  3) The cluster is active")
 
     async def disconnect(self):
         """Disconnect from MongoDB"""

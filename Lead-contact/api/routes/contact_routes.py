@@ -12,6 +12,7 @@ from core.csv.models import (
 from core.csv.csv_service import CsvService
 from db.repository_factory import get_contact_repository
 from utils.logger import logger
+from db.repository_factory import get_contact_repository
 
 
 router = APIRouter(prefix="/contacts")
@@ -140,6 +141,8 @@ async def upload_contacts(
     except Exception as e:
         logger.error(f"Error uploading contacts: {str(e)}")
         raise HTTPException(status_code=500, detail=f"Error processing file: {str(e)}")
+    
+
 
 
 @router.get("", response_model=ContactListResponse)

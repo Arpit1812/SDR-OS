@@ -8,6 +8,7 @@ from api.routes.campaign_routes import router as campaign_router
 from api.routes.prompt_routes import router as prompt_router
 from api.routes.calendar_routes import router as calendar_router
 from api.routes.internal_routes import router as internal_router
+from api.routes.scraper_routes import router as scraper_router
 from api.webhooks.trigger_webhooks import router as trigger_webhook_router
 from db.mongodb.connection import mongodb_connection
 from utils.logger import logger
@@ -58,6 +59,7 @@ app.include_router(prompt_router, tags=["Prompts"])
 app.include_router(calendar_router, tags=["Calendar"])
 app.include_router(campaign_router, tags=["Campaigns"])
 app.include_router(internal_router, tags=["Internal"])
+app.include_router(scraper_router, tags=["Scraper"])
 app.include_router(trigger_webhook_router, tags=["Webhooks"])
 
 

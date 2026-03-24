@@ -21,6 +21,7 @@ import csv
 import re
 import time
 import pyautogui
+import json
 
 # Set CSV field size limit to prevent field size errors
 csv.field_size_limit(1000000)  # Set to 1MB instead of default 131KB
@@ -147,6 +148,27 @@ if is_extractor_mode and isinstance(icp_job_type, list) and len(icp_job_type) > 
 effective_on_site = on_site
 if is_extractor_mode and isinstance(icp_on_site, list) and len(icp_on_site) > 0:
     effective_on_site = icp_on_site
+
+def convert_csv_to_json(csv_path: str, json_path: str):
+    '''
+    Convert ICP CSV leads to JSON for SDR integration
+    '''
+    try:
+        import csv
+        data = []
+
+        with open(csv_path, encoding='utf-8') as f:
+            reader = csv.DictReader(f)
+            for row in reader:
+                data.append(row)
+
+        with open(json_path, "w", encoding='utf-8') as f:
+            json.dump(data, f, indent=2)
+
+        print_lg(f"Converted leads CSV → JSON: {json_path}")
+
+    except Exception as e:
+        print_lg("Failed to convert CSV to JSON!", e)
 
 
 def build_run_scoped_icp_leads_file_name() -> str:
@@ -1336,6 +1358,27 @@ def apply_to_jobs(search_terms: list[str]) -> None:
 
             
                 for job in job_listings:
+                    try:
+                        import json as _json
+                        from datetime import datetime as _dt
+                        _stats = {
+                            "total_runs": "Live Run",
+                            "jobs_scanned": jobs_scanned_count,
+                            "icp_leads_matched": icp_matched_count,
+                            "icp_leads_saved": icp_saved_count,
+                            "icp_leads_file": str(icp_leads_run_file_name),
+                            "easy_applied": easy_applied_count,
+                            "external_jobs": external_jobs_count,
+                            "total_applied_or_collected": easy_applied_count + external_jobs_count,
+                            "failed_jobs": failed_count,
+                            "irrelevant_skipped": skip_count,
+                            "timestamp": _dt.now().isoformat()
+                        }
+                        with open(os.path.join(os.path.dirname(os.path.abspath(__file__)), "run_stats.json"), "w", encoding="utf-8") as _f:
+                            _json.dump(_stats, _f, indent=2)
+                    except Exception:
+                        pass
+
                     if keep_screen_awake: pyautogui.press('shiftright')
                     if current_count >= switch_number: break
                     print_lg("\n-@-\n")
@@ -1634,7 +1677,6 @@ chatGPT_tab = False
 linkedIn_tab = False
 
 def main() -> None:
-    pyautogui.alert("Please consider sponsoring this project at:\n\nhttps://github.com/sponsors/GodsScion\n\n", "Support the project", "Okay")
     total_runs = 1
     try:
         global linkedIn_tab, tabs_count, useNewResume, aiClient, icp_leads_run_file_name
@@ -1648,7 +1690,7 @@ def main() -> None:
         print_lg(f"ICP leads for this run will be saved at: {icp_leads_run_file_name}")
         
         if not os.path.exists(default_resume_path):
-            pyautogui.alert(text='Your default resume "{}" is missing! Please update it\'s folder path "default_resume_path" in config.py\n\nOR\n\nAdd a resume with exact name and path (check for spelling mistakes including cases).\n\n\nFor now the bot will continue using your previous upload from LinkedIn!'.format(default_resume_path), title="Missing Resume", button="OK")
+            print_lg(f"Warning: Default resume '{default_resume_path}' is missing.")
             useNewResume = False
         
         # Login to LinkedIn
@@ -1707,9 +1749,9 @@ def main() -> None:
         print_lg("Browser window closed or session is invalid. Exiting.", e)
     except Exception as e:
         critical_error_log("In Applier Main", e)
-        pyautogui.alert(e,alert_title)
     finally:
         summary = "Total runs: {}\nJobs scanned: {}\nICP leads matched: {}\nICP leads saved: {}\nJobs Easy Applied: {}\nExternal job links collected: {}\nTotal applied or collected: {}\nFailed jobs: {}\nIrrelevant jobs skipped: {}\n".format(total_runs, jobs_scanned_count, icp_matched_count, icp_saved_count, easy_applied_count, external_jobs_count, easy_applied_count + external_jobs_count, failed_count, skip_count)
+        convert_csv_to_json(icp_leads_run_file_name, "leads.json")
         print_lg(summary)
         print_lg("\n\nTotal runs:                     {}".format(total_runs))
         print_lg("Jobs scanned:                   {}".format(jobs_scanned_count))
@@ -1723,33 +1765,34 @@ def main() -> None:
         print_lg("\nFailed jobs:                    {}".format(failed_count))
         print_lg("Irrelevant jobs skipped:        {}\n".format(skip_count))
         if randomly_answered_questions: print_lg("\n\nQuestions randomly answered:\n  {}  \n\n".format(";\n".join(str(question) for question in randomly_answered_questions)))
-        quotes = choice([
-            "Never quit. You're one step closer than before. - Sai Vignesh Golla", 
-            "All the best with your future interviews, you've got this. - Sai Vignesh Golla", 
-            "Keep up with the progress. You got this. - Sai Vignesh Golla", 
-            "If you're tired, learn to take rest but never give up. - Sai Vignesh Golla",
-            "Success is not final, failure is not fatal, It is the courage to continue that counts. - Winston Churchill (Not a sponsor)",
-            "Believe in yourself and all that you are. Know that there is something inside you that is greater than any obstacle. - Christian D. Larson (Not a sponsor)",
-            "Every job is a self-portrait of the person who does it. Autograph your work with excellence. - Jessica Guidobono (Not a sponsor)",
-            "The only way to do great work is to love what you do. If you haven't found it yet, keep looking. Don't settle. - Steve Jobs (Not a sponsor)",
-            "Opportunities don't happen, you create them. - Chris Grosser (Not a sponsor)",
-            "The road to success and the road to failure are almost exactly the same. The difference is perseverance. - Colin R. Davis (Not a sponsor)",
-            "Obstacles are those frightful things you see when you take your eyes off your goal. - Henry Ford (Not a sponsor)",
-            "The only limit to our realization of tomorrow will be our doubts of today. - Franklin D. Roosevelt (Not a sponsor)",
-            ])
-        sponsors = "Be the first to have your name here!"
-        timeSaved = (easy_applied_count * 80) + (external_jobs_count * 20) + (skip_count * 10)
-        timeSavedMsg = ""
-        if timeSaved > 0:
-            timeSaved += 60
-            timeSavedMsg = f"In this run, you saved approx {round(timeSaved/60)} mins ({timeSaved} secs), please consider supporting the project."
-        msg = f"{quotes}\n\n\n{timeSavedMsg}\nYou can also get your quote and name shown here, or prioritize your bug reports by supporting the project at:\n\nhttps://github.com/sponsors/GodsScion\n\n\nSummary:\n{summary}\n\n\nBest regards,\nSai Vignesh Golla\nhttps://www.linkedin.com/in/saivigneshgolla/\n\nTop Sponsors:\n{sponsors}"
-        pyautogui.alert(msg, "Exiting..")
-        print_lg(msg,"Closing the browser...")
+
+        # Save run stats to JSON for the Lead-contact dashboard
+        import json as _json
+        from datetime import datetime as _dt
+        stats = {
+            "total_runs": total_runs,
+            "jobs_scanned": jobs_scanned_count,
+            "icp_leads_matched": icp_matched_count,
+            "icp_leads_saved": icp_saved_count,
+            "icp_leads_file": str(icp_leads_run_file_name),
+            "easy_applied": easy_applied_count,
+            "external_jobs": external_jobs_count,
+            "total_applied_or_collected": easy_applied_count + external_jobs_count,
+            "failed_jobs": failed_count,
+            "irrelevant_skipped": skip_count,
+            "timestamp": _dt.now().isoformat(),
+        }
+        try:
+            stats_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "run_stats.json")
+            with open(stats_path, "w", encoding="utf-8") as sf:
+                _json.dump(stats, sf, indent=2)
+            print_lg(f"Run stats saved to {stats_path}")
+        except Exception as se:
+            print_lg(f"Warning: Could not save run_stats.json: {se}")
+
+        print_lg("Closing the browser...")
         if tabs_count >= 10:
-            msg = "NOTE: IF YOU HAVE MORE THAN 10 TABS OPENED, PLEASE CLOSE OR BOOKMARK THEM!\n\nOr it's highly likely that application will just open browser and not do anything next time!" 
-            pyautogui.alert(msg,"Info")
-            print_lg("\n"+msg)
+            print_lg("NOTE: IF YOU HAVE MORE THAN 10 TABS OPENED, PLEASE CLOSE OR BOOKMARK THEM!")
         ##> ------ Yang Li : MARKYangL - Feature ------
         if use_AI and aiClient:
             try:

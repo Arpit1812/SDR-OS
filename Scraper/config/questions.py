@@ -21,7 +21,7 @@ version:    26.01.20.5.08
 # >>>>>>>>>>> Easy Apply Questions & Inputs <<<<<<<<<<<
 
 # Give an relative path of your default resume to be uploaded. If file in not found, will continue using your previously uploaded resume in LinkedIn.
-default_resume_path = "all resumes/default/resume.pdf"      # (In Development)
+default_resume_path = "all resumes/upload_Manan_Lall_Resume.pdf"      # (In Development)
 
 # What do you want to answer for questions that ask about years of experience you have, this is different from current_experience? 
 years_of_experience = "2"          # A number in quotes Eg: "0","1","2","3","4", etc.
@@ -143,7 +143,7 @@ confidence_level = "9.5"             # Any number between "1" to "10" including 
 
 ## Allow Manual Inputs
 # Should the tool pause before every submit application during easy apply to let you check the information?
-pause_before_submit = True         # True or False, Note: True or False are case-sensitive
+pause_before_submit = False         # True or False, Note: True or False are case-sensitive
 '''
 Note: Will be treated as False if `run_in_background = True`
 '''

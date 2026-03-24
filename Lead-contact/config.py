@@ -22,10 +22,14 @@ class Settings(BaseSettings):
     
     # Backend URL (for Trigger.dev callbacks)
     backend_url: str = "http://localhost:8000"
+    frontend_url: str = "http://localhost:3000"
 
     # Optional settings
     debug: bool = False
     log_level: str = "INFO"
+
+    # Scraper project directory (relative to Lead-contact or absolute)
+    scraper_dir: str = "../Scraper"
 
     class Config:
         env_file = ".env"

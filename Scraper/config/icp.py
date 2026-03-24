@@ -37,28 +37,32 @@ icp_salary = ""                        # "$40,000+", "$60,000+", "$80,000+", "$1
 icp_easy_apply_only = False            # True or False
 icp_experience_level = []              # "Internship", "Entry level", "Associate", "Mid-Senior level", "Director", "Executive"
 icp_job_type = []                      # "Full-time", "Part-time", "Contract", "Temporary", "Volunteer", "Internship", "Other"
-icp_on_site = ["Hybrid", "Remote"]               # "On-site", "Remote", "Hybrid"
+icp_on_site = [
+    "Hybrid",
+    "Remote",
+]               # "On-site", "Remote", "Hybrid"
 
 # Dedicated search terms for ICP extraction.
 # If empty, bot will fall back to `search_terms` from `config/search.py`.
 icp_search_terms = [
-    "Chief Technical Officer",
-    "CTO",
-    "Chief Technology Officer",
-    "Tech Co-Founder",
-    "technical cofounder",
-    "Tech Co-Founder",
-    "founding engineer",
+    "AI Engineer",
+    "ML Engineer",
+    "Gen AI",
+    "AI/ML Engineer",
+    "Full Stack Developer",
+    "Frontend Developer",
+    "Backend Developer",
 ]
 
 # Target role keywords (job title + description)
 icp_role_keywords = [
-    "CTO",
-    "Tech Co-Founder",
-    "technical cofounder",
-    "technical co-founder",
-    "founding engineer",
-    "head of engineering",
+    "AI Engineer",
+    "ML Engineer",
+    "Gen AI",
+    "AI/ML Engineer",
+    "Full Stack Developer",
+    "Frontend Developer",
+    "Backend Developer",
 ]
 
 # Company size buckets to match (normalized format)
@@ -72,7 +76,11 @@ icp_industry_keywords = [
     "software development",
     "saas",
     "technology",
-    "it services",
+    "AI/ML",
+    "Gen AI",
+    "AI models",
+    "LLM",
+    "NLP",
 ]
 
 # Signals that suggest non-technical founder/team

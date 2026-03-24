@@ -12,3 +12,6 @@ secrets.py
 config/personals.py
 .venv
 apikeys.py
+
+leads.json
+run_stats.json

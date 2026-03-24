@@ -6,6 +6,7 @@ from db.mongodb.template_repository import MongoTemplateRepository
 from db.mongodb.email_log_repository import MongoEmailLogRepository
 from db.mongodb.campaign_repository import MongoCampaignRepository
 from db.mongodb.conversation_repository import MongoConversationRepository
+from db.mongodb.linkedin_lead_repository import MongoLinkedInLeadRepository
 from db.mongodb.prompt_repository import MongoPromptRepository
 from db.mongodb.connection import get_database, mongodb_connection
 from motor.motor_asyncio import AsyncIOMotorDatabase
@@ -109,3 +110,12 @@ async def get_conversation_repository() -> MongoConversationRepository:
 async def get_prompt_repository() -> PromptRepository:
     """Convenience function to get prompt repository"""
     return await repository_factory.create_prompt_repository()
+
+
+async def get_linkedin_lead_repository() -> MongoLinkedInLeadRepository:
+    """Convenience function to get LinkedIn lead repository"""
+    db = repository_factory.database
+    if db is None:
+        db = mongodb_connection.get_database()
+        repository_factory.database = db
+    return MongoLinkedInLeadRepository(db)
