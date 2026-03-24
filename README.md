@@ -66,6 +66,12 @@ The platform automates the entire email campaign lifecycle: from contact import 
 - ⏱️ Campaign timing and duration metrics
 - 📈 Contact upload history and stats
 
+### 6. **LinkedIn Scraper Integration**
+- 🕷️ Subprocess-managed LinkedIn bot for lead generation and automated applying
+- 🎯 UI-based ICP (Ideal Customer Profile) configuration for accurate targeting
+- 📥 Direct ingestion of scraped LinkedIn leads into MongoDB Contacts
+- 📄 Seamless resume upload and configuration syncing between React and the scraper
+
 ---
 
 ## 🏗️ System Architecture
@@ -75,15 +81,14 @@ The platform automates the entire email campaign lifecycle: from contact import 
 │                     Lead Contact Platform                       │
 ├─────────────────────────────────────────────────────────────────┤
 │                                                                 │
-│  ┌──────────────────┐    ┌──────────────────┐                 │
-│  │   React Frontend │    │  FastAPI Backend │                 │
-│  │   (Port 3000)    │───▶│  (Port 8000)     │                 │
-│  │                  │    │                  │                 │
-│  │ • Campaign UI    │    │ • REST APIs      │                 │
-│  │ • Contact Upload │    │ • OAuth Service  │                 │
-│  │ • Templates      │    │ • MongoDB ORM    │                 │
-│  └──────────────────┘    │ • Email Logs     │                 │
-│                          │ • Cal.com Client │                 │
+│  ┌──────────────────┐    ┌──────────────────┐    ┌──────────────────┐ │
+│  │   React Frontend │    │  FastAPI Backend │    │ LinkedIn Scraper │ │
+│  │   (Port 3000)    │───▶│  (Port 8000)     │───▶│   (Subprocess)   │ │
+│  │                  │    │                  │    │                  │ │
+│  │ • Campaign UI    │    │ • REST APIs      │    │ • Selenium Bot   │ │
+│  │ • Contact Upload │    │ • Scraper Config │    │ • Local Configs  │ │
+│  │ • Scraper Panel  │    │ • Process Mgr    │    │ • CSV/JSON Leads │ │
+│  └──────────────────┘    │ • Lead Ingestion │    └──────────────────┘ │
 │                          └─────────┬────────┘                 │
 │                                    │                           │
 │                          ┌─────────▼────────┐                 │
@@ -206,6 +211,15 @@ cd Lead-contact-trigger
 
 # Install Node dependencies
 npm install
+```
+
+#### LinkedIn Scraper Bot
+```bash
+cd Scraper
+
+# Install Python requirements
+pip install -r requirements.txt
+# (Note: Requires a local installation of Google Chrome)
 ```
 
 ### Step 3: Setup MongoDB
