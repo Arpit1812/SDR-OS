@@ -10,10 +10,16 @@ class TriggerClient:
     def __init__(self):
         # Use tr_dev_... for local testing, tr_prod_... for production
         self.api_key = getattr(settings, 'trigger_api_key')
-        self.api_url = getattr(settings, 'TRIGGER_API_URL', 'https://api.trigger.dev')
+        self.api_url = getattr(settings, 'trigger_api_url', 'https://api.trigger.dev')
+
+        # Self-hosted worker fallback
+        self.worker_url = getattr(settings, 'worker_url', None)
+        self.worker_secret = getattr(settings, 'worker_secret', None)
   
         if not self.api_key:
             logger.warning("TRIGGER_API_KEY not set in environment variables")
+            if self.worker_url:
+                logger.info(f"Using self-hosted worker at {self.worker_url}")
     
     async def trigger_campaign(
         self,
@@ -40,8 +46,9 @@ class TriggerClient:
         Returns:
             Trigger.dev response with run ID
         """
-        if not self.api_key:
-            raise ValueError("Trigger.dev API key not configured")
+        # Preferred: Trigger.dev if configured. Fallback: self-hosted worker.
+        if not self.api_key and not self.worker_url:
+            raise ValueError("Neither TRIGGER_API_KEY nor WORKER_URL is configured")
         
         try:
             # Build the task payload
@@ -67,15 +74,25 @@ class TriggerClient:
             
             logger.info(f"Triggering campaign with payload: {task_payload}")
             
-            async with httpx.AsyncClient(timeout=30.0) as client:
-                response = await client.post(
-                    f"{self.api_url}/api/v1/tasks/send-email-campaign/trigger",
-                    headers={
-                        "Authorization": f"Bearer {self.api_key}",
-                        "Content-Type": "application/json"
-                    },
-                    json=request_body
-                )
+            async with httpx.AsyncClient(timeout=60.0) as client:
+                if self.api_key:
+                    response = await client.post(
+                        f"{self.api_url}/api/v1/tasks/send-email-campaign/trigger",
+                        headers={
+                            "Authorization": f"Bearer {self.api_key}",
+                            "Content-Type": "application/json"
+                        },
+                        json=request_body
+                    )
+                else:
+                    headers = {"Content-Type": "application/json"}
+                    if self.worker_secret:
+                        headers["Authorization"] = f"Bearer {self.worker_secret}"
+                    response = await client.post(
+                        f"{self.worker_url.rstrip('/')}/jobs/send-email-campaign",
+                        headers=headers,
+                        json=request_body
+                    )
                 
                 response.raise_for_status()
                 result = response.json()
@@ -104,7 +121,7 @@ class TriggerClient:
             Run status information
         """
         if not self.api_key:
-            raise ValueError("Trigger.dev API key not configured")
+            raise ValueError("Run status is only supported with Trigger.dev in this implementation")
         
         try:
             async with httpx.AsyncClient(timeout=30.0) as client:
@@ -133,7 +150,7 @@ class TriggerClient:
             Cancellation response
         """
         if not self.api_key:
-            raise ValueError("Trigger.dev API key not configured")
+            raise ValueError("Cancel is only supported with Trigger.dev in this implementation")
         
         try:
             async with httpx.AsyncClient(timeout=30.0) as client:

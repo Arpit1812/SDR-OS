@@ -39,9 +39,6 @@ function Layout() {
                     <Link to="/logs" className={`nav-item ${isActive('/logs')}`}>
                         Logs
                     </Link>
-                    <Link to="/linkedin-scraper" className={`nav-item ${isActive('/linkedin-scraper')}`}>
-                        LinkedIn Scraper
-                    </Link>
                     <Link to="/settings" className={`nav-item ${isActive('/settings')}`}>
                         Settings
                     </Link>

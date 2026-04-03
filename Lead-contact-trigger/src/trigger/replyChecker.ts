@@ -1,4 +1,3 @@
-import { schedules, task } from "@trigger.dev/sdk/v3";
 import { getValidAccessToken } from "../utils/tokenRefresh";
 import { 
     sendEmail, 
@@ -35,123 +34,131 @@ interface Conversation {
     status: string;
 }
 
-const BACKEND_URL = process.env.BACKEND_URL || (() => {
+const BACKEND_URL = normalizeLocalhostUrl(process.env.BACKEND_URL || (() => {
     throw new Error('BACKEND_URL environment variable is required. Set it in your .env file or environment variables.');
-})();
+})());
 
-/**
- * Scheduled task to check for replies every minute
- */
-export const scheduledReplyChecker = schedules.task({
-    id: "scheduled-reply-checker",
-    // Run every minute (standard 5-field cron - no seconds allowed)
-    cron: "0 * * * *",
-    run: async () => {
-        console.log("Starting scheduled reply check...");
-        
-        let totalReplies = 0;
-        let totalAutoReplies = 0;
-
-        try {
-            // Get all users with auto-reply campaigns from backend
-            const usersWithCampaigns = await fetchUsersWithAutoReplyCampaigns();
-            
-            console.log(`Found ${usersWithCampaigns.length} users with auto-reply campaigns`);
-
-            for (const userData of usersWithCampaigns) {
-                try {
-                    // Get valid access token
-                    const tokenInfo = await getValidAccessToken(
-                        {
-                            accessToken: userData.access_token,
-                            refreshToken: userData.refresh_token,
-                            tokenExpiry: userData.token_expiry,
-                        },
-                        process.env.GOOGLE_CLIENT_ID!,
-                        process.env.GOOGLE_CLIENT_SECRET!
-                    );
-
-                    // Get campaigns for this user
-                    const campaigns = await fetchAutoReplyCampaigns(userData.user_id);
-                    
-                    for (const campaign of campaigns) {
-                        const { replies, autoReplies } = await checkCampaignReplies(
-                            tokenInfo.token,
-                            campaign
-                        );
-                        totalReplies += replies;
-                        totalAutoReplies += autoReplies;
-                    }
-                } catch (error: any) {
-                    console.error(`Error checking user ${userData.user_id}:`, error.message);
-                }
-            }
-
-            console.log(`Reply check complete: ${totalReplies} replies, ${totalAutoReplies} auto-replies`);
-
-            return {
-                success: true,
-                repliesFound: totalReplies,
-                autoRepliesSent: totalAutoReplies,
-            };
-
-        } catch (error: any) {
-            console.error('Scheduled reply check failed:', error.message);
-            throw error;
+function normalizeLocalhostUrl(urlString: string): string {
+    try {
+        const url = new URL(urlString);
+        if (url.hostname === "localhost") {
+            url.hostname = "127.0.0.1";
         }
-    },
-});
+        return url.toString().replace(/\/$/, "");
+    } catch {
+        return urlString;
+    }
+}
 
-/**
- * Manual task to check replies for a specific user (can be triggered on-demand)
- */
-export const checkRepliesForUser = task({
-    id: "check-replies-for-user",
-    run: async (payload: {
-        userId: string;
-        accessToken: string;
-        refreshToken?: string;
-        tokenExpiry?: string;
-    }) => {
-        console.log(`Checking replies for user: ${payload.userId}`);
-        
-        let repliesFound = 0;
-        let autoRepliesSent = 0;
+export async function runScheduledReplyCheck(): Promise<{
+    success: boolean;
+    repliesFound: number;
+    autoRepliesSent: number;
+}> {
+    console.log("Starting scheduled reply check...");
 
-        try {
-            const tokenInfo = await getValidAccessToken(
-                {
-                    accessToken: payload.accessToken,
-                    refreshToken: payload.refreshToken,
-                    tokenExpiry: payload.tokenExpiry,
-                },
-                process.env.GOOGLE_CLIENT_ID!,
-                process.env.GOOGLE_CLIENT_SECRET!
-            );
+    if (!process.env.GOOGLE_CLIENT_ID || !process.env.GOOGLE_CLIENT_SECRET) {
+        throw new Error('Missing GOOGLE_CLIENT_ID/GOOGLE_CLIENT_SECRET environment variables');
+    }
 
-            const campaigns = await fetchAutoReplyCampaigns(payload.userId);
+    let totalReplies = 0;
+    let totalAutoReplies = 0;
 
-            for (const campaign of campaigns) {
-                const { replies, autoReplies } = await checkCampaignReplies(
-                    tokenInfo.token,
-                    campaign
+    try {
+        const usersWithCampaigns = await fetchUsersWithAutoReplyCampaigns();
+        console.log(`Found ${usersWithCampaigns.length} users with auto-reply campaigns`);
+
+        for (const userData of usersWithCampaigns) {
+            try {
+                const tokenInfo = await getValidAccessToken(
+                    {
+                        accessToken: userData.access_token,
+                        refreshToken: userData.refresh_token,
+                        tokenExpiry: userData.token_expiry,
+                    },
+                    process.env.GOOGLE_CLIENT_ID,
+                    process.env.GOOGLE_CLIENT_SECRET
                 );
-                repliesFound += replies;
-                autoRepliesSent += autoReplies;
+
+                const campaigns = await fetchAutoReplyCampaigns(userData.user_id);
+
+                for (const campaign of campaigns) {
+                    const { replies, autoReplies } = await checkCampaignReplies(
+                        tokenInfo.token,
+                        campaign
+                    );
+                    totalReplies += replies;
+                    totalAutoReplies += autoReplies;
+                }
+            } catch (error: any) {
+                console.error(`Error checking user ${userData.user_id}:`, error.message);
             }
-
-            return {
-                success: true,
-                repliesFound,
-                autoRepliesSent,
-            };
-
-        } catch (error: any) {
-            console.error('Reply check failed:', error.message);
-            throw error;
         }
-    },
-});
+
+        console.log(`Reply check complete: ${totalReplies} replies, ${totalAutoReplies} auto-replies`);
+
+        return {
+            success: true,
+            repliesFound: totalReplies,
+            autoRepliesSent: totalAutoReplies,
+        };
+    } catch (error: any) {
+        console.error('Scheduled reply check failed:', error.message);
+        throw error;
+    }
+}
+
+export async function runCheckRepliesForUser(payload: {
+    userId: string;
+    accessToken: string;
+    refreshToken?: string;
+    tokenExpiry?: string;
+}): Promise<{
+    success: boolean;
+    repliesFound: number;
+    autoRepliesSent: number;
+}> {
+    console.log(`Checking replies for user: ${payload.userId}`);
+
+    if (!process.env.GOOGLE_CLIENT_ID || !process.env.GOOGLE_CLIENT_SECRET) {
+        throw new Error('Missing GOOGLE_CLIENT_ID/GOOGLE_CLIENT_SECRET environment variables');
+    }
+
+    let repliesFound = 0;
+    let autoRepliesSent = 0;
+
+    try {
+        const tokenInfo = await getValidAccessToken(
+            {
+                accessToken: payload.accessToken,
+                refreshToken: payload.refreshToken,
+                tokenExpiry: payload.tokenExpiry,
+            },
+            process.env.GOOGLE_CLIENT_ID,
+            process.env.GOOGLE_CLIENT_SECRET
+        );
+
+        const campaigns = await fetchAutoReplyCampaigns(payload.userId);
+
+        for (const campaign of campaigns) {
+            const { replies, autoReplies } = await checkCampaignReplies(
+                tokenInfo.token,
+                campaign
+            );
+            repliesFound += replies;
+            autoRepliesSent += autoReplies;
+        }
+
+        return {
+            success: true,
+            repliesFound,
+            autoRepliesSent,
+        };
+    } catch (error: any) {
+        console.error('Reply check failed:', error.message);
+        throw error;
+    }
+}
 
 /**
  * Check replies for a specific campaign

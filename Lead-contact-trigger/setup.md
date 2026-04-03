@@ -1,12 +1,12 @@
-# Trigger.dev Setup Guide
+# Worker Setup Guide (Self-hosted)
 
-This guide will help you set up the Trigger.dev worker for background email campaign processing.
+This guide will help you set up the self-hosted worker for background email campaign processing and scheduled reply checking.
 
 ## Prerequisites
 
 - Node.js 16.x or higher
 - npm or yarn package manager
-- Trigger.dev account ([sign up here](https://trigger.dev))
+- MongoDB instance (local or Atlas)
 - Backend API running (see backend/setup.md)
 - Google OAuth credentials (same as backend)
 
@@ -27,30 +27,11 @@ cp .env.example .env
 ```
 
 Edit `.env` with your actual values:
-- Trigger.dev API key and project ID
+- MongoDB connection string and database name
 - Google OAuth credentials
 - Backend API URL
 
-### 3. Get Trigger.dev Credentials
-
-1. Go to [Trigger.dev](https://trigger.dev)
-2. Sign up or log in
-3. Create a new project
-4. Copy your Project ID and Secret Key from the project settings
-5. Add them to `.env`
-
-### 4. Update Trigger Configuration
-
-Edit `trigger.config.mjs` and replace the project ID with your actual Trigger.dev project ID:
-
-```javascript
-export default defineConfig({
-    project: "proj_your_actual_project_id", // Replace this
-    // ... rest of config
-});
-```
-
-### 5. Verify Setup
+### 3. Verify Setup
 
 Run the test script to verify everything is configured correctly:
 
@@ -69,21 +50,19 @@ npm run dev
 ```
 
 This will:
-- Start the Trigger.dev development server
+- Start the worker HTTP server (default `http://localhost:8787`)
 - Watch for file changes
-- Allow you to test tasks locally
-- Connect to Trigger.dev cloud for task execution
+
+To enable the scheduled reply checker, set `ENABLE_REPLY_CHECKER=true` in `.env`.
 
 ### Production Deployment
 
-```bash
-npm run deploy
-```
+Run this as a long-running Node process (VM/Docker/Render/etc). Example:
 
-This will:
-- Build your TypeScript code
-- Upload tasks to Trigger.dev
-- Make them available for production use
+```bash
+npm run build
+node dist/worker/index.js
+```
 
 ## Project Structure
 
@@ -93,13 +72,15 @@ trigger/
 │   ├── trigger/          # Trigger.dev task definitions
 │   │   ├── emailCampaign.ts    # Main email campaign task
 │   │   └── replyChecker.ts     # Email reply checker task
+│   ├── worker/           # Worker HTTP server + job queue
+│   │   └── index.ts
 │   ├── agents/           # AI agent implementations
 │   │   └── replyAgent.ts # AI reply generation agent
 │   ├── utils/            # Utility functions
 │   │   ├── tokenRefresh.ts     # OAuth token refresh
 │   │   └── gmailSender.ts      # Gmail API client
 │   └── test.ts           # Test script
-├── trigger.config.mjs    # Trigger.dev configuration
+├── trigger.config.mjs    # Legacy stub (no longer used)
 ├── tsconfig.json         # TypeScript configuration
 ├── package.json          # Dependencies
 └── .env                  # Environment variables (not in git)
@@ -174,29 +155,19 @@ The worker automatically:
 
 ## Monitoring
 
-### Trigger.dev Dashboard
-
-Monitor your tasks in the Trigger.dev dashboard:
-
-1. View running tasks
-2. Check logs and errors
-3. See execution history
-4. Monitor performance metrics
-
 ### Logs
 
-- Task logs appear in Trigger.dev dashboard
-- Backend receives progress updates via webhooks
-- Check backend logs for webhook processing
+- Worker logs: the terminal/platform running the worker
+- Backend receives campaign progress updates via webhooks
+- Health check: `GET /health` (default `http://localhost:8787/health`)
 
 ## Troubleshooting
 
 ### Task Not Triggering
 
-- Verify `TRIGGER_SECRET_KEY` is correct in backend `.env`
-- Check backend can reach Trigger.dev API
-- Verify project ID matches in `trigger.config.mjs`
-- Check Trigger.dev dashboard for errors
+- Verify backend has `WORKER_URL` set (and `WORKER_SECRET` if enabled)
+- Verify the worker is running and reachable from the backend
+- Check worker logs for request/validation errors
 
 ### Token Refresh Failing
 
@@ -209,7 +180,7 @@ Monitor your tasks in the Trigger.dev dashboard:
 
 - Verify Gmail API is enabled in Google Cloud Console
 - Check that OAuth scopes include Gmail send permission
-- Review error logs in Trigger.dev dashboard
+- Review error logs in the worker process
 - Verify access token has not expired
 
 ### Build Errors
@@ -224,7 +195,7 @@ Monitor your tasks in the Trigger.dev dashboard:
 - Ensure Node.js version is 16+
 - Check that port is not already in use
 - Verify `.env` file exists and is configured
-- Check Trigger.dev account status
+- Check that port `8787` (or `PORT`) is free
 
 ## Environment Variables
 

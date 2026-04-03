@@ -19,6 +19,10 @@ class Settings(BaseSettings):
     trigger_api_key: Optional[str] = None
     trigger_api_url: str = "https://api.trigger.dev"
     trigger_webhook_secret: Optional[str] = None
+
+    # Self-hosted worker settings (Trigger.dev replacement)
+    worker_url: Optional[str] = None
+    worker_secret: Optional[str] = None
     
     # Backend URL (for Trigger.dev callbacks)
     backend_url: str = "http://localhost:8000"

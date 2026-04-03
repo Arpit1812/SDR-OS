@@ -17,6 +17,7 @@ function Contacts() {
   const [showUploadModal, setShowUploadModal] = useState(false)
   const [selectedCsv, setSelectedCsv] = useState(null)
   const [isContactModalOpen, setIsContactModalOpen] = useState(false)
+  const [activeSection, setActiveSection] = useState('import')
 
   useEffect(() => {
     // Get user ID from location state or localStorage
@@ -131,111 +132,177 @@ function Contacts() {
   return (
     <div className="contacts-page">
       <div className="page-header">
-        <h1 className="page-title">CSV Uploads</h1>
-        <p className="page-subtitle">Manage your uploaded contact files</p>
+        <h1 className="page-title">Contacts</h1>
+        <p className="page-subtitle">Import your own CSV files or use social media scrapers</p>
       </div>
 
-      {/* Search and Upload Bar */}
-      <div className="contacts-toolbar">
-        <div className="search-container">
-          <input
-            type="text"
-            className="search-input"
-            placeholder="Search by filename..."
-            value={searchQuery}
-            onChange={(e) => setSearchQuery(e.target.value)}
-          />
-        </div>
+      <div className="contacts-section-switcher" role="tablist" aria-label="Contacts sections">
         <button
-          className="upload-button"
-          onClick={() => setShowUploadModal(true)}
+          type="button"
+          role="tab"
+          aria-selected={activeSection === 'import'}
+          className={`section-tab ${activeSection === 'import' ? 'active' : ''}`}
+          onClick={() => setActiveSection('import')}
         >
-          Upload CSV
+          Import CSV
+        </button>
+        <button
+          type="button"
+          role="tab"
+          aria-selected={activeSection === 'scrapers'}
+          className={`section-tab ${activeSection === 'scrapers' ? 'active' : ''}`}
+          onClick={() => setActiveSection('scrapers')}
+        >
+          Scrapers
         </button>
       </div>
 
-      {/* CSV Uploads Table */}
-      {loading && (
-        <div className="loading-container">
-          <div className="loading-spinner"></div>
-          <p>Loading CSV uploads...</p>
-        </div>
+      {activeSection === 'import' && (
+        <>
+          {/* Search and Upload Bar */}
+          <div className="contacts-toolbar">
+            <div className="search-container">
+              <input
+                type="text"
+                className="search-input"
+                placeholder="Search by filename..."
+                value={searchQuery}
+                onChange={(e) => setSearchQuery(e.target.value)}
+              />
+            </div>
+            <button
+              className="upload-button"
+              onClick={() => setShowUploadModal(true)}
+            >
+              Upload CSV
+            </button>
+          </div>
+
+          {/* CSV Uploads Table */}
+          {loading && (
+            <div className="loading-container">
+              <div className="loading-spinner"></div>
+              <p>Loading CSV uploads...</p>
+            </div>
+          )}
+
+          {error && (
+            <div className="error-container">
+              <span className="error-icon">!</span>
+              {error}
+            </div>
+          )}
+
+          {!loading && !error && filteredUploads.length === 0 && searchQuery === '' && (
+            <div className="empty-state">
+              <h3>No CSV uploads yet</h3>
+              <p>Upload your first CSV file to get started</p>
+              <button
+                className="empty-action-button"
+                onClick={() => setShowUploadModal(true)}
+              >
+                Upload CSV
+              </button>
+            </div>
+          )}
+
+          {!loading && !error && filteredUploads.length === 0 && searchQuery !== '' && (
+            <div className="empty-state">
+              <h3>No results found</h3>
+              <p>No CSV files match "{searchQuery}"</p>
+            </div>
+          )}
+
+          {!loading && !error && filteredUploads.length > 0 && (
+            <div className="table-container">
+              <table className="csv-table">
+                <thead>
+                  <tr>
+                    <th>Filename</th>
+                    <th>Contact Count</th>
+                    <th>Upload Date</th>
+                    <th>Actions</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {filteredUploads.map((upload, index) => (
+                    <tr key={index}>
+                      <td className="filename-cell">
+                        {upload.source}
+                      </td>
+                      <td className="count-cell">{upload.contact_count}</td>
+                      <td className="date-cell">{formatDate(upload.last_uploaded)}</td>
+                      <td className="actions-cell">
+                        <button
+                          className="view-button"
+                          onClick={() => handleViewContacts(upload.source)}
+                          title="View contacts"
+                        >
+                          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                            <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                            <circle cx="12" cy="12" r="3"></circle>
+                          </svg>
+                        </button>
+                        <button
+                          className="delete-button"
+                          onClick={() => handleDeleteCsv(upload.source)}
+                          title="Delete all contacts from this file"
+                        >
+                          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                            <polyline points="3 6 5 6 21 6"></polyline>
+                            <path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path>
+                            <line x1="10" y1="11" x2="10" y2="17"></line>
+                            <line x1="14" y1="11" x2="14" y2="17"></line>
+                          </svg>
+                        </button>
+                      </td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+          )}
+        </>
       )}
 
-      {error && (
-        <div className="error-container">
-          <span className="error-icon">!</span>
-          {error}
-        </div>
-      )}
+      {activeSection === 'scrapers' && (
+        <div className="scrapers-section">
+          <div className="scrapers-header">
+            <h2>Social Media Scrapers</h2>
+            <p>Choose a scraper source and import leads directly into contacts</p>
+          </div>
 
-      {!loading && !error && filteredUploads.length === 0 && searchQuery === '' && (
-        <div className="empty-state">
-          <h3>No CSV uploads yet</h3>
-          <p>Upload your first CSV file to get started</p>
-          <button
-            className="empty-action-button"
-            onClick={() => setShowUploadModal(true)}
-          >
-            Upload CSV
-          </button>
-        </div>
-      )}
+          <div className="scrapers-grid">
+            <div className="scraper-card">
+              <div>
+                <h3>LinkedIn Scraper</h3>
+                <p>Run your existing LinkedIn automation, review leads, and import to contacts.</p>
+              </div>
+              <button
+                type="button"
+                className="scraper-action-button"
+                onClick={() => navigate('/contacts/scrapers/linkedin', { state: location.state })}
+              >
+                Open LinkedIn Scraper
+              </button>
+            </div>
 
-      {!loading && !error && filteredUploads.length === 0 && searchQuery !== '' && (
-        <div className="empty-state">
-          <h3>No results found</h3>
-          <p>No CSV files match "{searchQuery}"</p>
-        </div>
-      )}
+            <div className="scraper-card soon">
+              <div>
+                <h3>X (Twitter) Scraper</h3>
+                <p>Coming soon: discover and collect leads from X profiles and conversations.</p>
+              </div>
+              <span className="soon-badge">Coming Soon</span>
+            </div>
 
-      {!loading && !error && filteredUploads.length > 0 && (
-        <div className="table-container">
-          <table className="csv-table">
-            <thead>
-              <tr>
-                <th>Filename</th>
-                <th>Contact Count</th>
-                <th>Upload Date</th>
-                <th>Actions</th>
-              </tr>
-            </thead>
-            <tbody>
-              {filteredUploads.map((upload, index) => (
-                <tr key={index}>
-                  <td className="filename-cell">
-                    {upload.source}
-                  </td>
-                  <td className="count-cell">{upload.contact_count}</td>
-                  <td className="date-cell">{formatDate(upload.last_uploaded)}</td>
-                  <td className="actions-cell">
-                    <button
-                      className="view-button"
-                      onClick={() => handleViewContacts(upload.source)}
-                      title="View contacts"
-                    >
-                      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                        <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
-                        <circle cx="12" cy="12" r="3"></circle>
-                      </svg>
-                    </button>
-                    <button
-                      className="delete-button"
-                      onClick={() => handleDeleteCsv(upload.source)}
-                      title="Delete all contacts from this file"
-                    >
-                      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                        <polyline points="3 6 5 6 21 6"></polyline>
-                        <path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path>
-                        <line x1="10" y1="11" x2="10" y2="17"></line>
-                        <line x1="14" y1="11" x2="14" y2="17"></line>
-                      </svg>
-                    </button>
-                  </td>
-                </tr>
-              ))}
-            </tbody>
-          </table>
+            <div className="scraper-card soon">
+              <div>
+                <h3>Instagram Scraper</h3>
+                <p>Coming soon: collect prospects from Instagram business profiles and hashtags.</p>
+              </div>
+              <span className="soon-badge">Coming Soon</span>
+            </div>
+          </div>
         </div>
       )}
 

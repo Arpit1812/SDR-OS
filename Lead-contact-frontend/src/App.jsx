@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom'
 import Layout from './components/Layout'
 import Home from './pages/Home'
 import Callback from './pages/Callback'
@@ -37,7 +37,8 @@ function App() {
           <Route path="/campaigns/:campaignId" element={<CampaignDetail />} />
           <Route path="/logs" element={<Logs />} />
           <Route path="/settings" element={<Settings />} />
-          <Route path="/linkedin-scraper" element={<LinkedInScraper />} />
+          <Route path="/contacts/scrapers/linkedin" element={<LinkedInScraper />} />
+          <Route path="/linkedin-scraper" element={<Navigate to="/contacts/scrapers/linkedin" replace />} />
           <Route path="/design-system" element={<DesignSystemDemo />} />
         </Route>
       </Routes>

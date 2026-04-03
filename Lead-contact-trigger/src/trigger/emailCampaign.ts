@@ -1,9 +1,8 @@
-import { task } from "@trigger.dev/sdk/v3";
 import { getValidAccessToken } from "../utils/tokenRefresh";
 import { sendEmail, clearGmailCache } from "../utils/gmailSender";
 
 // Types for the campaign payload
-interface CampaignPayload {
+export interface CampaignPayload {
     campaignId: string;
     userId: string;
     csvSource: string;
@@ -30,211 +29,204 @@ interface Template {
 }
 
 /**
- * Main task for sending email campaigns
- * Optimized for memory efficiency
+ * Send an email campaign (self-hostable; no Trigger.dev dependency).
+ * Optimized for memory efficiency.
  */
-export const sendEmailCampaign = task({
-    id: "send-email-campaign",
-    run: async (payload: CampaignPayload) => {
-        // Debug: log the received payload
-        console.log("Received payload:", JSON.stringify(payload, null, 2));
-        
-        // Validate payload
-        if (!payload || !payload.campaignId) {
-            throw new Error(`Invalid payload received: ${JSON.stringify(payload)}`);
+export async function runSendEmailCampaign(payload: CampaignPayload): Promise<{
+    success: boolean;
+    sent: number;
+    failed: number;
+    total: number;
+}> {
+    const backendUrl = normalizeLocalhostUrl(payload.backendUrl);
+    console.log("Received payload:", JSON.stringify(payload, null, 2));
+
+    if (!payload || !payload.campaignId) {
+        throw new Error(`Invalid payload received: ${JSON.stringify(payload)}`);
+    }
+
+    console.log(`Starting email campaign: ${payload.campaignId}`);
+
+    let totalSent = 0;
+    let totalFailed = 0;
+    let totalContacts = 0;
+
+    try {
+        await updateCampaignStatus(backendUrl, payload.campaignId, 'running');
+
+        if (!process.env.GOOGLE_CLIENT_ID || !process.env.GOOGLE_CLIENT_SECRET) {
+            throw new Error('Missing GOOGLE_CLIENT_ID/GOOGLE_CLIENT_SECRET environment variables');
         }
-        
-        console.log(`Starting email campaign: ${payload.campaignId}`);
 
-        let totalSent = 0;
-        let totalFailed = 0;
-        let totalContacts = 0;
+        let tokenInfo = await getValidAccessToken(
+            {
+                accessToken: payload.accessToken,
+                refreshToken: payload.refreshToken,
+                tokenExpiry: payload.tokenExpiry,
+            },
+            process.env.GOOGLE_CLIENT_ID,
+            process.env.GOOGLE_CLIENT_SECRET
+        );
 
-        try {
-            // Update campaign status to 'running'
-            await updateCampaignStatus(payload.backendUrl, payload.campaignId, 'running');
+        console.log(`Using access token, expires: ${tokenInfo.expiry}`);
 
-            // Get valid access token (refresh if needed)
-            let tokenInfo = await getValidAccessToken(
-                {
-                    accessToken: payload.accessToken,
-                    refreshToken: payload.refreshToken,
-                    tokenExpiry: payload.tokenExpiry,
-                },
-                process.env.GOOGLE_CLIENT_ID!,
-                process.env.GOOGLE_CLIENT_SECRET!
-            );
+        const template = await fetchTemplate(
+            backendUrl,
+            payload.userId,
+            payload.templateId
+        );
+        console.log(`Using template: ${template.subject}`);
 
-            console.log(`Using access token, expires: ${tokenInfo.expiry}`);
+        const pageSize = 50;
+        let page = 1;
+        let hasMore = true;
 
-            // Fetch template first (small data)
-            const template = await fetchTemplate(
-                payload.backendUrl,
+        while (hasMore) {
+            const { contacts, total } = await fetchContactsPage(
+                backendUrl,
                 payload.userId,
-                payload.templateId
+                payload.csvSource,
+                page,
+                pageSize
             );
-            console.log(`Using template: ${template.subject}`);
 
-            // Process contacts in pages to avoid loading all at once
-            const pageSize = 50;
-            let page = 1;
-            let hasMore = true;
+            if (page === 1) {
+                totalContacts = total;
+                console.log(`Total contacts to process: ${totalContacts}`);
+            }
 
-            while (hasMore) {
-                // Fetch a page of contacts
-                const { contacts, total } = await fetchContactsPage(
-                    payload.backendUrl,
-                    payload.userId,
-                    payload.csvSource,
-                    page,
-                    pageSize
-                );
+            if (contacts.length === 0) {
+                hasMore = false;
+                break;
+            }
 
-                if (page === 1) {
-                    totalContacts = total;
-                    console.log(`Total contacts to process: ${totalContacts}`);
-                }
+            for (const contact of contacts) {
+                try {
+                    if ((totalSent + totalFailed) > 0 && (totalSent + totalFailed) % 20 === 0) {
+                        const newTokenInfo = await getValidAccessToken(
+                            {
+                                accessToken: tokenInfo.token,
+                                refreshToken: payload.refreshToken,
+                                tokenExpiry: tokenInfo.expiry,
+                            },
+                            process.env.GOOGLE_CLIENT_ID,
+                            process.env.GOOGLE_CLIENT_SECRET
+                        );
 
-                if (contacts.length === 0) {
-                    hasMore = false;
-                    break;
-                }
-
-                // Process this batch of contacts
-                for (const contact of contacts) {
-                    try {
-                        // Refresh token if needed every 20 emails
-                        if ((totalSent + totalFailed) > 0 && (totalSent + totalFailed) % 20 === 0) {
-                            const newTokenInfo = await getValidAccessToken(
-                                {
-                                    accessToken: tokenInfo.token,
-                                    refreshToken: payload.refreshToken,
-                                    tokenExpiry: tokenInfo.expiry,
-                                },
-                                process.env.GOOGLE_CLIENT_ID!,
-                                process.env.GOOGLE_CLIENT_SECRET!
-                            );
-                            
-                            // If token changed, clear the cached Gmail client
-                            if (newTokenInfo.token !== tokenInfo.token) {
-                                clearGmailCache();
-                                tokenInfo = newTokenInfo;
-                                console.log(`Token refreshed at email ${totalSent + totalFailed}`);
-                            }
+                        if (newTokenInfo.token !== tokenInfo.token) {
+                            clearGmailCache();
+                            tokenInfo = newTokenInfo;
+                            console.log(`Token refreshed at email ${totalSent + totalFailed}`);
                         }
+                    }
 
-                        // Personalize and send email
-                        const subject = personalizeText(template.subject, contact);
-                        const body = personalizeText(template.body, contact);
+                    const subject = personalizeText(template.subject, contact);
+                    const body = personalizeText(template.body, contact);
 
-                        const result = await sendEmail(tokenInfo.token, {
-                            to: contact.email,
-                            subject,
-                            body,
-                        });
+                    const result = await sendEmail(tokenInfo.token, {
+                        to: contact.email,
+                        subject,
+                        body,
+                    });
 
-                        if (result.success) {
-                            totalSent++;
-                            // Log successful email with Gmail IDs for reply tracking
-                            await logEmail(payload.backendUrl, {
-                                campaign_id: payload.campaignId,
-                                user_id: payload.userId,
-                                contact_id: contact.id,
-                                template_id: payload.templateId,
-                                to_email: contact.email,
-                                subject,
-                                body,
-                                status: 'sent',
-                                sent_at: new Date().toISOString(),
-                                gmail_message_id: result.messageId,
-                                gmail_thread_id: result.threadId,
-                            });
-                        } else {
-                            totalFailed++;
-                            console.error(`Failed: ${contact.email} - ${result.error}`);
-                            // Log failed email
-                            await logEmail(payload.backendUrl, {
-                                campaign_id: payload.campaignId,
-                                user_id: payload.userId,
-                                contact_id: contact.id,
-                                template_id: payload.templateId,
-                                to_email: contact.email,
-                                subject,
-                                body,
-                                status: 'failed',
-                                error_message: result.error,
-                            });
-                        }
-
-                        // Small delay between emails (300ms)
-                        await delay(300);
-
-                    } catch (error: any) {
-                        totalFailed++;
-                        console.error(`Error sending to ${contact.email}:`, error.message);
-                        // Log error
+                    if (result.success) {
+                        totalSent++;
                         await logEmail(payload.backendUrl, {
                             campaign_id: payload.campaignId,
                             user_id: payload.userId,
                             contact_id: contact.id,
                             template_id: payload.templateId,
                             to_email: contact.email,
-                            subject: template.subject,
-                            body: template.body,
+                            subject,
+                            body,
+                            status: 'sent',
+                            sent_at: new Date().toISOString(),
+                            gmail_message_id: result.messageId,
+                            gmail_thread_id: result.threadId,
+                        });
+                    } else {
+                        totalFailed++;
+                        console.error(`Failed: ${contact.email} - ${result.error}`);
+                        await logEmail(payload.backendUrl, {
+                            campaign_id: payload.campaignId,
+                            user_id: payload.userId,
+                            contact_id: contact.id,
+                            template_id: payload.templateId,
+                            to_email: contact.email,
+                            subject,
+                            body,
                             status: 'failed',
-                            error_message: error.message,
+                            error_message: result.error,
                         });
                     }
+
+                    await delay(300);
+                } catch (error: any) {
+                    totalFailed++;
+                    console.error(`Error sending to ${contact.email}:`, error.message);
+                    await logEmail(payload.backendUrl, {
+                        campaign_id: payload.campaignId,
+                        user_id: payload.userId,
+                        contact_id: contact.id,
+                        template_id: payload.templateId,
+                        to_email: contact.email,
+                        subject: template.subject,
+                        body: template.body,
+                        status: 'failed',
+                        error_message: error.message,
+                    });
                 }
-
-                // Update progress after each page
-                await updateCampaignProgress(payload.backendUrl, payload.campaignId, {
-                    processed: totalSent + totalFailed,
-                    sent: totalSent,
-                    failed: totalFailed,
-                });
-
-                console.log(`Progress: ${totalSent + totalFailed}/${totalContacts} (${totalSent} sent, ${totalFailed} failed)`);
-
-                // Check if there are more pages
-                hasMore = contacts.length === pageSize;
-                page++;
-
-                // Small delay between pages
-                await delay(1000);
             }
 
-            // Update campaign status to 'completed'
-            await updateCampaignStatus(
-                payload.backendUrl,
-                payload.campaignId,
-                'completed'
-            );
-
-            console.log(`Campaign completed: ${totalSent} sent, ${totalFailed} failed`);
-
-            return {
-                success: true,
+            await updateCampaignProgress(backendUrl, payload.campaignId, {
+                processed: totalSent + totalFailed,
                 sent: totalSent,
                 failed: totalFailed,
-                total: totalContacts,
-            };
+            });
 
-        } catch (error: any) {
-            console.error('Campaign failed:', error.message);
+            console.log(`Progress: ${totalSent + totalFailed}/${totalContacts} (${totalSent} sent, ${totalFailed} failed)`);
 
-            // Update campaign status to 'failed'
-            await updateCampaignStatus(
-                payload.backendUrl,
-                payload.campaignId,
-                'failed',
-                error.message
-            );
+            hasMore = contacts.length === pageSize;
+            page++;
 
-            throw error;
+            await delay(1000);
         }
-    },
-});
+
+        await updateCampaignStatus(backendUrl, payload.campaignId, 'completed');
+
+        console.log(`Campaign completed: ${totalSent} sent, ${totalFailed} failed`);
+
+        return {
+            success: true,
+            sent: totalSent,
+            failed: totalFailed,
+            total: totalContacts,
+        };
+    } catch (error: any) {
+        console.error('Campaign failed:', error.message);
+
+        await updateCampaignStatus(
+            backendUrl,
+            payload.campaignId,
+            'failed',
+            error.message
+        );
+
+        throw error;
+    }
+}
+
+function normalizeLocalhostUrl(urlString: string): string {
+    try {
+        const url = new URL(urlString);
+        if (url.hostname === "localhost") {
+            url.hostname = "127.0.0.1";
+        }
+        return url.toString().replace(/\/$/, "");
+    } catch {
+        return urlString;
+    }
+}
 
 /**
  * Simple delay helper

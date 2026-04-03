@@ -1,20 +1,6 @@
-import { defineConfig } from "@trigger.dev/sdk/v3";
+// Trigger.dev configuration used to live here.
+// This project has been converted to a self-hosted worker (Express + Agenda on MongoDB),
+// so this file is intentionally a no-op stub.
 
-export default defineConfig({
-    project: "proj_abqbkrkthdizkrsdyeih", // Replace with your Trigger.dev project ID
-    runtime: "node",
-    logLevel: "log",
-    maxDuration: 60000,
-    retries: {
-        enabledInDev: true,
-        default: {
-            maxAttempts: 3,
-            minTimeoutInMs: 1000,
-            maxTimeoutInMs: 10000,
-            factor: 2,
-            randomize: true,
-        },
-    },
-    dirs: ["./src/trigger"],
-});
+export default {};
 

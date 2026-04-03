@@ -1,4 +1,4 @@
-import { sendEmailCampaign } from './trigger/emailCampaign';
+import { runSendEmailCampaign } from './trigger/emailCampaign';
 
 /**
  * Test script to verify Trigger.dev setup
