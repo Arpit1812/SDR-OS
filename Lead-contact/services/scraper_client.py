@@ -26,6 +26,7 @@ class ScraperService:
 
     def __init__(self, scraper_dir: Optional[str] = None):
         self.scraper_dir = scraper_dir or os.environ.get("SCRAPER_DIR", _DEFAULT_SCRAPER_DIR)
+        self.scraper_python = os.environ.get("SCRAPER_PYTHON", "python")
         self._process: Optional[subprocess.Popen] = None
 
     # ── helpers ───────────────────────────────────────────────────────
@@ -286,7 +287,7 @@ class ScraperService:
             # Use DEVNULL for stdout/stderr to prevent pipe buffer from filling up
             # and blocking the scraper process (Windows pipe buffer is only 64KB)
             self._process = subprocess.Popen(
-                ["python", script_path],
+                [self.scraper_python, script_path],
                 cwd=self.scraper_dir,
                 stdout=subprocess.DEVNULL,
                 stderr=subprocess.DEVNULL,

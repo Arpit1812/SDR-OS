@@ -35,6 +35,9 @@ class Settings(BaseSettings):
     # Scraper project directory (relative to Lead-contact or absolute)
     scraper_dir: str = "../Scraper"
 
+    # Python executable used to launch the scraper subprocess
+    scraper_python: str = "python"
+
     class Config:
         env_file = ".env"
         case_sensitive = False

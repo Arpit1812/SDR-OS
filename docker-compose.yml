@@ -1,0 +1,21 @@
+services:
+  backend:
+    build:
+      context: ./Lead-contact
+    env_file:
+      - ./Lead-contact/.env
+    ports:
+      - "8000:8000"
+
+  worker:
+    build:
+      context: ./Lead-contact-trigger
+    env_file:
+      - ./Lead-contact-trigger/.env
+    environment:
+      # When running in compose, ensure worker talks to the backend service name
+      BACKEND_URL: "http://backend:8000"
+    depends_on:
+      - backend
+    ports:
+      - "8787:8787"
