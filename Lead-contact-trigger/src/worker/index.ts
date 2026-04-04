@@ -1,10 +1,10 @@
 import "dotenv/config";
 
-import Agenda from "agenda";
+import { Agenda } from "agenda";
 import express from "express";
 
-import { runSendEmailCampaign, CampaignPayload } from "../trigger/emailCampaign";
-import { runScheduledReplyCheck } from "../trigger/replyChecker";
+import { runSendEmailCampaign, CampaignPayload } from "../trigger/emailCampaign.js";
+import { runScheduledReplyCheck } from "../trigger/replyChecker.js";
 
 import type { Job } from "agenda";
 

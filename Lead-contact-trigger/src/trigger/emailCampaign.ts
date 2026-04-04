@@ -1,5 +1,5 @@
-import { getValidAccessToken } from "../utils/tokenRefresh";
-import { sendEmail, clearGmailCache } from "../utils/gmailSender";
+import { getValidAccessToken } from "../utils/tokenRefresh.js";
+import { sendEmail, clearGmailCache } from "../utils/gmailSender.js";
 
 // Types for the campaign payload
 export interface CampaignPayload {

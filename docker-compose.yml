@@ -4,6 +4,11 @@ services:
       context: ./Lead-contact
     env_file:
       - ./Lead-contact/.env
+    environment:
+      # When running in compose, services must talk to each other via service names,
+      # not localhost (localhost would point inside the same container).
+      WORKER_URL: "http://worker:8787"
+      BACKEND_URL: "http://backend:8000"
     ports:
       - "8000:8000"
 

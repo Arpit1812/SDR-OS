@@ -1,11 +1,11 @@
-import { getValidAccessToken } from "../utils/tokenRefresh";
-import { 
-    sendEmail, 
-    getThread, 
-    extractEmailBody, 
-    getHeader 
-} from "../utils/gmailSender";
-import { generateAIReply, quickSentimentCheck, EmailContext } from "../agents/replyAgent";
+import { getValidAccessToken } from "../utils/tokenRefresh.js";
+import {
+    sendEmail,
+    getThread,
+    extractEmailBody,
+    getHeader
+} from "../utils/gmailSender.js";
+import { generateAIReply, quickSentimentCheck, EmailContext } from "../agents/replyAgent.js";
 
 interface UserWithToken {
     user_id: string;
