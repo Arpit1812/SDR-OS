@@ -20,6 +20,10 @@ services:
     environment:
       # When running in compose, ensure worker talks to the backend service name
       BACKEND_URL: "http://backend:8000"
+      # Enable the scheduled reply-checker inside the worker
+      ENABLE_REPLY_CHECKER: "true"
+      # How often to run the reply checker (Agenda human interval format)
+      REPLY_CHECK_EVERY: "1 minute"
     depends_on:
       - backend
     ports:
