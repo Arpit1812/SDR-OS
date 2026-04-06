@@ -7,10 +7,17 @@ services:
     environment:
       # When running in compose, services must talk to each other via service names,
       # not localhost (localhost would point inside the same container).
+      # Use service names so containers can reach each other.
       WORKER_URL: "http://worker:8787"
       BACKEND_URL: "http://backend:8000"
+      # Point the scraper integration to the mounted Scraper folder inside the container
+      SCRAPER_DIR: "/app/Scraper"
+      SCRAPER_PYTHON: "python3"
     ports:
       - "8000:8000"
+    volumes:
+      # Mount the host Scraper project so the backend can launch runAiBot.py
+      - ./Scraper:/app/Scraper:rw
 
   worker:
     build:
@@ -23,7 +30,7 @@ services:
       # Enable the scheduled reply-checker inside the worker
       ENABLE_REPLY_CHECKER: "true"
       # How often to run the reply checker (Agenda human interval format)
-      REPLY_CHECK_EVERY: "1 minute"
+      REPLY_CHECK_EVERY: "10 minutes"
     depends_on:
       - backend
     ports:
