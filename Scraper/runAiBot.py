@@ -17,6 +17,11 @@ version:    26.01.20.5.08
 
 # Imports
 import os
+import sys
+# Ensure the Scraper package is importable when running this file directly
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+
+import os
 import csv
 import re
 import time
